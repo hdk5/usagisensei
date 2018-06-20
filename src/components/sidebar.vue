@@ -1,6 +1,6 @@
 <template>
   <div class="sidebar">
-    <i-menu theme="light" width="auto" active-name="1">
+    <i-menu theme="dark" width="auto" active-name="1">
       <MenuGroup title="sidebar1">
         <menu-item name="1">
           <Icon type="document-text"/>

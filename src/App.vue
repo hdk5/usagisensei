@@ -3,7 +3,7 @@
     <Layout>
       <Header><topNav/></Header>
       <Layout>
-        <Sider hide-trigger><sideBar/></Sider>
+        <Sider hide-trigger v-if="rankPage"><sideBar/></Sider>
         <Content><router-view/></Content>
       </Layout>
     </Layout>
@@ -17,6 +17,21 @@ export default {
   components: {
     topNav,
     sideBar
+  },
+  computed: {
+    rankPage: function() {
+      return this.$route.name === 'rank'
+    }
   }
 }
 </script>
+<style scoped>
+.ivu-layout-header {
+  padding: 0;
+  height: 60px;
+}
+.sidebar {
+  padding-top: 2px;
+}
+</style>
+

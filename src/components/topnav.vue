@@ -13,6 +13,12 @@
           About
         </menu-item>
       </router-link>
+      <router-link to="/rank">
+        <menu-item name="2">
+          <Icon type="ios-people"/>
+         Rank
+        </menu-item>
+      </router-link>
       <Submenu name="3">
         <template slot="title">
           <Icon type="stats-bars"/>

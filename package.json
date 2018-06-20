@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "iview": "^2.14.3",
+    "iview-loader": "^1.1.0",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1"
   },
@@ -27,9 +28,16 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/html-end-tags": "error",
+      "vue/html-indent": [
+        "error",
+        2
+      ],
+      "vue/html-self-closing": "error"
     }
   },
   "postcss": {

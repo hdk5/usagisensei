@@ -17,5 +17,12 @@ module.exports = {
     }
   },
 
-  lintOnSave: undefined
+  lintOnSave: undefined,
+  baseUrl: '',
+  outputDir: 'dist',
+  assetsDir: 'assets',
+  runtimeCompiler: undefined,
+  productionSourceMap: undefined,
+  parallel: undefined,
+  css: undefined
 }

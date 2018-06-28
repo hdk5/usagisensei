@@ -21,13 +21,19 @@
           sidebar sub4
         </menu-item>
       </MenuGroup>
+      <Builder/>
     </i-menu>
   </div>
 </template>
 
 <script>
+import Builder from './builder.vue'
+
 export default {
-  name: 'sidebar'
+  name: 'sidebar',
+  components: {
+    Builder
+  }
 }
 </script>
 <style scoped>

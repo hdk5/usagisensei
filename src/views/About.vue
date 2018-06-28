@@ -1,0 +1,10 @@
+<template>
+  <div v-title="'about'" class="about">
+    <h1>This is an about page</h1>
+  </div>
+</template>
+<style scoped>
+.about {
+  height: calc(100vh - 64px);
+}
+</style>

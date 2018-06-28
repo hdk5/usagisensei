@@ -1,28 +1,37 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Layout>
+      <Header><topNav/></Header>
+      <Layout>
+        <Sider hide-trigger v-if="rankPage"><sideBar/></Sider>
+        <Content><router-view/></Content>
+      </Layout>
+    </Layout>
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import topNav from '@/components/topnav.vue'
+import sideBar from '@/components/sidebar.vue'
 
 export default {
-  name: 'app',
   components: {
-    HelloWorld
+    topNav,
+    sideBar
+  },
+  computed: {
+    rankPage: function() {
+      return this.$route.name === 'rank'
+    }
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+.ivu-layout-header {
+  padding: 0;
+  height: 60px;
+}
+.sidebar {
+  padding-top: 2px;
 }
 </style>
+

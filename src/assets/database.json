@@ -1,22 +1,4 @@
 {
-  "22": {
-    "id": "Collab021",
-    "name": "22",
-    "nationality": 102,
-    "type": 1,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
-  "33": {
-    "id": "Collab022",
-    "name": "33",
-    "nationality": 102,
-    "type": 1,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
   "泛用型布里": {
     "id": "001",
     "name": "泛用型布里",
@@ -43,7 +25,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "唐斯": {
     "id": "006",
@@ -53,7 +39,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "格里德利": {
     "id": "007",
@@ -162,7 +152,11 @@
     "rarity": 4,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "西姆斯": {
     "id": "026",
@@ -181,7 +175,11 @@
     "rarity": 3,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "埃尔德里奇": {
     "id": "028",
@@ -189,43 +187,6 @@
     "nationality": 1,
     "type": 1,
     "rarity": 5,
-    "ability": [],
-    "addon": ""
-  },
-  "贝利": {
-    "id": "263",
-    "name": "贝利",
-    "nationality": 1,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": "",
-    "transform": true
-  },
-  "拉德福特": {
-    "id": "299",
-    "name": "拉德福特",
-    "nationality": 1,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": ""
-  },
-  "杰金斯": {
-    "id": "300",
-    "name": "杰金斯",
-    "nationality": 1,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": ""
-  },
-  "尼古拉斯": {
-    "id": "301",
-    "name": "尼古拉斯",
-    "nationality": 1,
-    "type": 1,
-    "rarity": 4,
     "ability": [],
     "addon": ""
   },
@@ -319,51 +280,6 @@
     "ability": [],
     "addon": ""
   },
-  "蒙彼利埃": {
-    "id": "329",
-    "name": "蒙彼利埃",
-    "nationality": 1,
-    "type": 2,
-    "rarity": 5,
-    "ability": [],
-    "addon": ""
-  },
-  "丹佛": {
-    "id": "330",
-    "name": "丹佛",
-    "nationality": 1,
-    "type": 2,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
-  "里士满": {
-    "id": "303",
-    "name": "里士满",
-    "nationality": 1,
-    "type": 2,
-    "rarity": 2,
-    "ability": [],
-    "addon": ""
-  },
-  "火奴鲁鲁": {
-    "id": "304",
-    "name": "火奴鲁鲁",
-    "nationality": 1,
-    "type": 2,
-    "rarity": 3,
-    "ability": [],
-    "addon": ""
-  },
-  "圣路易斯": {
-    "id": "305",
-    "name": "圣路易斯",
-    "nationality": 1,
-    "type": 2,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
   "彭萨科拉": {
     "id": "039",
     "name": "彭萨科拉",
@@ -417,7 +333,11 @@
     "rarity": 3,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "印第安纳波利斯": {
     "id": "045",
@@ -445,7 +365,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "俄克拉荷马": {
     "id": "053",
@@ -455,7 +379,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "宾夕法尼亚": {
     "id": "054",
@@ -555,7 +483,11 @@
     "rarity": 3,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "博格": {
     "id": "071",
@@ -565,7 +497,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "兰利": {
     "id": "072",
@@ -575,7 +511,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "列克星敦": {
     "id": "073",
@@ -594,7 +534,11 @@
     "rarity": 4,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "突击者": {
     "id": "075",
@@ -604,7 +548,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "约克城": {
     "id": "076",
@@ -668,7 +616,11 @@
     "rarity": 3,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "热心": {
     "id": "083",
@@ -678,7 +630,11 @@
     "rarity": 3,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "小猎兔犬": {
     "id": "086",
@@ -706,7 +662,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "新月": {
     "id": "089",
@@ -716,7 +676,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "小天鹅": {
     "id": "090",
@@ -726,7 +690,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "狐提": {
     "id": "091",
@@ -736,7 +704,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "命运女神": {
     "id": "092",
@@ -746,7 +718,11 @@
     "rarity": 3,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "萤火虫": {
     "id": "094",
@@ -765,7 +741,11 @@
     "rarity": 4,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "天后": {
     "id": "102",
@@ -785,42 +765,6 @@
     "ability": [],
     "addon": ""
   },
-  "丘比特": {
-    "id": "306",
-    "name": "丘比特",
-    "nationality": 2,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": ""
-  },
-  "泽西": {
-    "id": "307",
-    "name": "泽西",
-    "nationality": 2,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": ""
-  },
-  "无敌": {
-    "id": "325",
-    "name": "无敌",
-    "nationality": 2,
-    "type": 1,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
-  "火枪手": {
-    "id": "326",
-    "name": "火枪手",
-    "nationality": 2,
-    "type": 1,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
   "利安得": {
     "id": "104",
     "name": "利安得",
@@ -829,7 +773,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "阿基里斯": {
     "id": "105",
@@ -839,7 +787,11 @@
     "rarity": 3,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "阿贾克斯": {
     "id": "106",
@@ -849,7 +801,11 @@
     "rarity": 3,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "谢菲尔德": {
     "id": "111",
@@ -905,33 +861,6 @@
     "ability": [],
     "addon": ""
   },
-  "斐济": {
-    "id": "327",
-    "name": "斐济",
-    "nationality": 2,
-    "type": 2,
-    "rarity": 3,
-    "ability": [],
-    "addon": ""
-  },
-  "牙买加": {
-    "id": "328",
-    "name": "牙买加",
-    "nationality": 2,
-    "type": 2,
-    "rarity": 3,
-    "ability": [],
-    "addon": ""
-  },
-  "小贝法": {
-    "id": "335",
-    "name": "小贝法",
-    "nationality": 2,
-    "type": 2,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
   "伦敦": {
     "id": "119",
     "name": "伦敦",
@@ -959,15 +888,6 @@
     "ability": [],
     "addon": ""
   },
-  "苏塞克斯": {
-    "id": "337",
-    "name": "苏塞克斯",
-    "nationality": 2,
-    "type": 3,
-    "rarity": 3,
-    "ability": [],
-    "addon": ""
-  },
   "萨福克": {
     "id": "122",
     "name": "萨福克",
@@ -976,7 +896,11 @@
     "rarity": 3,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "诺福克": {
     "id": "123",
@@ -1013,7 +937,11 @@
     "rarity": 4,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "声望": {
     "id": "127",
@@ -1168,15 +1096,6 @@
     "ability": [],
     "addon": ""
   },
-  "阿贝克隆比": {
-    "id": "336",
-    "name": "阿贝克隆比",
-    "nationality": 2,
-    "type": 13,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
   "吹雪": {
     "id": "151",
     "name": "吹雪",
@@ -1194,7 +1113,11 @@
     "rarity": 4,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "晓": {
     "id": "159",
@@ -1276,7 +1199,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "野分": {
     "id": "170",
@@ -1350,182 +1277,6 @@
     "ability": [],
     "addon": ""
   },
-  "神风": {
-    "id": "269",
-    "name": "神风",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": "",
-    "transform": true
-  },
-  "松风": {
-    "id": "270",
-    "name": "松风",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": "",
-    "transform": true
-  },
-  "睦月": {
-    "id": "271",
-    "name": "睦月",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 2,
-    "ability": [],
-    "addon": "",
-    "transform": true
-  },
-  "如月": {
-    "id": "272",
-    "name": "如月",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 2,
-    "ability": [],
-    "addon": ""
-  },
-  "卯月": {
-    "id": "274",
-    "name": "卯月",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 2,
-    "ability": [],
-    "addon": ""
-  },
-  "水无月": {
-    "id": "276",
-    "name": "水无月",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 2,
-    "ability": [],
-    "addon": ""
-  },
-  "文月": {
-    "id": "277",
-    "name": "文月",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": ""
-  },
-  "三日月": {
-    "id": "280",
-    "name": "三日月",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 2,
-    "ability": [],
-    "addon": ""
-  },
-  "江风": {
-    "id": "288",
-    "name": "江风",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 5,
-    "ability": [],
-    "addon": ""
-  },
-  "新月JP": {
-    "id": "295",
-    "name": "新月JP",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
-  "春月": {
-    "id": "296",
-    "name": "春月",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
-  "宵月": {
-    "id": "297",
-    "name": "宵月",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
-  "浦风": {
-    "id": "316",
-    "name": "浦风",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": ""
-  },
-  "矶风": {
-    "id": "317",
-    "name": "矶风",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": ""
-  },
-  "滨风": {
-    "id": "318",
-    "name": "滨风",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": "",
-    "transform": true
-  },
-  "谷风": {
-    "id": "319",
-    "name": "谷风",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": "",
-    "transform": true
-  },
-  "朝潮": {
-    "id": "331",
-    "name": "朝潮",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": ""
-  },
-  "大潮": {
-    "id": "332",
-    "name": "大潮",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": ""
-  },
-  "满潮": {
-    "id": "333",
-    "name": "满潮",
-    "nationality": 3,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": ""
-  },
   "夕张": {
     "id": "179",
     "name": "夕张",
@@ -1561,7 +1312,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "最上": {
     "id": "188",
@@ -1571,40 +1326,15 @@
     "rarity": 4,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "三隈": {
     "id": "189",
     "name": "三隈",
-    "nationality": 3,
-    "type": 2,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
-  "川内": {
-    "id": "308",
-    "name": "川内",
-    "nationality": 3,
-    "type": 2,
-    "rarity": 3,
-    "ability": [],
-    "addon": "",
-    "transform": true
-  },
-  "神通": {
-    "id": "309",
-    "name": "神通",
-    "nationality": 3,
-    "type": 2,
-    "rarity": 4,
-    "ability": [],
-    "addon": "",
-    "transform": true
-  },
-  "阿贺野": {
-    "id": "321",
-    "name": "阿贺野",
     "nationality": 3,
     "type": 2,
     "rarity": 4,
@@ -1619,7 +1349,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "加古": {
     "id": "191",
@@ -1629,7 +1363,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "青叶": {
     "id": "192",
@@ -1747,7 +1485,11 @@
     "rarity": 3,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "山城": {
     "id": "209",
@@ -1757,7 +1499,11 @@
     "rarity": 3,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "伊势": {
     "id": "210",
@@ -1792,15 +1538,6 @@
     "nationality": 3,
     "type": 5,
     "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
-  "三笠": {
-    "id": "320",
-    "name": "三笠",
-    "nationality": 3,
-    "type": 5,
-    "rarity": 5,
     "ability": [],
     "addon": ""
   },
@@ -1839,7 +1576,11 @@
     "rarity": 3,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "赤城": {
     "id": "224",
@@ -1913,33 +1654,6 @@
     "ability": [],
     "addon": ""
   },
-  "Z19": {
-    "id": "264",
-    "name": "Z19",
-    "nationality": 4,
-    "type": 1,
-    "rarity": 3,
-    "ability": [],
-    "addon": ""
-  },
-  "Z20": {
-    "id": "265",
-    "name": "Z20",
-    "nationality": 4,
-    "type": 1,
-    "rarity": 2,
-    "ability": [],
-    "addon": ""
-  },
-  "Z21": {
-    "id": "266",
-    "name": "Z21",
-    "nationality": 4,
-    "type": 1,
-    "rarity": 2,
-    "ability": [],
-    "addon": ""
-  },
   "Z23": {
     "id": "236",
     "name": "Z23",
@@ -1948,34 +1662,11 @@
     "rarity": 4,
     "ability": [],
     "addon": "",
-    "transform": true
-  },
-  "Z25": {
-    "id": "",
-    "name": "Z25",
-    "nationality": 4,
-    "type": 1,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
-  "Z35": {
-    "id": "",
-    "name": "Z35",
-    "nationality": 4,
-    "type": 1,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
-  "Z46": {
-    "id": "267",
-    "name": "Z46",
-    "nationality": 4,
-    "type": 1,
-    "rarity": 5,
-    "ability": [],
-    "addon": ""
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "柯尼斯堡": {
     "id": "238",
@@ -1994,7 +1685,11 @@
     "rarity": 2,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "科隆": {
     "id": "240",
@@ -2087,7 +1782,7 @@
     "addon": ""
   },
   "鞍山": {
-    "id": "257",
+    "id": "253",
     "name": "鞍山",
     "nationality": 5,
     "type": 1,
@@ -2139,7 +1834,11 @@
     "rarity": 4,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "平海": {
     "id": "259",
@@ -2149,7 +1848,11 @@
     "rarity": 4,
     "ability": [],
     "addon": "",
-    "transform": true
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
   },
   "阿芙乐尔": {
     "id": "262",
@@ -2157,6 +1860,496 @@
     "nationality": 7,
     "type": 2,
     "rarity": 5,
+    "ability": [],
+    "addon": ""
+  },
+  "贝利": {
+    "id": "263",
+    "name": "贝利",
+    "nationality": 1,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": "",
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
+  },
+  "Z19": {
+    "id": "264",
+    "name": "Z19",
+    "nationality": 4,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": ""
+  },
+  "Z20": {
+    "id": "265",
+    "name": "Z20",
+    "nationality": 4,
+    "type": 1,
+    "rarity": 2,
+    "ability": [],
+    "addon": ""
+  },
+  "Z21": {
+    "id": "266",
+    "name": "Z21",
+    "nationality": 4,
+    "type": 1,
+    "rarity": 2,
+    "ability": [],
+    "addon": ""
+  },
+  "Z46": {
+    "id": "267",
+    "name": "Z46",
+    "nationality": 4,
+    "type": 1,
+    "rarity": 5,
+    "ability": [],
+    "addon": ""
+  },
+  "神风": {
+    "id": "269",
+    "name": "神风",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": "",
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
+  },
+  "松风": {
+    "id": "270",
+    "name": "松风",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": "",
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
+  },
+  "睦月": {
+    "id": "271",
+    "name": "睦月",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 2,
+    "ability": [],
+    "addon": "",
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
+  },
+  "如月": {
+    "id": "272",
+    "name": "如月",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 2,
+    "ability": [],
+    "addon": ""
+  },
+  "卯月": {
+    "id": "274",
+    "name": "卯月",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 2,
+    "ability": [],
+    "addon": ""
+  },
+  "水无月": {
+    "id": "276",
+    "name": "水无月",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 2,
+    "ability": [],
+    "addon": ""
+  },
+  "文月": {
+    "id": "277",
+    "name": "文月",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": ""
+  },
+  "三日月": {
+    "id": "280",
+    "name": "三日月",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 2,
+    "ability": [],
+    "addon": ""
+  },
+  "江风": {
+    "id": "288",
+    "name": "江风",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 5,
+    "ability": [],
+    "addon": ""
+  },
+  "新月JP": {
+    "id": "295",
+    "name": "新月JP",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "春月": {
+    "id": "296",
+    "name": "春月",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "宵月": {
+    "id": "297",
+    "name": "宵月",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "拉德福特": {
+    "id": "299",
+    "name": "拉德福特",
+    "nationality": 1,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": ""
+  },
+  "杰金斯": {
+    "id": "300",
+    "name": "杰金斯",
+    "nationality": 1,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": ""
+  },
+  "尼古拉斯": {
+    "id": "301",
+    "name": "尼古拉斯",
+    "nationality": 1,
+    "type": 1,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "里士满": {
+    "id": "303",
+    "name": "里士满",
+    "nationality": 1,
+    "type": 2,
+    "rarity": 2,
+    "ability": [],
+    "addon": ""
+  },
+  "火奴鲁鲁": {
+    "id": "304",
+    "name": "火奴鲁鲁",
+    "nationality": 1,
+    "type": 2,
+    "rarity": 3,
+    "ability": [],
+    "addon": ""
+  },
+  "圣路易斯": {
+    "id": "305",
+    "name": "圣路易斯",
+    "nationality": 1,
+    "type": 2,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "丘比特": {
+    "id": "306",
+    "name": "丘比特",
+    "nationality": 2,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": ""
+  },
+  "泽西": {
+    "id": "307",
+    "name": "泽西",
+    "nationality": 2,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": ""
+  },
+  "川内": {
+    "id": "308",
+    "name": "川内",
+    "nationality": 3,
+    "type": 2,
+    "rarity": 3,
+    "ability": [],
+    "addon": "",
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
+  },
+  "神通": {
+    "id": "309",
+    "name": "神通",
+    "nationality": 3,
+    "type": 2,
+    "rarity": 4,
+    "ability": [],
+    "addon": "",
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
+  },
+  "浦风": {
+    "id": "316",
+    "name": "浦风",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": ""
+  },
+  "矶风": {
+    "id": "317",
+    "name": "矶风",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": ""
+  },
+  "滨风": {
+    "id": "318",
+    "name": "滨风",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": "",
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
+  },
+  "谷风": {
+    "id": "319",
+    "name": "谷风",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": "",
+    "transform": {
+      "rarity": "",
+      "ability": [],
+      "addon": ""
+    }
+  },
+  "三笠": {
+    "id": "320",
+    "name": "三笠",
+    "nationality": 3,
+    "type": 5,
+    "rarity": 5,
+    "ability": [],
+    "addon": ""
+  },
+  "阿贺野": {
+    "id": "321",
+    "name": "阿贺野",
+    "nationality": 3,
+    "type": 2,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "无敌": {
+    "id": "325",
+    "name": "无敌",
+    "nationality": 2,
+    "type": 1,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "火枪手": {
+    "id": "326",
+    "name": "火枪手",
+    "nationality": 2,
+    "type": 1,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "斐济": {
+    "id": "327",
+    "name": "斐济",
+    "nationality": 2,
+    "type": 2,
+    "rarity": 3,
+    "ability": [],
+    "addon": ""
+  },
+  "牙买加": {
+    "id": "328",
+    "name": "牙买加",
+    "nationality": 2,
+    "type": 2,
+    "rarity": 3,
+    "ability": [],
+    "addon": ""
+  },
+  "蒙彼利埃": {
+    "id": "329",
+    "name": "蒙彼利埃",
+    "nationality": 1,
+    "type": 2,
+    "rarity": 5,
+    "ability": [],
+    "addon": ""
+  },
+  "丹佛": {
+    "id": "330",
+    "name": "丹佛",
+    "nationality": 1,
+    "type": 2,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "朝潮": {
+    "id": "331",
+    "name": "朝潮",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": ""
+  },
+  "大潮": {
+    "id": "332",
+    "name": "大潮",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": ""
+  },
+  "满潮": {
+    "id": "333",
+    "name": "满潮",
+    "nationality": 3,
+    "type": 1,
+    "rarity": 3,
+    "ability": [],
+    "addon": ""
+  },
+  "小贝法": {
+    "id": "335",
+    "name": "小贝法",
+    "nationality": 2,
+    "type": 2,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "阿贝克隆比": {
+    "id": "336",
+    "name": "阿贝克隆比",
+    "nationality": 2,
+    "type": 13,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "苏塞克斯": {
+    "id": "337",
+    "name": "苏塞克斯",
+    "nationality": 2,
+    "type": 3,
+    "rarity": 3,
+    "ability": [],
+    "addon": ""
+  },
+  "伊19": {
+    "id": "338",
+    "name": "伊19",
+    "nationality": 3,
+    "type": 8,
+    "rarity": 5,
+    "ability": [],
+    "addon": ""
+  },
+  "伊26": {
+    "id": "339",
+    "name": "伊26",
+    "nationality": 3,
+    "type": 8,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "伊58": {
+    "id": "340",
+    "name": "伊58",
+    "nationality": 3,
+    "type": 8,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "U-81": {
+    "id": "341",
+    "name": "U-81",
+    "nationality": 4,
+    "type": 8,
+    "rarity": 5,
+    "ability": [],
+    "addon": ""
+  },
+  "鲦鱼": {
+    "id": "342",
+    "name": "鲦鱼",
+    "nationality": 1,
+    "type": 8,
+    "rarity": 4,
     "ability": [],
     "addon": ""
   },
@@ -2232,11 +2425,29 @@
     "ability": [],
     "addon": ""
   },
-  "出云": {
-    "id": "Plan004",
-    "name": "出云",
-    "nationality": 3,
-    "type": 5,
+  "22": {
+    "id": "Collab021",
+    "name": "22",
+    "nationality": 102,
+    "type": 1,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "33": {
+    "id": "Collab022",
+    "name": "33",
+    "nationality": 102,
+    "type": 1,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "海王星": {
+    "id": "Plan001",
+    "name": "海王星",
+    "nationality": 2,
+    "type": 2,
     "rarity": 15,
     "ability": [],
     "addon": ""
@@ -2250,29 +2461,20 @@
     "ability": [],
     "addon": ""
   },
-  "海王星": {
-    "id": "Plan001",
-    "name": "海王星",
-    "nationality": 2,
-    "type": 2,
-    "rarity": 15,
-    "ability": [],
-    "addon": ""
-  },
-  "路易九世": {
-    "id": "Plan006",
-    "name": "路易九世",
-    "nationality": 8,
-    "type": 3,
-    "rarity": 15,
-    "ability": [],
-    "addon": ""
-  },
   "伊吹": {
     "id": "Plan003",
     "name": "伊吹",
     "nationality": 3,
     "type": 3,
+    "rarity": 15,
+    "ability": [],
+    "addon": ""
+  },
+  "出云": {
+    "id": "Plan004",
+    "name": "出云",
+    "nationality": 3,
+    "type": 5,
     "rarity": 15,
     "ability": [],
     "addon": ""
@@ -2286,39 +2488,12 @@
     "ability": [],
     "addon": ""
   },
-  "鲦鱼": {
-    "id": "342",
-    "name": "鲦鱼",
-    "nationality": 1,
-    "type": 8,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
-  "伊19": {
-    "id": "338",
-    "name": "伊19",
-    "nationality": 3,
-    "type": 8,
-    "rarity": 5,
-    "ability": [],
-    "addon": ""
-  },
-  "伊26": {
-    "id": "339",
-    "name": "伊26",
-    "nationality": 3,
-    "type": 8,
-    "rarity": 4,
-    "ability": [],
-    "addon": ""
-  },
-  "伊58": {
-    "id": "340",
-    "name": "伊58",
-    "nationality": 3,
-    "type": 8,
-    "rarity": 4,
+  "路易九世": {
+    "id": "Plan006",
+    "name": "路易九世",
+    "nationality": 8,
+    "type": 3,
+    "rarity": 15,
     "ability": [],
     "addon": ""
   },
@@ -2331,20 +2506,29 @@
     "ability": [],
     "addon": ""
   },
-  "U-81": {
-    "id": "341",
-    "name": "U-81",
-    "nationality": 4,
-    "type": 8,
-    "rarity": 5,
-    "ability": [],
-    "addon": ""
-  },
   "U-557": {
     "id": "",
     "name": "U-557",
     "nationality": 4,
     "type": 8,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "Z25": {
+    "id": "",
+    "name": "Z25",
+    "nationality": 4,
+    "type": 1,
+    "rarity": 4,
+    "ability": [],
+    "addon": ""
+  },
+  "Z35": {
+    "id": "",
+    "name": "Z35",
+    "nationality": 4,
+    "type": 1,
     "rarity": 4,
     "ability": [],
     "addon": ""

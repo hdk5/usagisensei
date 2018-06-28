@@ -16,7 +16,7 @@
       <router-link to="/rank">
         <menu-item name="rank">
           <Icon type="ios-people"/>
-         Rank
+          Rank
         </menu-item>
       </router-link>
     </i-menu>

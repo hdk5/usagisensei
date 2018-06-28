@@ -2,10 +2,14 @@
   <div v-title="'rank'" class="rank">
     <h1>This is an rank page</h1>
     <isotope ref="isotope" class="isotope-container" :options='isotopeOption' :list="shipData">
-      <div v-for="element in shipData" @click="selected=element"  :key="element.id">
-        {{element.name}}
-      </div>
+      <Card v-for="element in shipData" @click="selected=element" :key="element.id" :padding="0" v-if="element.id">
+        <div style="text-align:center">
+          <img width="100" height="100" :src="`img/shipicons/${element.id}.png`">
+          <p>{{element.name}}</p>
+        </div>
+      </Card>
     </isotope>
+    <p>评定标准：伤害输出 > 生存表现 > 队伍辅助 | 榜单仅供叁考练船，不代表舰娘的绝对强度</p>
   </div>
 </template>
 <script>
@@ -102,5 +106,10 @@ export default {
 <style scoped>
 .rank {
   height: calc(100vh - 64px);
+}
+.ivu-card {
+  width: 102px;
+  height: 130px;
+  margin: 5px;
 }
 </style>

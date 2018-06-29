@@ -18,34 +18,34 @@
           </FormItem>
           <FormItem label="能力">
             <CheckboxGroup v-model="formItem.ability">
-              <Tooltip content="主炮+1" :delay="500">
+              <Tooltip content="主炮+1" placement="top-start" :delay="500">
               <Checkbox label="炮"/>
               </Tooltip>
-              <Tooltip content="雷伤优秀" :delay="500">
+              <Tooltip content="雷伤优秀" placement="top-start" :delay="500">
               <Checkbox label="雷"/>
               </Tooltip>
-              <Tooltip content="弹幕优秀" :delay="500">
+              <Tooltip content="弹幕优秀" placement="top-start" :delay="500">
               <Checkbox label="弹"/>
               </Tooltip>
-              <Tooltip content="防空优秀" :delay="500">
+              <Tooltip content="防空优秀" placement="top-start" :delay="500">
               <Checkbox label="空"/>
               </Tooltip>
-              <Tooltip content="打自爆优秀" :delay="500">
+              <Tooltip content="打自爆优秀" placement="top-start" :delay="500">
               <Checkbox label="爆"/>
               </Tooltip>
-              <Tooltip content="生存/机动" :delay="500">
+              <Tooltip content="生存/机动" placement="top-start" :delay="500">
               <Checkbox label="防"/>
               </Tooltip>
-              <Tooltip content="耐久回复" :delay="500">
+              <Tooltip content="耐久回复" placement="top-start" :delay="500">
               <Checkbox label="奶"/>
               </Tooltip>
-              <Tooltip content="零破低耗" :delay="500">
+              <Tooltip content="零破低耗" placement="top-start" :delay="500">
               <Checkbox label="零"/>
               </Tooltip>
-              <Tooltip content="增伤BUFF" :delay="500">
+              <Tooltip content="增伤BUFF" placement="top-start" :delay="500">
               <Checkbox label="辅"/>
               </Tooltip>
-              <Tooltip content="减伤BUFF" :delay="500">
+              <Tooltip content="减伤BUFF" placement="top-start" :delay="500">
               <Checkbox label="腐"/>
               </Tooltip>
             </CheckboxGroup>
@@ -57,17 +57,11 @@
             </i-switch>
           </FormItem>
           <FormItem>
-        <!--    <h1>点击:  {{ $store.state.count }} 次数,此為  <br></h1>
-     <Button class="btn"  @click="increment">+</Button>
-    <Button class="btn"  @click="decrement">-</Button><br>
-    <Button class="btn"  @click="incrementIfOdd">业务设计：当 奇数时，才增加</Button><br>
-    <Button class="btn"  @click="incrementAsync">业务设计：1秒后，才会增加 1</Button><br> -->
             <Button type="success" @click="addShip" long>添加</Button>
           </FormItem>
         </Form>
 </template>
 <script>
-import { mapGetters, mapActions } from 'vuex'
 import shipData from '../assets/database.json'
 
 export default {
@@ -92,7 +86,6 @@ export default {
       })
       return result
     }
-    // ...mapGetters(['evenOrOdd'])
   },
   methods: {
     addShip: function() {

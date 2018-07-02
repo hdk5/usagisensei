@@ -7,13 +7,13 @@ export default new Vuex.Store({
   state: {
     count: 0,
     rankData: {
-      '0': {},
-      '1': {},
-      '2': {},
-      '3': {},
-      '4': {},
-      '5': {},
-      '9': {}
+      T0: {},
+      T1: {},
+      T2: {},
+      T3: {},
+      T4: {},
+      T5: {},
+      Tn: {}
     }
   },
   mutations: {

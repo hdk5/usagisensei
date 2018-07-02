@@ -7,13 +7,13 @@
     </FormItem>
     <FormItem label="階級">
       <RadioGroup v-model="formItem.rank">
-        <Radio label="0">T0</Radio>
-        <Radio label="1">T1</Radio>
-        <Radio label="2">T2</Radio>
-        <Radio label="3">T3</Radio>
-        <Radio label="4">T4</Radio>
-        <Radio label="5">T5</Radio>
-        <Radio label="9">Tn</Radio>
+        <Radio label="T0">T0</Radio>
+        <Radio label="T1">T1</Radio>
+        <Radio label="T2">T2</Radio>
+        <Radio label="T3">T3</Radio>
+        <Radio label="T4">T4</Radio>
+        <Radio label="T5">T5</Radio>
+        <Radio label="Tn">Tn</Radio>
       </RadioGroup>
     </FormItem>
     <FormItem label="能力">

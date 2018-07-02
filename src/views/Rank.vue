@@ -1,20 +1,19 @@
 <template>
   <div v-title="'rank'" class="rank">
     <!-- <isotope ref="isotope" class="isotope-container" :options='isotopeOption' :list="shipArray"> -->
-      <div v-for="tier in rankData" :key="tier.key">
-        <div v-for="type in tier" :key="type.key">
-          <Card v-for="ship in Object.keys(type)" :key="ship.key" :padding="0">
-            <div style="text-align:center">
-              <img width="100" height="100" :src="`img/shipicons/${shipData[ship].id}.png`">
-              <p>{{shipData[ship].name}}</p>
-            </div>
-          </Card>
-        </div>
+    <div v-for="tier in rankData" :key="tier.key">
+      <div v-for="type in tier" :key="type.key">
+        <Card v-for="ship in Object.keys(type)" :key="ship.key" :padding="0">
+          <div style="text-align:center">
+            <img width="100" height="100" :src="`img/shipicons/${shipData[ship].id}.png`">
+            <p>{{shipData[ship].name}}</p>
+          </div>
+        </Card>
       </div>
+    </div>
     <!-- </isotope> -->
-    <p>评定标准：伤害输出 > 生存表现 > 队伍辅助 | 榜单仅供叁考练船，不代表舰娘的绝对强度</p>
     
-    <pre>{{rankData}}</pre>
+    <div class="rank-footer">评定标准：伤害输出 > 生存表现 > 队伍辅助 | 榜单仅供叁考练船，不代表舰娘的绝对强度</div>
   </div>
 </template>
 <script>
@@ -77,11 +76,16 @@ export default {
 
 <style scoped>
 .rank {
-  height: calc(100vh - 64px);
+  height: calc(100vh - 60px);
 }
 .ivu-card {
   width: 102px;
   height: 130px;
   margin: 5px;
+}
+.rank-footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
 }
 </style>

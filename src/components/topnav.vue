@@ -19,12 +19,6 @@
           Rank
         </menu-item>
       </router-link>
-      <router-link to="/build">
-        <menu-item name="build">
-          <Icon type="ios-people"/>
-          Build
-        </menu-item>
-      </router-link>
     </i-menu>
   </div>
 </template>

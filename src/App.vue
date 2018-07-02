@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Layout>
+    <Layout class="ivu-layout-container">
       <Header><topNav/></Header>
       <Layout>
         <Sider hide-trigger v-if="rankPage"><sideBar/></Sider>
@@ -30,8 +30,9 @@ export default {
   padding: 0;
   height: 60px;
 }
-.sidebar {
+.ivu-layout-sider {
   padding-top: 2px;
+  background-color: #f5f5f5;
 }
 </style>
 

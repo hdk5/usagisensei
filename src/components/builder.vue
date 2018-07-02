@@ -104,18 +104,11 @@ export default {
   }
 }
 </script>
-<style>
-.build {
-  color: #ffffff;
-}
+<style scoped>
 .ivu-form {
   margin: 10px;
 }
 .ivu-form-item {
   margin-bottom: 10px;
-}
-.ivu-form .ivu-form-item-label {
-  font-size: 16px;
-  color: #ffffff;
 }
 </style>

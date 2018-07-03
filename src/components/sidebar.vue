@@ -2,7 +2,7 @@
   <div class="sidebar">
     <Builder/>
     <Button class="raw-button" type="primary" @click="rawData = true" long>检视原始码</Button>
-    <Modal v-model="rawData" title="Raw rank data" @on-ok="ok" @on-cancel="cancel">
+    <Modal v-model="rawData" title="Raw rank data">
       <pre>{{rankData}}</pre>
     </Modal>
   </div>

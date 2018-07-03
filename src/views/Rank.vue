@@ -1,22 +1,22 @@
 <template>
   <div v-title="'rank'" class="rank">
     <!-- <isotope ref="isotope" class="isotope-container" :options='isotopeOption' :list="shipArray"> -->
-    <div v-for="tier in rankData" :key="tier.key">
-      <div v-for="type in tier" :key="type.key">
-        <Card v-for="ship in Object.keys(type)" :key="ship.key" :padding="0">
-          <div style="text-align:center">
-            <div class="ability-container">
-              <div class="ability-placeholder" v-if="!type[ship].ability[0]"/>
-              <div class="ability-bar" :style="`width: ${abilityLength(type[ship].ability)}; background-color: ${abilityColor(ability)};`" v-for="ability in type[ship].ability" :key="ability.key">
-                <p class="ability-text">{{ability}}</p>
-              </div>
+    <Card class="tier-card" v-for="tier in Object.keys(rankData)" :key="tier">
+      <p slot="title">{{tier}}</p>
+      <Card class="type-card" v-for="type in Object.keys(rankData[tier])" :key="type">
+        <p slot="title">{{type}}</p>
+        <Card class="ship-item" v-for="ship in Object.keys(rankData[tier][type])" :key="ship" :padding="0">
+          <div class="ability-container">
+            <div class="ability-placeholder" v-if="!rankData[tier][type][ship].ability[0]"/>
+            <div class="ability-bar" v-for="ability in rankData[tier][type][ship].ability" :key="ability.key" :style="`width: ${abilityLength(rankData[tier][type][ship].ability)}; background-color: ${abilityColor(ability)};`">
+              <p class="ability-text">{{ability}}</p>
             </div>
-            <img class="ship-image" width="100" height="100" :src="`img/shipicons/${shipData[ship].id}.png`">
-            <p class="ship-name">{{shipData[ship].name}}</p>
           </div>
+          <img class="ship-image" width="100" height="100" :src="`img/shipicons/${shipData[ship].id}.png`">
+          <p class="ship-name">{{shipData[ship].name}}</p>
         </Card>
-      </div>
-    </div>
+      </Card>
+    </Card>
     <!-- </isotope> -->
     
     <div class="rank-footer">评定标准：伤害输出 > 生存表现 > 队伍辅助 | 榜单仅供叁考练船，不代表舰娘的绝对强度</div>
@@ -112,67 +112,77 @@ export default {
   }
 }
 </script>
-
-<style scoped>
+<style lang="scss" scoped>
 .ivu-layout-content {
   background: #f5f5f5;
 }
 .rank {
   height: calc(100vh - 60px);
+  .tier-card {
+    margin: 10px;
+  }
+  .type-card {
+    display: inline-block;
+    margin: 5px;
+  }
 }
-.ivu-card {
+.ship-item {
   width: 102px;
   height: 130px;
   margin: 5px;
+  vertical-align: middle;
+  display: inline-table;
+  .ability-container {
+    .ability-placeholder {
+      background: #495060;
+      height: 5px;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    }
+    .ability-bar {
+      height: 5px;
+      display: inline-block;
+      position: relative;
+      top: -2px;
+      z-index: 100;
+      transition: height ease 0.5s;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+      &:first-child {
+        border-top-left-radius: 4px;
+      }
+      &:last-child {
+        border-top-right-radius: 4px;
+      }
+      &:hover {
+        height: 20px;
+      }
+      .ability-text {
+        font-size: 12px;
+        opacity: 0;
+        transition: opacity ease 0.6s;
+        color: #fff;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .ship-image {
+    position: absolute;
+    left: 0;
+    top: 5px;
+  }
+  .ship-name {
+    position: absolute;
+    top: 106px;
+    margin: 0 auto;
+    width: 100px;
+  }
 }
 .rank-footer {
   position: absolute;
   bottom: 0;
   text-align: center;
-}
-.ship-image {
-  position: absolute;
-  left: 0;
-  top: 5px;
-}
-.ship-name {
-  position: absolute;
-  top: 106px;
-  margin: 0 auto;
-  width: 100px;
-}
-.ability-bar {
-  height: 5px;
-  display: inline-block;
-  position: relative;
-  top: -2px;
-  z-index: 100;
-  transition: height ease 0.5s;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-}
-.ability-bar:first-child {
-  border-top-left-radius: 4px;
-}
-.ability-bar:last-child {
-  border-top-right-radius: 4px;
-}
-.ability-bar:hover {
-  height: 20px;
-}
-.ability-placeholder {
-  background: #495060;
-  height: 5px;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-}
-.ability-text {
-  font-size: 12px;
-  opacity: 0;
-  transition: opacity ease 0.6s;
-  color: #fff;
-}
-.ability-text:hover {
-  opacity: 1;
 }
 </style>

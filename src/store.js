@@ -27,6 +27,9 @@ export default new Vuex.Store({
         ability,
         morden
       }
+    },
+    loadRankData(state, data) {
+      state.rankData = data
     }
   },
   actions: {

@@ -19,6 +19,12 @@
           Rank
         </menu-item>
       </router-link>
+      <router-link to="/editor">
+        <menu-item name="editor">
+          <Icon type="ios-people"/>
+          Editor
+        </menu-item>
+      </router-link>
     </i-menu>
   </div>
 </template>

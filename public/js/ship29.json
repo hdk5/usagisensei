@@ -1,0 +1,221 @@
+{
+  "T0": {
+    "战列": {
+      "华盛顿": {
+        "ability": ["炮", "弹", "空", "爆"],
+        "morden": false
+      },
+      "约克公爵": {
+        "ability": ["炮", "弹", "腐", "爆"],
+        "morden": false
+      },
+      "长门": {
+        "ability": [],
+        "morden": false
+      }
+    },
+    "战巡": {
+      "胡德": {
+        "ability": ["弹", "辅", "零"],
+        "morden": false
+      }
+    },
+    "航母": {
+      "企业": {
+        "ability": [],
+        "morden": false
+      },
+      "光辉": {
+        "ability": ["辅"],
+        "morden": false
+      }
+    },
+    "维修": {
+      "明石": {
+        "ability": ["奶", "空", "腐", "零"],
+        "morden": false
+      }
+    },
+    "轻航": {
+      "独角兽": {
+        "ability": ["奶", "腐", "零"],
+        "morden": false
+      }
+    },
+    "重巡": {
+      "罗恩": {
+        "ability": ["炮", "防"],
+        "morden": false
+      },
+      "路易九世": {
+        "ability": ["炮"],
+        "morden": false
+      }
+    },
+    "轻巡": {
+      "神通": {
+        "ability": ["雷", "弹", "腐"],
+        "morden": true
+      },
+      "海伦娜": {
+        "ability": ["炮", "腐"],
+        "morden": false
+      }
+    },
+    "驱逐": {
+      "绫波": {
+        "ability": ["雷", "弹"],
+        "morden": true
+      },
+      "雪风": {
+        "ability": ["雷", "防", "奶", "辅"],
+        "morden": false
+      }
+    }
+  },
+  "T1": {
+    "战列": {
+      "提尔比茨": {
+        "ability": ["炮", "爆"],
+        "morden": false
+      },
+      "北卡罗来纳": {
+        "ability": ["炮", "空", "辅", "爆"],
+        "morden": false
+      },
+      "三笠": {
+        "ability": ["腐", "爆"],
+        "morden": false
+      },
+      "伊丽莎白女王": {
+        "ability": ["腐", "辅", "爆"],
+        "morden": false
+      },
+      "日向": {
+        "ability": ["炮", "爆", "腐"],
+        "morden": false
+      }
+    },
+    "战巡": {
+      "雾岛": {
+        "ability": ["弹", "爆"],
+        "morden": false
+      }
+    },
+    "航母": {
+      "赤城": {
+        "ability": [],
+        "morden": false
+      },
+      "加贺": {
+        "ability": [],
+        "morden": false
+      },
+      "翔鹤": {
+        "ability": ["腐", "辅"],
+        "morden": false
+      },
+      "瑞鹤": {
+        "ability": ["腐", "辅"],
+        "morden": false
+      },
+      "萨拉托加": {
+        "ability": ["腐", "弹"],
+        "morden": true
+      },
+      "皇家方舟": {
+        "ability": [],
+        "morden": false
+      }
+    },
+    "轻航": {
+      "祥凤": {
+        "ability": ["奶", "腐", "零"],
+        "morden": true
+      }
+    },
+    "轻巡": {
+      "最上": {
+        "ability": ["炮", "弹"],
+        "morden": true
+      },
+      "平海": {
+        "ability": ["防", "零"],
+        "morden": true
+      },
+      "宁海": {
+        "ability": ["防", "零"],
+        "morden": true
+      },
+      "逸仙": {
+        "ability": ["防", "零"],
+        "morden": true
+      },
+      "阿芙乐尔": {
+        "ability": ["炮", "腐"],
+        "morden": false
+      },
+      "海王星": {
+        "ability": ["炮", "腐"],
+        "morden": false
+      },
+      "蒙彼利埃": {
+        "ability": ["炮", "空", "弹", "腐"],
+        "morden": false
+      },
+      "欧若拉": {
+        "ability": ["腐"],
+        "morden": false
+      }
+    },
+    "重巡": {
+      "伊吹": {
+        "ability": ["雷"],
+        "morden": false
+      },
+      "波特兰": {
+        "ability": ["炮", "辅"],
+        "morden": true
+      },
+      "威奇塔": {
+        "ability": ["炮", "腐"],
+        "morden": false
+      }
+    },
+    "维修": {
+      "女灶神": {
+        "ability": ["奶", "空", "零"],
+        "morden": false
+      }
+    },
+    "驱逐": {
+      "Z23": {
+        "ability": ["防", "弹"],
+        "morden": true
+      },
+      "标枪": {
+        "ability": ["防", "弹"],
+        "morden": true
+      },
+      "拉菲": {
+        "ability": ["弹"],
+        "morden": true
+      },
+      "江风": {
+        "ability": ["雷", "腐", "弹"],
+        "morden": false
+      }
+    },
+    "潜艇": {
+      "伊19": {
+        "ability": [],
+        "morden": false
+      }
+    }
+  },
+  "T2": {},
+  "T3": {},
+  "T4": {},
+  "T5": {},
+  "Tn": {}
+}

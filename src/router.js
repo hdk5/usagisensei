@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Rank from './views/Rank.vue'
+import Editor from './views/Editor.vue'
 
 Vue.use(Router)
 
@@ -22,6 +23,16 @@ export default new Router({
       path: '/rank',
       name: 'rank',
       component: Rank
+    },
+    {
+      path: '/rank/:id',
+      name: 'rank',
+      component: Rank
+    },
+    {
+      path: '/editor',
+      name: 'editor',
+      component: Editor
     }
   ]
 })

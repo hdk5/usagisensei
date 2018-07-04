@@ -20,7 +20,7 @@ export default {
   },
   computed: {
     rankPage: function() {
-      return this.$route.name === 'rank'
+      return this.$route.name === 'editor'
     }
   }
 }

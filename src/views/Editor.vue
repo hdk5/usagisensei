@@ -1,6 +1,5 @@
 <template>
-  <div v-title="'rank'" class="rank">
-    <!-- <isotope ref="isotope" class="isotope-container" :options='isotopeOption' :list="shipArray"> -->
+  <div v-title="'editor'" class="editor">
     <Card class="tier-card" v-for="tier in Object.keys(rankData)" :key="tier">
       <p slot="title">{{tier}}</p>
       <Card class="type-card" v-for="type in Object.keys(rankData[tier])" :key="type">
@@ -17,62 +16,13 @@
         </Card>
       </Card>
     </Card>
-    <!-- </isotope> -->
-    
-    <div class="rank-footer">评定标准：伤害输出 > 生存表现 > 队伍辅助 | 榜单仅供叁考练船，不代表舰娘的绝对强度</div>
   </div>
 </template>
 <script>
 import { mapGetters } from 'vuex'
-import isotope from 'vueisotope'
 import shipData from '../assets/database.json'
-import axios from 'axios'
 
 export default {
-  data() {
-    return {
-      isotopeOption: {
-        layoutMode: 'masonry',
-        getFilterData: {
-          all: function() {
-            return true
-          },
-          multi: ship => {
-            let nation = this.filterStats.nation
-            let type = this.filterStats.type
-            if (nation !== '' && type !== '') {
-              return ship.nation === nation && ship.type === type
-            } else if (nation !== '') {
-              return ship.nation === nation
-            } else if (type !== '') {
-              return ship.type === type
-            }
-          }
-        },
-        hiddenStyle: {
-          opacity: 0,
-          transform: 'scale(0.5)'
-        },
-        visibleStyle: {
-          opacity: 1,
-          transform: 'scale(1)'
-        }
-      }
-    }
-  },
-  created() {
-    let files = ['29']
-    if (files.indexOf(this.$route.params.id) < 0) {
-      const last = files[files.length - 1]
-      this.$router.push({
-        path: '/rank/' + last
-      })
-    }
-    axios.get(`js/ship${this.$route.params.id}.json`).then(res => {
-      this.$store.commit('loadRankData', res.data)
-      this.$Message.success('成功添加')
-    })
-  },
   computed: {
     shipData: function() {
       return shipData
@@ -120,9 +70,6 @@ export default {
           return '#e00003'
       }
     }
-  },
-  components: {
-    isotope
   }
 }
 </script>
@@ -130,7 +77,7 @@ export default {
 .ivu-layout-content {
   background: #f5f5f5;
 }
-.rank {
+.editor {
   height: calc(100vh - 60px);
   .tier-card {
     margin: 10px;
@@ -193,8 +140,5 @@ export default {
     margin: 0 auto;
     width: 100px;
   }
-}
-.rank-footer {
-  text-align: center;
 }
 </style>

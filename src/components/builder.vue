@@ -42,11 +42,11 @@
         <Tooltip content="零破低耗" placement="top-start" :delay="500">
           <Checkbox label="零" style="color:#d5b61e;"/>
         </Tooltip>
-        <Tooltip content="增伤BUFF" placement="top-start" :delay="500">
-          <Checkbox label="辅" style="color:#fe8100;"/>
+        <Tooltip content="防御BUFF" placement="top-start" :delay="500">
+          <Checkbox label="防辅" style="color:#fe8100;">辅</Checkbox>
         </Tooltip>
-        <Tooltip content="减伤BUFF" placement="top-start" :delay="500">
-          <Checkbox label="腐" style="color:#e00003;"/>
+        <Tooltip content="增伤BUFF" placement="top-start" :delay="500">
+          <Checkbox label="伤辅" style="color:#e00003;">辅</Checkbox>
         </Tooltip>
       </CheckboxGroup>
     </FormItem>

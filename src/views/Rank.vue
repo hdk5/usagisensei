@@ -3,8 +3,7 @@
     <!-- <isotope ref="isotope" class="isotope-container" :options='isotopeOption' :list="shipArray"> -->
     <Card class="tier-card" v-for="tier in Object.keys(rankData)" :key="tier">
       <p slot="title">{{tier}}</p>
-      <Card class="type-card" v-for="type in Object.keys(rankData[tier])" :key="type">
-        <p slot="title">{{type}}</p>
+      <span class="type-card" v-for="type in Object.keys(rankData[tier])" :key="type">
         <Card class="ship-item" v-for="ship in Object.keys(rankData[tier][type])" :key="ship" :padding="0">
           <div class="ability-container">
             <div class="ability-placeholder" v-if="!rankData[tier][type][ship].ability[0]"/>
@@ -12,13 +11,14 @@
               <p class="ability-text">{{abilityName(ability)}}</p>
             </div>
           </div>
-          <img class="ship-image" width="100" height="100" :src="`img/shipicons/${shipData[ship].id}.png`">
-          <p class="ship-name">{{shipData[ship].name}}</p>
+          <img class="ship-image" width="100" height="100" :src="`img/shipicons/${shipData[ship].id}.png`" :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity)">
+          <div :class="'ship-type-icon-'+shipData[ship].type" :style="{ backgroundImage: 'url(img/shiptype.png)' }"/>
+          <p class="ship-name">{{shipName(shipData[ship].name)}}</p>
+          <div class="rarity-bar" :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity)"/>
         </Card>
-      </Card>
+      </span>
     </Card>
     <!-- </isotope> -->
-    
     <div class="rank-footer">评定标准：伤害输出 > 生存表现 > 队伍辅助 | 榜单仅供叁考练船，不代表舰娘的绝对强度</div>
   </div>
 </template>
@@ -125,6 +125,31 @@ export default {
         ability = ability.substr(1)
       }
       return ability
+    },
+    shipName: function(name) {
+      switch (name) {
+        case '试作型布里MKII':
+          return '试作型布里'
+        case '查尔斯·奥斯本':
+          return '查尔斯 A.'
+        case '印第安纳波利斯':
+          return '印第安纳'
+        case '伊丽莎白女王':
+          return '伊丽莎白'
+        case '希佩尔海军上将':
+          return '希佩尔上将'
+        case '斯佩伯爵海军上将':
+          return '斯佩伯爵'
+        default:
+          return name
+      }
+    },
+    rarityColor: function(rarity) {
+      if (rarity === 15) {
+        rarity = 5
+      }
+      const rarityList = ['#c3c3c3', '#80c3e1', '#8b71d2', '#ecca7d']
+      return rarityList[rarity - 2]
     }
   },
   components: {
@@ -140,10 +165,6 @@ export default {
   height: calc(100vh - 60px);
   .tier-card {
     margin: 10px;
-  }
-  .type-card {
-    display: inline-block;
-    margin: 5px;
   }
 }
 .ship-item {
@@ -193,12 +214,49 @@ export default {
     position: absolute;
     left: 0;
     top: 5px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
   }
   .ship-name {
     position: absolute;
     top: 106px;
-    margin: 0 auto;
+    margin-left: 28px;
+    width: 70px;
+  }
+  $shipTypeArray: (
+    '维修': -5px -5px,
+    '潜艇': -40px -5px,
+    '驱逐': -5px -31px,
+    '战列': -40px -31px,
+    '轻巡': -75px -5px,
+    '轻航': -75px -31px,
+    '重巡': -5px -57px,
+    '重炮': -40px -57px,
+    '航母': -75px -57px,
+    '战巡': -40px -31px,
+    '航巡': -5px -57px,
+    '航战': -40px -31px,
+    '雷巡': -75px -5px
+  );
+  @each $type, $position in $shipTypeArray {
+    .ship-type-icon-#{$type} {
+      width: 25px;
+      height: 16px;
+      position: absolute;
+      top: 108px;
+      margin-left: 1px;
+      background-position: $position;
+    }
+  }
+  .rarity-bar {
     width: 100px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
   }
 }
 .rank-footer {

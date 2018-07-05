@@ -12,6 +12,14 @@
       "长门": {
         "ability": [],
         "morden": false
+      },
+      "君主": {
+        "ability": ["炮", "弹", "奶", "爆"],
+        "morden": false
+      },
+      "出云": {
+        "ability": ["炮", "弹", "爆"],
+        "morden": false
       }
     },
     "战巡": {

@@ -26,6 +26,9 @@ export default {
 }
 </script>
 <style scoped>
+html {
+  overflow-y: hidden;
+}
 .ivu-layout-header {
   padding: 0;
   height: 60px;
@@ -33,6 +36,8 @@ export default {
 .ivu-layout-sider {
   padding-top: 2px;
   background-color: #f5f5f5;
+  border-right: 1px solid #0000001a;
+  height: 100vh;
 }
 </style>
 

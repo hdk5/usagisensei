@@ -1,43 +1,35 @@
 <template>
   <div class="sidebar">
-    <i-menu theme="dark" width="auto" active-name="1">
-      <MenuGroup title="sidebar1">
-        <menu-item name="1">
-          <Icon type="document-text"/>
-          sidebar sub1
-        </menu-item>
-        <menu-item name="2">
-          <Icon type="chatbubbles"/>
-          sidebar sub2
-        </menu-item>
-      </MenuGroup>
-      <MenuGroup title="sidebar2">
-        <menu-item name="3">
-          <Icon type="heart"/>
-          sidebar sub3
-        </menu-item>
-        <menu-item name="4">
-          <Icon type="heart-broken"/>
-          sidebar sub4
-        </menu-item>
-      </MenuGroup>
-      <Builder/>
-    </i-menu>
+    <Builder/>
+    <Button class="raw-button" type="primary" @click="rawData = true" long>检视原始码</Button>
+    <Modal v-model="rawData" title="Raw rank data">
+      <pre>{{rankData}}</pre>
+    </Modal>
   </div>
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
 import Builder from './builder.vue'
 
 export default {
   name: 'sidebar',
+  data() {
+    return {
+      rawData: false
+    }
+  },
   components: {
     Builder
+  },
+  computed: {
+    ...mapGetters(['rankData'])
   }
 }
 </script>
 <style scoped>
-.sidebar {
-  height: calc(100vh - 64px);
+.raw-button {
+  margin: 10px;
+  width: 180px;
 }
 </style>

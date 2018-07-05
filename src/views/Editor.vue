@@ -1,0 +1,144 @@
+<template>
+  <div v-title="'editor'" class="editor">
+    <Card class="tier-card" v-for="tier in Object.keys(rankData)" :key="tier">
+      <p slot="title">{{tier}}</p>
+      <Card class="type-card" v-for="type in Object.keys(rankData[tier])" :key="type">
+        <p slot="title">{{type}}</p>
+        <Card class="ship-item" v-for="ship in Object.keys(rankData[tier][type])" :key="ship" :padding="0">
+          <div class="ability-container">
+            <div class="ability-placeholder" v-if="!rankData[tier][type][ship].ability[0]"/>
+            <div class="ability-bar" v-for="ability in rankData[tier][type][ship].ability" :key="ability.key" :style="`width: ${abilityLength(rankData[tier][type][ship].ability)}; background-color: ${abilityColor(ability)};`">
+              <p class="ability-text">{{ability}}</p>
+            </div>
+          </div>
+          <img class="ship-image" width="100" height="100" :src="`img/shipicons/${shipData[ship].id}.png`">
+          <p class="ship-name">{{shipData[ship].name}}</p>
+        </Card>
+      </Card>
+    </Card>
+  </div>
+</template>
+<script>
+import { mapGetters } from 'vuex'
+import shipData from '../assets/database.json'
+
+export default {
+  computed: {
+    shipData: function() {
+      return shipData
+    },
+    shipArray: function() {
+      let result = []
+      Object.keys(shipData).map(shipName => {
+        if (shipData[shipName].id) {
+          result.push(shipData[shipName])
+        }
+      })
+      return result
+    },
+    ...mapGetters(['rankData'])
+  },
+  methods: {
+    abilityLength: function(ability) {
+      if (ability.length !== 0) {
+        return Math.round(100 / ability.length) + '%'
+      } else {
+        return '100%'
+      }
+    },
+    abilityColor: function(ability) {
+      switch (ability) {
+        case '炮':
+          return '#e00102'
+        case '雷':
+          return '#0000fe'
+        case '弹':
+          return '#00abc9'
+        case '空':
+          return '#028df2'
+        case '爆':
+          return '#e101ad'
+        case '防':
+          return '#ff8b00'
+        case '奶':
+          return '#02b501'
+        case '零':
+          return '#d5b61e'
+        case '辅':
+          return '#fe8100'
+        case '腐':
+          return '#e00003'
+      }
+    }
+  }
+}
+</script>
+<style lang="scss" scoped>
+.ivu-layout-content {
+  background: #f5f5f5;
+}
+.editor {
+  height: calc(100vh - 60px);
+  .tier-card {
+    margin: 10px;
+  }
+  .type-card {
+    display: inline-block;
+    margin: 5px;
+  }
+}
+.ship-item {
+  width: 102px;
+  height: 130px;
+  margin: 5px;
+  vertical-align: middle;
+  display: inline-table;
+  .ability-container {
+    .ability-placeholder {
+      background: #495060;
+      height: 5px;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    }
+    .ability-bar {
+      height: 5px;
+      display: inline-block;
+      position: relative;
+      top: -2px;
+      z-index: 100;
+      transition: height ease 0.5s;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+      &:first-child {
+        border-top-left-radius: 4px;
+      }
+      &:last-child {
+        border-top-right-radius: 4px;
+      }
+      &:hover {
+        height: 20px;
+      }
+      .ability-text {
+        font-size: 12px;
+        opacity: 0;
+        transition: opacity ease 0.6s;
+        color: #fff;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .ship-image {
+    position: absolute;
+    left: 0;
+    top: 5px;
+  }
+  .ship-name {
+    position: absolute;
+    top: 106px;
+    margin: 0 auto;
+    width: 100px;
+  }
+}
+</style>

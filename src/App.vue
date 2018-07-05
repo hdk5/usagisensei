@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Layout>
+    <Layout class="ivu-layout-container">
       <Header><topNav/></Header>
       <Layout>
         <Sider hide-trigger v-if="rankPage"><sideBar/></Sider>
@@ -20,18 +20,24 @@ export default {
   },
   computed: {
     rankPage: function() {
-      return this.$route.name === 'rank'
+      return this.$route.name === 'editor'
     }
   }
 }
 </script>
 <style scoped>
+html {
+  overflow-y: hidden;
+}
 .ivu-layout-header {
   padding: 0;
   height: 60px;
 }
-.sidebar {
+.ivu-layout-sider {
   padding-top: 2px;
+  background-color: #f5f5f5;
+  border-right: 1px solid #0000001a;
+  height: 100vh;
 }
 </style>
 

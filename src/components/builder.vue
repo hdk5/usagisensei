@@ -99,6 +99,7 @@ export default {
   methods: {
     addShip: function() {
       if (this.formItem.ship && this.formItem.rank) {
+        this.$store.commit('removeShip', this.formItem.ship)
         this.formItem.type = shipData[this.formItem.ship].type
         this.$store.commit('addShip', this.formItem)
         this.$Message.success(`成功添加${this.formItem.ship}`)

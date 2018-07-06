@@ -14,7 +14,8 @@ export default new Vuex.Store({
       T4: {},
       T5: {},
       Tn: {}
-    }
+  },
+    ranks: [29, 30]
   },
   mutations: {
     addShip(state, data) {
@@ -38,6 +39,9 @@ export default new Vuex.Store({
   getters: {
     rankData: state => {
       return state.rankData
+    },
+    ranks: state => {
+      return state.ranks
     }
   }
 })

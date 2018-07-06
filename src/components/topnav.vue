@@ -19,8 +19,8 @@
           排行榜
         </template>
         <MenuGroup title="舰娘强度榜">
-          <router-link to="/rank/29">
-            <menu-item name="ship29">第29期</menu-item>
+          <router-link v-for="rank in ranks" :key="rank" :to="'/rank/'+rank">
+            <menu-item :name="'ship'+rank">第{{rank}}期</menu-item>
           </router-link>
         </MenuGroup>
       </Submenu>
@@ -35,12 +35,17 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
 export default {
   name: 'topnav',
   data() {
     return {
       activeName: this.$route.name
     }
+  },
+  computed: {
+    ...mapGetters(['ranks'])
   }
 }
 </script>

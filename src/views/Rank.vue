@@ -60,19 +60,15 @@ export default {
       }
     }
   },
-  created() {
-    let files = ['29']
-    if (files.indexOf(this.$route.params.id) < 0) {
-      const last = files[files.length - 1]
-      this.$router.push({
-        path: '/rank/' + last
-      })
+  watch: {
+    '$route.params.id': function() {
+      this.loadRankData()
     }
-    axios.get(`js/ship${this.$route.params.id}.json`).then(res => {
-      this.$store.commit('loadRankData', res.data)
-      this.$Message.success('成功添加')
-    })
   },
+  created: function() {
+    this.loadRankData()
+  },
+  beforeMount() {},
   computed: {
     shipData: function() {
       return shipData
@@ -89,6 +85,22 @@ export default {
     ...mapGetters(['rankData'])
   },
   methods: {
+    loadRankData() {
+      let files = ['29', '30']
+      if (files.indexOf(this.$route.params.id) < 0) {
+        const last = files[files.length - 1]
+        this.$router.push({
+          path: '/rank/' + last
+        })
+      }
+      axios.get(`js/ship${this.$route.params.id}.json`).then(res => {
+        this.$store.commit('loadRankData', res.data)
+        this.$Message.success({
+          content: `成功载入第${this.$route.params.id}期舰娘强度榜`,
+          duration: 3
+        })
+      })
+    },
     abilityLength: function(ability) {
       if (ability.length !== 0) {
         return Math.round(100 / ability.length) + '%'

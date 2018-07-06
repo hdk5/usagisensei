@@ -1,10 +1,13 @@
 <template>
   <div id="app">
     <Layout class="ivu-layout-container">
-      <Header><topNav/></Header>
+      <Header>
+        <topNav/>
+      </Header>
       <Layout>
-        <Sider hide-trigger v-if="rankPage"><sideBar/></Sider>
-        <Content><router-view/></Content>
+        <Content>
+          <router-view/>
+        </Content>
       </Layout>
     </Layout>
   </div>
@@ -15,13 +18,7 @@ import sideBar from '@/components/sidebar.vue'
 
 export default {
   components: {
-    topNav,
-    sideBar
-  },
-  computed: {
-    rankPage: function() {
-      return this.$route.name === 'editor'
-    }
+    topNav
   }
 }
 </script>
@@ -32,12 +29,6 @@ html {
 .ivu-layout-header {
   padding: 0;
   height: 60px;
-}
-.ivu-layout-sider {
-  padding-top: 2px;
-  background-color: #f5f5f5;
-  border-right: 1px solid #0000001a;
-  height: 100vh;
 }
 </style>
 

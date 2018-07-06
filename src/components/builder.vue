@@ -1,5 +1,6 @@
 <template>
-  <Form class="build" label-position="top" :model="formItem">
+<div class="build">
+  <Form label-position="top" :model="formItem">
     <FormItem label="艦船">
       <Select v-model="formItem.ship" filterable>
         <Option v-for="ship in shipData" :value="ship.name" :key="ship.id">{{ship.name}}</Option>
@@ -60,13 +61,20 @@
       <Button type="success" @click="addShip" long>添加</Button>
     </FormItem>
   </Form>
+  <Button class="raw-button" type="primary" @click="rawData = true" long>检视原始码</Button>
+    <Modal v-model="rawData" title="Raw rank data">
+      <pre>{{rankData}}</pre>
+    </Modal>
+    </div>
 </template>
 <script>
+import { mapGetters } from 'vuex'
 import shipData from '../assets/database.json'
 
 export default {
   data() {
     return {
+      rawData: false,
       formItem: {
         rank: '',
         ship: '',
@@ -85,7 +93,8 @@ export default {
         }
       })
       return result
-    }
+    },
+    ...mapGetters(['rankData'])
   },
   methods: {
     addShip: function() {

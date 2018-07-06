@@ -12,10 +12,6 @@ module.exports = {
               }
             }
           ]
-        },
-        {
-          test: /\.scss$/,
-          loaders: ['vue-style-loader', 'css-loader', 'sass-loader']
         }
       ]
     }

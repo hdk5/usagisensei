@@ -24,12 +24,12 @@
           </router-link>
         </MenuGroup>
       </Submenu>
-      <router-link v-if="process.env.NODE_ENV === 'development'" to="/editor">
+      <!-- <router-link to="/editor">
         <menu-item name="editor">
           <Icon type="edit"/>
           编辑器
         </menu-item>
-      </router-link>
+      </router-link> -->
     </i-menu>
   </div>
 </template>

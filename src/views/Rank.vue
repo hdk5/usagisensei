@@ -11,9 +11,11 @@
               <p class="ability-text">{{abilityName(ability)}}</p>
             </div>
           </div>
-          <img class="ship-image" width="100" height="100" :src="`img/shipicons/${shipData[ship].id}.png`" :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity)">
+          <img class="ship-image" v-if="rankData[tier][type][ship].morden" :src="`img/shipicons/3${shipData[ship].id}.png`" :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity,1)">
+          <img class="ship-image" v-else :src="`img/shipicons/${shipData[ship].id}.png`" :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity,0)">
           <div :class="'ship-type-icon-'+shipData[ship].type" :style="{ backgroundImage: 'url(img/shiptype.png)' }"/>
-          <p class="ship-name">{{shipName(shipData[ship].name)}}</p>
+          <p class="ship-name" v-if="rankData[tier][type][ship].morden">{{shipName(shipData[ship].name)}}改</p>
+          <p class="ship-name" v-else>{{shipName(shipData[ship].name)}}</p>
           <div class="rarity-bar" :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity)"/>
         </Card>
       </span>
@@ -156,12 +158,12 @@ export default {
           return name
       }
     },
-    rarityColor: function(rarity) {
+    rarityColor: function(rarity, morden) {
       if (rarity === 15) {
         rarity = 5
       }
       const rarityList = ['#c3c3c3', '#80c3e1', '#8b71d2', '#ecca7d']
-      return rarityList[rarity - 2]
+      return rarityList[rarity + morden - 2]
     }
   },
   components: {
@@ -223,6 +225,8 @@ export default {
     }
   }
   .ship-image {
+    height: 100px;
+    width: 100px;
     position: absolute;
     left: 0;
     top: 5px;

@@ -21,11 +21,7 @@
     "nationality": "白鹰",
     "type": "驱逐",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "唐斯": {
     "id": "006",
@@ -33,11 +29,7 @@
     "nationality": "白鹰",
     "type": "驱逐",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "格里德利": {
     "id": "007",
@@ -133,11 +125,7 @@
     "nationality": "白鹰",
     "type": "驱逐",
     "rarity": 4,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "西姆斯": {
     "id": "026",
@@ -153,11 +141,7 @@
     "nationality": "白鹰",
     "type": "驱逐",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "埃尔德里奇": {
     "id": "028",
@@ -293,11 +277,7 @@
     "nationality": "白鹰",
     "type": "重巡",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "印第安纳波利斯": {
     "id": "045",
@@ -321,11 +301,7 @@
     "nationality": "白鹰",
     "type": "战列",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "俄克拉荷马": {
     "id": "053",
@@ -333,11 +309,7 @@
     "nationality": "白鹰",
     "type": "战列",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "宾夕法尼亚": {
     "id": "054",
@@ -425,11 +397,7 @@
     "nationality": "白鹰",
     "type": "轻航",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "博格": {
     "id": "071",
@@ -437,11 +405,7 @@
     "nationality": "白鹰",
     "type": "轻航",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "兰利": {
     "id": "072",
@@ -449,11 +413,7 @@
     "nationality": "白鹰",
     "type": "轻航",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "列克星敦": {
     "id": "073",
@@ -469,11 +429,7 @@
     "nationality": "白鹰",
     "type": "航母",
     "rarity": 4,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "突击者": {
     "id": "075",
@@ -481,11 +437,7 @@
     "nationality": "白鹰",
     "type": "轻航",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "约克城": {
     "id": "076",
@@ -541,11 +493,7 @@
     "nationality": "皇家",
     "type": "驱逐",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "热心": {
     "id": "083",
@@ -553,11 +501,7 @@
     "nationality": "皇家",
     "type": "驱逐",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "小猎兔犬": {
     "id": "086",
@@ -581,11 +525,7 @@
     "nationality": "皇家",
     "type": "驱逐",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "新月": {
     "id": "089",
@@ -593,11 +533,7 @@
     "nationality": "皇家",
     "type": "驱逐",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "小天鹅": {
     "id": "090",
@@ -605,11 +541,7 @@
     "nationality": "皇家",
     "type": "驱逐",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "狐提": {
     "id": "091",
@@ -617,11 +549,7 @@
     "nationality": "皇家",
     "type": "驱逐",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "命运女神": {
     "id": "092",
@@ -629,11 +557,7 @@
     "nationality": "皇家",
     "type": "驱逐",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "萤火虫": {
     "id": "094",
@@ -649,11 +573,7 @@
     "nationality": "皇家",
     "type": "驱逐",
     "rarity": 4,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "天后": {
     "id": "102",
@@ -677,11 +597,7 @@
     "nationality": "皇家",
     "type": "轻巡",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "阿基里斯": {
     "id": "105",
@@ -689,11 +605,7 @@
     "nationality": "皇家",
     "type": "轻巡",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "阿贾克斯": {
     "id": "106",
@@ -701,11 +613,7 @@
     "nationality": "皇家",
     "type": "轻巡",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "谢菲尔德": {
     "id": "111",
@@ -785,11 +693,7 @@
     "nationality": "皇家",
     "type": "重巡",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "诺福克": {
     "id": "123",
@@ -821,11 +725,7 @@
     "nationality": "皇家",
     "type": "重巡",
     "rarity": 4,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "声望": {
     "id": "127",
@@ -977,11 +877,7 @@
     "nationality": "重樱",
     "type": "驱逐",
     "rarity": 4,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "晓": {
     "id": "159",
@@ -1053,11 +949,7 @@
     "nationality": "重樱",
     "type": "驱逐",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "野分": {
     "id": "170",
@@ -1153,11 +1045,7 @@
     "nationality": "重樱",
     "type": "轻巡",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "最上": {
     "id": "188",
@@ -1165,11 +1053,7 @@
     "nationality": "重樱",
     "type": "轻巡",
     "rarity": 4,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "三隈": {
     "id": "189",
@@ -1185,11 +1069,7 @@
     "nationality": "重樱",
     "type": "重巡",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "加古": {
     "id": "191",
@@ -1197,11 +1077,7 @@
     "nationality": "重樱",
     "type": "重巡",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "青叶": {
     "id": "192",
@@ -1305,11 +1181,7 @@
     "nationality": "重樱",
     "type": "战列",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "山城": {
     "id": "209",
@@ -1317,11 +1189,7 @@
     "nationality": "重樱",
     "type": "战列",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "伊势": {
     "id": "210",
@@ -1385,11 +1253,7 @@
     "nationality": "重樱",
     "type": "轻航",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "赤城": {
     "id": "224",
@@ -1461,11 +1325,7 @@
     "nationality": "铁血",
     "type": "驱逐",
     "rarity": 4,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "Z25": {
     "id": "237",
@@ -1489,11 +1349,7 @@
     "nationality": "铁血",
     "type": "轻巡",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "科隆": {
     "id": "240",
@@ -1621,11 +1477,7 @@
     "nationality": "东煌",
     "type": "轻巡",
     "rarity": 4,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "平海": {
     "id": "259",
@@ -1633,11 +1485,7 @@
     "nationality": "东煌",
     "type": "轻巡",
     "rarity": 4,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "阿芙乐尔": {
     "id": "262",
@@ -1653,11 +1501,7 @@
     "nationality": "白鹰",
     "type": "驱逐",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "Z19": {
     "id": "264",
@@ -1697,11 +1541,7 @@
     "nationality": "重樱",
     "type": "驱逐",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "松风": {
     "id": "270",
@@ -1709,11 +1549,7 @@
     "nationality": "重樱",
     "type": "驱逐",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "睦月": {
     "id": "271",
@@ -1721,11 +1557,7 @@
     "nationality": "重樱",
     "type": "驱逐",
     "rarity": 2,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "如月": {
     "id": "272",
@@ -1869,11 +1701,7 @@
     "nationality": "重樱",
     "type": "轻巡",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "神通": {
     "id": "309",
@@ -1881,11 +1709,7 @@
     "nationality": "重樱",
     "type": "轻巡",
     "rarity": 4,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "浦风": {
     "id": "316",
@@ -1909,11 +1733,7 @@
     "nationality": "重樱",
     "type": "驱逐",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "谷风": {
     "id": "319",
@@ -1921,11 +1741,7 @@
     "nationality": "重樱",
     "type": "驱逐",
     "rarity": 3,
-    "addon": "",
-    "transform": {
-      "rarity": "",
-      "addon": ""
-    }
+    "addon": ""
   },
   "三笠": {
     "id": "320",

@@ -157,7 +157,7 @@
       },
       "逸仙": {
         "ability": ["防", "零"],
-        "morden": true
+        "morden": false
       },
       "阿芙乐尔": {
         "ability": ["炮", "伤辅"],

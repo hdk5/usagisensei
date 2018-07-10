@@ -14,7 +14,8 @@ export default new Vuex.Store({
       T4: {},
       T5: {},
       Tn: {}
-    }
+    },
+    ranks: [29, 30]
   },
   mutations: {
     addShip(state, data) {
@@ -28,6 +29,16 @@ export default new Vuex.Store({
         morden
       }
     },
+    removeShip(state, data) {
+      Object.keys(state.rankData).map(tier => {
+        Object.keys(state.rankData[tier]).map(type => {
+          delete state.rankData[tier][type][data]
+          if (Object.keys(state.rankData[tier][type]).length === 0) {
+            delete state.rankData[tier][type]
+          }
+        })
+      })
+    },
     loadRankData(state, data) {
       state.rankData = data
     }
@@ -38,6 +49,9 @@ export default new Vuex.Store({
   getters: {
     rankData: state => {
       return state.rankData
+    },
+    ranks: state => {
+      return state.ranks
     }
   }
 })

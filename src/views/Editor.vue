@@ -1,5 +1,6 @@
 <template>
   <div v-title="'editor'" class="editor">
+    <Builder/>
     <Card class="tier-card" v-for="tier in Object.keys(rankData)" :key="tier">
       <p slot="title">{{tier}}</p>
       <Card class="type-card" v-for="type in Object.keys(rankData[tier])" :key="type">
@@ -21,6 +22,7 @@
 <script>
 import { mapGetters } from 'vuex'
 import shipData from '../assets/database.json'
+import Builder from '../components/builder.vue'
 
 export default {
   computed: {
@@ -70,6 +72,9 @@ export default {
           return '#e00003'
       }
     }
+  },
+  components: {
+    Builder
   }
 }
 </script>

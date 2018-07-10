@@ -14,7 +14,6 @@
 </template>
 <script>
 import topNav from '@/components/topnav.vue'
-import sideBar from '@/components/sidebar.vue'
 
 export default {
   components: {

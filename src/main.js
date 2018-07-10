@@ -12,7 +12,7 @@ router.beforeEach((to, from, next) => {
   next()
 })
 
-router.afterEach(route => {
+router.afterEach(function() {
   iView.LoadingBar.finish()
 })
 

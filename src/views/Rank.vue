@@ -1,27 +1,43 @@
 <template>
   <div v-title="'rank'" class="rank">
     <!-- <isotope ref="isotope" class="isotope-container" :options='isotopeOption' :list="shipArray"> -->
-    <Card class="tier-card" v-for="tier in Object.keys(rankData)" :key="tier">
-      <p slot="title">{{tier}}</p>
-      <span class="type-card" v-for="type in Object.keys(rankData[tier])" :key="type">
-        <Card class="ship-item" v-for="ship in Object.keys(rankData[tier][type])" :key="ship" :padding="0">
-          <div class="ability-container">
-            <div class="ability-placeholder" v-if="!rankData[tier][type][ship].ability[0]"/>
-            <div class="ability-bar" v-for="ability in rankData[tier][type][ship].ability" :key="ability.key" :style="`width: ${abilityLength(rankData[tier][type][ship].ability)}; background-color: ${abilityColor(ability)};`">
-              <p class="ability-text">{{abilityName(ability)}}</p>
+    <Card :class="`tier-card tier-card-${tier}`" v-for="tier in Object.keys(rankData)" :key="tier" :padding="0">
+      <div class="tier-title">
+        <p class="tier-text">{{tier}}</p>
+      </div>
+      <div class="tier-desc">
+        <p class="tier-text">{{tierDesc(tier)}}</p>
+      </div>
+      <div class="tier-container">
+        <span class="type-card" v-for="type in Object.keys(rankData[tier])" :key="type">
+          <Card class="ship-item" v-for="ship in Object.keys(rankData[tier][type])" :key="ship" :padding="0" :bordered="false">
+            <div class="ability-container">
+              <div class="ability-placeholder" v-if="!rankData[tier][type][ship].ability[0]"/>
+              <div class="ability-bar" v-for="ability in rankData[tier][type][ship].ability" :key="ability.key" :style="`width: ${abilityLength(rankData[tier][type][ship].ability)}; background-color: ${abilityColor(ability)};`">
+                <p class="ability-text">{{abilityName(ability)}}</p>
+              </div>
             </div>
-          </div>
-          <img class="ship-image" v-if="rankData[tier][type][ship].morden" :src="`img/shipicons/3${shipData[ship].id}.png`" :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity,1)">
-          <img class="ship-image" v-else :src="`img/shipicons/${shipData[ship].id}.png`" :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity,0)">
-          <div :class="'ship-type-icon-'+shipData[ship].type" :style="{ backgroundImage: 'url(img/shiptype.png)' }"/>
-          <p class="ship-name" v-if="rankData[tier][type][ship].morden">{{shipName(shipData[ship].name)}}改</p>
-          <p class="ship-name" v-else>{{shipName(shipData[ship].name)}}</p>
-          <div class="rarity-bar" :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity)"/>
-        </Card>
-      </span>
+            <img class="ship-image" v-if="rankData[tier][type][ship].morden" :src="`img/shipicons/3${shipData[ship].id}.png`" :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity,1)">
+            <img class="ship-image" v-else :src="`img/shipicons/${shipData[ship].id}.png`" :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity,0)">
+            <div :class="'ship-type-icon-'+shipData[ship].type" :style="{ backgroundImage: 'url(img/shiptype.png)' }"/>
+            <p class="ship-name" v-if="rankData[tier][type][ship].morden">{{shipName(shipData[ship].name)}}改</p>
+            <p class="ship-name" v-else>{{shipName(shipData[ship].name)}}</p>
+            <div class="rarity-bar" v-if="rankData[tier][type][ship].morden" :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity,1)"/>
+            <div class="rarity-bar" v-else :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity,0)"/>
+          </Card>
+        </span>
+      </div>
     </Card>
     <!-- </isotope> -->
-    <div class="rank-footer">评定标准：伤害输出 > 生存表现 > 队伍辅助 | 榜单仅供叁考练船，不代表舰娘的绝对强度</div>
+    <Row class="rank-footer">
+      <i-col offset="6" span="12">
+        <p>评定标准：伤害输出 > 生存表现 > 队伍辅助 | 榜单仅供叁考练船，不代表舰娘的绝对强度</p>
+      </i-col>
+      <i-col span="6">
+        <p><a href="https://live.bilibili.com/5560806"> 哔哩哔哩直播间：5560806</a></p>
+      </i-col>
+    </Row>
+    <div/>
   </div>
 </template>
 <script>
@@ -68,6 +84,13 @@ export default {
     }
   },
   created: function() {
+    let files = ['29', '30']
+    if (files.indexOf(this.$route.params.id) < 0) {
+      const last = files[files.length - 1]
+      this.$router.push({
+        path: '/rank/' + last
+      })
+    }
     this.loadRankData()
   },
   beforeMount() {},
@@ -88,13 +111,6 @@ export default {
   },
   methods: {
     loadRankData() {
-      let files = ['29', '30']
-      if (files.indexOf(this.$route.params.id) < 0) {
-        const last = files[files.length - 1]
-        this.$router.push({
-          path: '/rank/' + last
-        })
-      }
       axios.get(`js/ship${this.$route.params.id}.json`).then(res => {
         this.$store.commit('loadRankData', res.data)
         this.$Message.success({
@@ -102,6 +118,24 @@ export default {
           duration: 3
         })
       })
+    },
+    tierDesc: function(tier) {
+      switch (tier) {
+        case 'T0':
+          return '舰队核心'
+        case 'T1':
+          return '推图主力'
+        case 'T2':
+          return '次选主力'
+        case 'T3':
+          return '候补主力'
+        case 'T4':
+          return '中等推荐'
+        case 'T5':
+          return '选择练船'
+        case 'Tn':
+          return '为爱发电'
+      }
     },
     abilityLength: function(ability) {
       if (ability.length !== 0) {
@@ -179,6 +213,50 @@ export default {
   height: calc(100vh - 60px);
   .tier-card {
     margin: 10px;
+    @mixin tier-text($position, $vertical) {
+      background: #57a3f3;
+      position: absolute;
+      height: 100%;
+      #{$position}: 0;
+      top: 0;
+      width: 22px;
+      @if $position == left {
+        border-right: 1px solid #fff;
+      } @else {
+        border-left: 1px solid #fff;
+      }
+      border-top-#{$position}-radius: 3px;
+      border-bottom-#{$position}-radius: 3px;
+      .tier-text {
+        @if $vertical {
+          writing-mode: vertical-lr;
+        }
+        color: #fff;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+    .tier-title {
+      @include tier-text(left, false);
+    }
+    .tier-container {
+      margin: 10px 30px;
+      text-align: center;
+    }
+    .tier-desc {
+      @include tier-text(right, true);
+    }
+  }
+  $tier-list: '0', '1', '2', '3', '4', '5', 'n';
+  @each $tier in $tier-list {
+    .tier-card-T#{$tier} {
+      background: url('../assets/rank_mask.png'), url('../assets/rank_bg#{$tier}.png');
+      background-position: center;
+      background-repeat: repeat, no-repeat;
+      background-size: auto, cover;
+    }
   }
 }
 .ship-item {
@@ -189,6 +267,7 @@ export default {
   vertical-align: middle;
   display: inline-table;
   .ability-container {
+    margin: 1px 1px;
     .ability-placeholder {
       background: #495060;
       height: 5px;
@@ -228,7 +307,7 @@ export default {
     height: 100px;
     width: 100px;
     position: absolute;
-    left: 0;
+    left: 1px;
     top: 5px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
@@ -268,7 +347,8 @@ export default {
     width: 100px;
     height: 2px;
     position: absolute;
-    bottom: 0;
+    bottom: 1px;
+    left: 1px;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-left-radius: 4px;
@@ -277,5 +357,13 @@ export default {
 }
 .rank-footer {
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  height: 26px;
+  .ivu-col {
+    margin-top: 4px;
+  }
 }
 </style>

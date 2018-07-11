@@ -140,6 +140,10 @@
       "祥凤": {
         "ability": ["奶", "伤辅", "零"],
         "morden": true
+      },
+      "独角兽": {
+        "ability": ["奶", "伤辅", "零"],
+        "morden": false
       }
     },
     "轻巡": {
@@ -218,6 +222,10 @@
       "伊19": {
         "ability": [],
         "morden": false
+      },
+      "U-47": {
+        "ability": [],
+        "morden": false
       }
     }
   },
@@ -267,6 +275,10 @@
       },
       "列克星敦": {
         "ability": ["伤辅", "弹"],
+        "morden": false
+      },
+      "皇家方舟": {
+        "ability": [],
         "morden": false
       }
     },
@@ -346,6 +358,10 @@
       "谷风": {
         "ability": ["雷", "伤辅"],
         "morden": true
+      },
+      "江风": {
+        "ability": ["雷", "伤辅", "弹"],
+        "morden": false
       }
     },
     "潜艇": {
@@ -355,6 +371,28 @@
       },
       "伊58": {
         "ability": [],
+        "morden": false
+      },
+      "U-557": {
+        "ability": [],
+        "morden": false
+      }
+    },
+    "轻航": {
+      "突击者": {
+        "ability": ["零"],
+        "morden": true
+      }
+    },
+    "战巡": {
+      "雾岛": {
+        "ability": ["弹", "爆"],
+        "morden": false
+      }
+    },
+    "维修": {
+      "女灶神": {
+        "ability": ["奶", "空", "零"],
         "morden": false
       }
     }
@@ -496,7 +534,7 @@
         "morden": false
       },
       "命运女神": {
-        "ability": ["防", "防辅"],
+        "ability": ["防辅", "防"],
         "morden": true
       },
       "吸血鬼": {
@@ -710,6 +748,18 @@
       "朝潮": {
         "ability": ["伤辅"],
         "morden": false
+      },
+      "Z25": {
+        "ability": ["防辅"],
+        "morden": false
+      },
+      "Z35": {
+        "ability": [],
+        "morden": false
+      },
+      "睦月": {
+        "ability": ["伤辅"],
+        "morden": true
       }
     }
   },
@@ -728,6 +778,10 @@
         "morden": false
       },
       "俄克拉荷马": {
+        "ability": [],
+        "morden": true
+      },
+      "内华达": {
         "ability": [],
         "morden": true
       }
@@ -813,6 +867,14 @@
       }
     },
     "驱逐": {
+      "22": {
+        "ability": ["防辅", "零"],
+        "morden": false
+      },
+      "33": {
+        "ability": ["零"],
+        "morden": false
+      },
       "布兰": {
         "ability": [],
         "morden": false

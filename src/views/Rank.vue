@@ -40,7 +40,7 @@
         <p>哔哩哔哩直播间：<a href="https://live.bilibili.com/5560806" target="_blank"> 5560806</a></p>
       </i-col>
     </Row>
-    <BackTop></BackTop>
+    <BackTop/>
   </div>
 </template>
 <script>

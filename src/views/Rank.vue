@@ -1,5 +1,6 @@
 <template>
   <div v-title="'rank'" class="rank">
+    <Github fill="#063261" color="#fff" top="60px"/>
     <h1 class="page-title">【兎老师】碧蓝航线舰娘强度榜第{{this.$route.params.id}}期</h1>
     <Card :class="`tier-card tier-card-${tier}`" v-for="tier in Object.keys(rankData)" :key="tier" :padding="0">
       <div class="tier-title">
@@ -39,10 +40,11 @@
         <p>哔哩哔哩直播间：<a href="https://live.bilibili.com/5560806" target="_blank"> 5560806</a></p>
       </i-col>
     </Row>
-    <div/>
+    <BackTop></BackTop>
   </div>
 </template>
 <script>
+import Github from '@/components/github.vue'
 import { mapGetters } from 'vuex'
 import shipData from '../assets/database.json'
 import axios from 'axios'
@@ -176,6 +178,9 @@ export default {
       const rarityList = ['#c3c3c3', '#80c3e1', '#8b71d2', '#ecca7d']
       return rarityList[rarity + morden - 2]
     }
+  },
+  components: {
+    Github
   }
 }
 </script>

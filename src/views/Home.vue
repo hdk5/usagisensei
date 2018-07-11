@@ -1,5 +1,6 @@
 <template>
   <div v-title="''" class="home">
+    <Github fill="#fff" color="#063261" top="0"/>
     <div class="hero-container">
       <Card class="hero" :padding="5">
         <div class="hero-title">
@@ -20,6 +21,8 @@
 </template>
 
 <script>
+import Github from '@/components/github.vue'
+
 export default {
   name: 'home',
   computed: {
@@ -31,6 +34,9 @@ export default {
       }
       return 'img/bg/bg' + random + '.png'
     }
+  },
+  components: {
+    Github
   }
 }
 </script>
@@ -78,6 +84,10 @@ export default {
       }
     }
   }
+}
+.github-corner-svg {
+  fill: #fff;
+  color: #063261;
 }
 </style>
 

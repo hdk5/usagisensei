@@ -1,6 +1,7 @@
 <template>
   <div v-title="'rank'" class="rank">
-    <!-- <isotope ref="isotope" class="isotope-container" :options='isotopeOption' :list="shipArray"> -->
+    <Github fill="#063261" color="#fff" top="60px"/>
+    <h1 class="page-title">【兎老师】碧蓝航线舰娘强度榜第{{this.$route.params.id}}期</h1>
     <Card :class="`tier-card tier-card-${tier}`" v-for="tier in Object.keys(rankData)" :key="tier" :padding="0">
       <div class="tier-title">
         <p class="tier-text">{{tier}}</p>
@@ -28,53 +29,32 @@
         </span>
       </div>
     </Card>
-    <!-- </isotope> -->
     <Row class="rank-footer">
-      <i-col offset="6" span="12">
+      <i-col span="6">
+        <p>本期原文：<a :href="'https://www.bilibili.com/read/cv'+rawLink[this.$route.params.id]" target="_blank">{{rawLink[this.$route.params.id]}}</a></p>
+      </i-col>
+      <i-col span="12">
         <p>评定标准：伤害输出 > 生存表现 > 队伍辅助 | 榜单仅供叁考练船，不代表舰娘的绝对强度</p>
       </i-col>
       <i-col span="6">
-        <p><a href="https://live.bilibili.com/5560806"> 哔哩哔哩直播间：5560806</a></p>
+        <p>哔哩哔哩直播间：<a href="https://live.bilibili.com/5560806" target="_blank"> 5560806</a></p>
       </i-col>
     </Row>
-    <div/>
+    <BackTop/>
   </div>
 </template>
 <script>
+import Github from '@/components/github.vue'
 import { mapGetters } from 'vuex'
-import isotope from 'vueisotope'
 import shipData from '../assets/database.json'
 import axios from 'axios'
 
 export default {
   data() {
     return {
-      isotopeOption: {
-        layoutMode: 'masonry',
-        getFilterData: {
-          all: function() {
-            return true
-          },
-          multi: ship => {
-            let nation = this.filterStats.nation
-            let type = this.filterStats.type
-            if (nation !== '' && type !== '') {
-              return ship.nation === nation && ship.type === type
-            } else if (nation !== '') {
-              return ship.nation === nation
-            } else if (type !== '') {
-              return ship.type === type
-            }
-          }
-        },
-        hiddenStyle: {
-          opacity: 0,
-          transform: 'scale(0.5)'
-        },
-        visibleStyle: {
-          opacity: 1,
-          transform: 'scale(1)'
-        }
+      rawLink: {
+        29: '575927',
+        30: '654007'
       }
     }
   },
@@ -84,16 +64,15 @@ export default {
     }
   },
   created: function() {
-    let files = ['29', '30']
-    if (files.indexOf(this.$route.params.id) < 0) {
-      const last = files[files.length - 1]
+    if (this.rawLink[this.$route.params.id] === undefined) {
+      const link = Object.keys(this.rawLink)
+      const last = link[link.length - 1]
       this.$router.push({
         path: '/rank/' + last
       })
     }
     this.loadRankData()
   },
-  beforeMount() {},
   computed: {
     shipData: function() {
       return shipData
@@ -201,7 +180,7 @@ export default {
     }
   },
   components: {
-    isotope
+    Github
   }
 }
 </script>
@@ -211,6 +190,10 @@ export default {
 }
 .rank {
   height: calc(100vh - 60px);
+  .page-title {
+    text-align: center;
+    margin: 20px 0;
+  }
   .tier-card {
     margin: 10px;
     @mixin tier-text($position, $vertical) {

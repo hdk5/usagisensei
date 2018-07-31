@@ -287,6 +287,30 @@
     "rarity": 4,
     "addon": ""
   },
+  "阿斯托利亚": {
+    "id": "046",
+    "name": "阿斯托利亚",
+    "nationality": "白鹰",
+    "type": "重巡",
+    "rarity": 3,
+    "addon": ""
+  },
+  "昆西": {
+    "id": "047",
+    "name": "昆西",
+    "nationality": "白鹰",
+    "type": "重巡",
+    "rarity": 3,
+    "addon": ""
+  },
+  "文森斯": {
+    "id": "048",
+    "name": "文森斯",
+    "nationality": "白鹰",
+    "type": "重巡",
+    "rarity": 3,
+    "addon": ""
+  },
   "威奇塔": {
     "id": "049",
     "name": "威奇塔",
@@ -1911,12 +1935,83 @@
     "rarity": 4,
     "addon": ""
   },
-
   "Z35": {
     "id": "345",
     "name": "Z35",
     "nationality": "铁血",
     "type": "驱逐",
+    "rarity": 4,
+    "addon": ""
+  },
+  "Z18": {
+    "id": "346",
+    "name": "Z18",
+    "nationality": "铁血",
+    "type": "驱逐",
+    "rarity": 2,
+    "addon": ""
+  },
+  "凯旋": {
+    "id": "347",
+    "name": "凯旋",
+    "nationality": "自由鸢尾",
+    "type": "驱逐",
+    "rarity": 4,
+    "addon": ""
+  },
+  "福尔班": {
+    "id": "348",
+    "name": "福尔班",
+    "nationality": "自由鸢尾",
+    "type": "驱逐",
+    "rarity": 2,
+    "addon": ""
+  },
+  "埃米尔·贝尔汀": {
+    "id": "349",
+    "name": "埃米尔·贝尔汀",
+    "nationality": "自由鸢尾",
+    "type": "轻巡",
+    "rarity": 3,
+    "addon": ""
+  },
+  "絮库夫": {
+    "id": "350",
+    "name": "絮库夫",
+    "nationality": "自由鸢尾",
+    "type": "潜艇",
+    "rarity": 3,
+    "addon": ""
+  },
+  "勒马尔": {
+    "id": "351",
+    "name": "勒马尔",
+    "nationality": "维希教廷",
+    "type": "驱逐",
+    "rarity": 2,
+    "addon": ""
+  },
+  "敦刻尔克": {
+    "id": "352",
+    "name": "敦刻尔克",
+    "nationality": "维希教廷",
+    "type": "战巡",
+    "rarity": 3,
+    "addon": ""
+  },
+  "让·巴尔": {
+    "id": "353",
+    "name": "让·巴尔",
+    "nationality": "维希教廷",
+    "type": "战列",
+    "rarity": 4,
+    "addon": ""
+  },
+  "马萨诸塞": {
+    "id": "354",
+    "name": "马萨诸塞",
+    "nationality": "白鹰",
+    "type": "战列",
     "rarity": 4,
     "addon": ""
   },

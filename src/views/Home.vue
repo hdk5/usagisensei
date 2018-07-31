@@ -27,7 +27,7 @@ export default {
   name: 'home',
   computed: {
     backgroundImage: function() {
-      const max = 58
+      const max = 59
       let random = Math.floor(Math.random() * (max - 1 + 1)) + 1
       if (random < 10) {
         random = '0' + random

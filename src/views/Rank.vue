@@ -1,5 +1,5 @@
 <template>
-  <div v-title="'rank'" class="rank">
+  <div v-title="' - 排行榜'" class="rank">
     <Github fill="#063261" color="#fff" top="60px"/>
     <h1 class="page-title">【兎老师】碧蓝航线舰娘强度榜第{{this.$route.params.id}}期</h1>
     <Card :class="`tier-card tier-card-${tier}`" v-for="tier in Object.keys(rankData)" :key="tier" :padding="0">

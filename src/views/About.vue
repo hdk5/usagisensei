@@ -1,11 +1,11 @@
 <template>
-  <div v-title="'about'" class="about">
+  <div v-title="' - 关于本站'" class="about">
     <Github fill="#fff" color="#287bd3" top="0"/>
     <Card style="margin-top:60px;" :bordered="false">
       <p slot="title">本站说明</p>
       <Timeline>
         <TimelineItem>本站仅将兔老师强度榜以网页的形式重新实现，榜单资料兔老师全权拥有。</TimelineItem>
-        <TimelineItem>本站游戏图像素材取自Wiki等网站</TimelineItem>
+        <TimelineItem>本站游戏图像素材取自Wiki等网站。</TimelineItem>
         <TimelineItem>本站为个人练习项目，若有大佬想参与欢迎联系。</TimelineItem>
         <TimelineItem>如有任何bug或是资料错误等，欢迎在github直丢issues。</TimelineItem>
       </Timeline>

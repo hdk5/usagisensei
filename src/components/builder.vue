@@ -79,8 +79,8 @@
         </i-col>
       </Row>
     </Form>
-    <Modal v-model="rawData" title="Raw rank data">
-      <pre>{{rankData}}</pre>
+    <Modal v-model="rawData" :closable="false" footer-hide>
+      <textarea v-model="rankDataString" style="width: 100%; height: 500px;"></textarea>
     </Modal>
   </Card>
 </template>
@@ -110,6 +110,9 @@ export default {
         }
       })
       return result
+    },
+    rankDataString: function() {
+      return JSON.stringify(this.rankData, null, 2)
     },
     ...mapGetters(['rankData'])
   },

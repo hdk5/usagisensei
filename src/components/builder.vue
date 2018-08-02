@@ -80,7 +80,7 @@
       </Row>
     </Form>
     <Modal v-model="rawData" :closable="false" footer-hide>
-      <textarea v-model="rankDataString" style="width: 100%; height: 500px;"></textarea>
+      <textarea v-model="rankDataString" style="width: 100%; height: 500px;"/>
     </Modal>
   </Card>
 </template>

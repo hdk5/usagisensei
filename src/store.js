@@ -15,7 +15,11 @@ export default new Vuex.Store({
       T5: {},
       Tn: {}
     },
-    ranks: [29, 30]
+    rawLink: {
+      29: '575927',
+      30: '654007',
+      31: '853229'
+    }
   },
   mutations: {
     addShip(state, data) {
@@ -52,6 +56,9 @@ export default new Vuex.Store({
     },
     ranks: state => {
       return state.ranks
+    },
+    rawLink: state => {
+      return state.rawLink
     }
   }
 })

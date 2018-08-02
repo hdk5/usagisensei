@@ -9,7 +9,7 @@
           <div class="ability-container">
             <div class="ability-placeholder" v-if="!rankData[tier][type][ship].ability[0]"/>
             <div class="ability-bar" v-for="ability in rankData[tier][type][ship].ability" :key="ability.key" :style="`width: ${abilityLength(rankData[tier][type][ship].ability)}; background-color: ${abilityColor(ability)};`">
-              <p class="ability-text">{{ability}}</p>
+              <p class="ability-text">{{abilityName(ability)}}</p>
             </div>
           </div>
           <img class="ship-image" width="100" height="100" :src="`img/shipicons/${shipData[ship].id}.png`">
@@ -66,11 +66,17 @@ export default {
           return '#02b501'
         case '零':
           return '#d5b61e'
-        case '辅':
+        case '防辅':
           return '#fe8100'
-        case '腐':
+        case '伤辅':
           return '#e00003'
       }
+    },
+    abilityName: function(ability) {
+      if (ability.length === 2) {
+        ability = ability.substr(1)
+      }
+      return ability
     }
   },
   components: {
@@ -86,6 +92,9 @@ export default {
   height: calc(100vh - 60px);
   .tier-card {
     margin: 10px;
+    &:last-child {
+      margin-bottom: 110px;
+    }
   }
   .type-card {
     display: inline-block;
@@ -124,6 +133,7 @@ export default {
         height: 20px;
       }
       .ability-text {
+        text-align: center;
         font-size: 12px;
         opacity: 0;
         transition: opacity ease 0.6s;

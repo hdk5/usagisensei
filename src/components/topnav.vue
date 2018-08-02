@@ -45,7 +45,10 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['ranks'])
+    ranks: function() {
+      return Object.keys(this.rawLink)
+    },
+    ...mapGetters(['rawLink'])
   }
 }
 </script>

@@ -86,6 +86,9 @@ export default {
   height: calc(100vh - 60px);
   .tier-card {
     margin: 10px;
+    &:last-child {
+      margin-bottom: 110px;
+    }
   }
   .type-card {
     display: inline-block;

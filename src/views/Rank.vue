@@ -50,14 +50,6 @@ import shipData from '../assets/database.json'
 import axios from 'axios'
 
 export default {
-  data() {
-    return {
-      rawLink: {
-        29: '575927',
-        30: '654007'
-      }
-    }
-  },
   watch: {
     '$route.params.id': function() {
       this.loadRankData()
@@ -86,7 +78,7 @@ export default {
       })
       return result
     },
-    ...mapGetters(['rankData'])
+    ...mapGetters(['rankData', 'rawLink'])
   },
   methods: {
     loadRankData() {
@@ -167,6 +159,8 @@ export default {
           return '希佩尔上将'
         case '斯佩伯爵海军上将':
           return '斯佩伯爵'
+        case '埃米尔·贝尔汀':
+          return '埃米尔'
         default:
           return name
       }

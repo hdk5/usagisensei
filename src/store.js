@@ -54,9 +54,6 @@ export default new Vuex.Store({
     rankData: state => {
       return state.rankData
     },
-    ranks: state => {
-      return state.ranks
-    },
     rawLink: state => {
       return state.rawLink
     }

@@ -16,5 +16,15 @@ module.exports = {
       ]
     }
   },
-  outputDir: 'docs'
+
+  outputDir: 'docs',
+
+  pluginOptions: {
+    i18n: {
+      locale: 'zh-CN',
+      fallbackLocale: 'en',
+      localeDir: 'locales',
+      enableInSFC: false
+    }
+  }
 }

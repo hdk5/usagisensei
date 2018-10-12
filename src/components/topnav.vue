@@ -18,9 +18,9 @@
           <Icon type="star"/>
           {{$t('topNav.rank')}}
         </template>
-          <router-link v-for="rank in ranks" :key="rank" :to="'/rank/'+rank">
-            <menu-item :name="'ship'+rank">{{ $t('topNav.no', { msg: rank }) }}</menu-item>
-          </router-link>
+        <router-link v-for="rank in ranks" :key="rank" :to="'/rank/'+rank">
+          <menu-item :name="'ship'+rank">{{ $t('topNav.no', { msg: rank }) }}</menu-item>
+        </router-link>
       </Submenu>
       <!-- <router-link to="/editor">
         <menu-item name="editor">

@@ -1,6 +1,6 @@
 {
   "T0": {
-    "战列": {
+    "主力": {
       "华盛顿": {
         "ability": ["炮", "弹", "空", "爆"],
         "morden": false
@@ -20,15 +20,11 @@
       "出云": {
         "ability": ["炮", "弹", "爆"],
         "morden": false
-      }
-    },
-    "战巡": {
+      },
       "胡德": {
         "ability": ["弹", "防辅", "零"],
         "morden": false
-      }
-    },
-    "航母": {
+      },
       "企业": {
         "ability": [],
         "morden": false
@@ -36,21 +32,17 @@
       "光辉": {
         "ability": ["防辅"],
         "morden": false
-      }
-    },
-    "维修": {
+      },
       "明石": {
         "ability": ["奶", "空", "伤辅", "零"],
         "morden": false
-      }
-    },
-    "轻航": {
+      },
       "独角兽": {
         "ability": ["奶", "伤辅", "零"],
         "morden": false
       }
     },
-    "重巡": {
+    "先鋒": {
       "罗恩": {
         "ability": ["炮", "防"],
         "morden": false
@@ -58,9 +50,7 @@
       "路易九世": {
         "ability": ["炮"],
         "morden": false
-      }
-    },
-    "轻巡": {
+      },
       "神通": {
         "ability": ["雷", "弹", "伤辅"],
         "morden": true
@@ -68,9 +58,7 @@
       "海伦娜": {
         "ability": ["炮", "伤辅"],
         "morden": false
-      }
-    },
-    "驱逐": {
+      },
       "绫波": {
         "ability": ["雷", "弹"],
         "morden": true
@@ -82,7 +70,7 @@
     }
   },
   "T1": {
-    "战列": {
+    "主力": {
       "提尔比茨": {
         "ability": ["炮", "爆"],
         "morden": false
@@ -102,15 +90,11 @@
       "日向": {
         "ability": ["炮", "爆", "伤辅"],
         "morden": false
-      }
-    },
-    "战巡": {
+      },
       "雾岛": {
         "ability": ["弹", "爆"],
         "morden": false
-      }
-    },
-    "航母": {
+      },
       "赤城": {
         "ability": [],
         "morden": false
@@ -134,15 +118,29 @@
       "皇家方舟": {
         "ability": [],
         "morden": false
-      }
-    },
-    "轻航": {
+      },
       "祥凤": {
         "ability": ["奶", "伤辅", "零"],
         "morden": true
+      },
+      "女灶神": {
+        "ability": ["奶", "空", "零"],
+        "morden": false
       }
     },
-    "轻巡": {
+    "先鋒": {
+      "伊吹": {
+        "ability": ["雷"],
+        "morden": false
+      },
+      "波特兰": {
+        "ability": ["炮", "防辅"],
+        "morden": true
+      },
+      "威奇塔": {
+        "ability": ["炮", "伤辅"],
+        "morden": false
+      },
       "最上": {
         "ability": ["炮", "弹"],
         "morden": true
@@ -174,29 +172,7 @@
       "欧若拉": {
         "ability": ["伤辅"],
         "morden": false
-      }
-    },
-    "重巡": {
-      "伊吹": {
-        "ability": ["雷"],
-        "morden": false
       },
-      "波特兰": {
-        "ability": ["炮", "防辅"],
-        "morden": true
-      },
-      "威奇塔": {
-        "ability": ["炮", "伤辅"],
-        "morden": false
-      }
-    },
-    "维修": {
-      "女灶神": {
-        "ability": ["奶", "空", "零"],
-        "morden": false
-      }
-    },
-    "驱逐": {
       "Z23": {
         "ability": ["防", "弹"],
         "morden": true
@@ -222,7 +198,7 @@
     }
   },
   "T2": {
-    "战列": {
+    "主力": {
       "南达科他": {
         "ability": ["炮", "空", "奶"],
         "morden": false
@@ -254,9 +230,7 @@
       "亚利桑那": {
         "ability": ["奶"],
         "morden": false
-      }
-    },
-    "航母": {
+      },
       "齐柏林伯爵": {
         "ability": ["防辅"],
         "morden": false
@@ -270,7 +244,7 @@
         "morden": false
       }
     },
-    "重巡": {
+    "先鋒": {
       "欧根亲王": {
         "ability": ["防"],
         "morden": false
@@ -290,9 +264,7 @@
       "德意志": {
         "ability": ["弹"],
         "morden": false
-      }
-    },
-    "轻巡": {
+      },
       "贝尔法斯特": {
         "ability": ["防辅"],
         "morden": false
@@ -316,9 +288,7 @@
       "哥伦比亚": {
         "ability": ["炮", "空", "弹", "防辅"],
         "morden": false
-      }
-    },
-    "驱逐": {
+      },
       "夕立": {
         "ability": ["雷", "弹"],
         "morden": false
@@ -360,7 +330,7 @@
     }
   },
   "T3": {
-    "战列": {
+    "主力": {
       "威尔士亲王": {
         "ability": ["爆", "炮"],
         "morden": false
@@ -372,9 +342,7 @@
       "扶桑": {
         "ability": [],
         "morden": true
-      }
-    },
-    "重炮": {
+      },
       "恐怖": {
         "ability": ["弹", "零"],
         "morden": false
@@ -386,9 +354,7 @@
       "阿贝克隆比": {
         "ability": ["弹", "零"],
         "morden": false
-      }
-    },
-    "战巡": {
+      },
       "金刚": {
         "ability": ["伤辅", "爆"],
         "morden": false
@@ -396,9 +362,7 @@
       "沙恩霍斯特": {
         "ability": ["爆"],
         "morden": false
-      }
-    },
-    "航母": {
+      },
       "飞龙": {
         "ability": ["伤辅"],
         "morden": false
@@ -406,15 +370,13 @@
       "苍龙": {
         "ability": ["伤辅"],
         "morden": false
-      }
-    },
-    "轻航": {
+      },
       "突击者": {
         "ability": ["零"],
         "morden": true
       }
     },
-    "重巡": {
+    "先鋒": {
       "爱宕": {
         "ability": [],
         "morden": false
@@ -442,9 +404,7 @@
       "芝加哥": {
         "ability": ["炮"],
         "morden": false
-      }
-    },
-    "轻巡": {
+      },
       "爱丁堡": {
         "ability": ["防"],
         "morden": false
@@ -480,9 +440,7 @@
       "利安得": {
         "ability": ["防辅"],
         "morden": true
-      }
-    },
-    "驱逐": {
+      },
       "群白之心": {
         "ability": ["雷"],
         "morden": false
@@ -544,7 +502,7 @@
     }
   },
   "T4": {
-    "战列": {
+    "主力": {
       "厌战": {
         "ability": ["炮"],
         "morden": false
@@ -552,9 +510,7 @@
       "伊势": {
         "ability": ["爆"],
         "morden": false
-      }
-    },
-    "战巡": {
+      },
       "沙恩霍斯特": {
         "ability": ["爆"],
         "morden": false
@@ -570,9 +526,7 @@
       "比叡": {
         "ability": ["爆", "伤辅"],
         "morden": false
-      }
-    },
-    "航母": {
+      },
       "翡绿之心": {
         "ability": ["奶"],
         "morden": false
@@ -582,7 +536,7 @@
         "morden": false
       }
     },
-    "重巡": {
+    "先鋒": {
       "希佩尔海军上将": {
         "ability": ["防"],
         "morden": false
@@ -606,9 +560,7 @@
       "北安普敦": {
         "ability": ["炮", "伤辅"],
         "morden": false
-      }
-    },
-    "轻巡": {
+      },
       "绀紫之心": {
         "ability": ["弹"],
         "morden": false
@@ -624,9 +576,7 @@
       "莱比锡": {
         "ability": ["伤辅", "零"],
         "morden": false
-      }
-    },
-    "驱逐": {
+      },
       "尼古拉斯": {
         "ability": ["炮", "空", "零"],
         "morden": false
@@ -714,7 +664,7 @@
     }
   },
   "T5": {
-    "战列": {
+    "主力": {
       "加利福尼亚": {
         "ability": [],
         "morden": false
@@ -730,15 +680,11 @@
       "俄克拉荷马": {
         "ability": [],
         "morden": true
-      }
-    },
-    "航母": {
+      },
       "贝露": {
         "ability": [],
         "morden": false
-      }
-    },
-    "轻航": {
+      },
       "长岛": {
         "ability": ["伤辅"],
         "morden": true
@@ -756,7 +702,7 @@
         "morden": true
       }
     },
-    "重巡": {
+    "先鋒": {
       "诺瓦露": {
         "ability": [],
         "morden": false
@@ -780,9 +726,7 @@
       "盐湖城": {
         "ability": ["炮"],
         "morden": false
-      }
-    },
-    "轻巡": {
+      },
       "圣地亚哥": {
         "ability": ["空"],
         "morden": false
@@ -810,9 +754,7 @@
       "朱诺": {
         "ability": ["奶", "空"],
         "morden": false
-      }
-    },
-    "驱逐": {
+      },
       "布兰": {
         "ability": [],
         "morden": false
@@ -864,7 +806,7 @@
     }
   },
   "Tn": {
-    "战巡": {
+    "主力": {
       "声望": {
         "ability": [],
         "morden": false
@@ -872,9 +814,7 @@
       "反击": {
         "ability": [],
         "morden": false
-      }
-    },
-    "航母": {
+      },
       "光荣": {
         "ability": ["防辅", "伤辅"],
         "morden": false
@@ -882,9 +822,7 @@
       "胡蜂": {
         "ability": [],
         "morden": false
-      }
-    },
-    "轻航": {
+      },
       "凤翔": {
         "ability": ["伤辅"],
         "morden": false
@@ -894,7 +832,7 @@
         "morden": true
       }
     },
-    "重巡": {
+    "先鋒": {
       "诺福克": {
         "ability": ["防"],
         "morden": false
@@ -910,9 +848,7 @@
       "苏塞克斯": {
         "ability": [],
         "morden": false
-      }
-    },
-    "轻巡": {
+      },
       "夕张": {
         "ability": [],
         "morden": false
@@ -932,9 +868,7 @@
       "加拉蒂亚": {
         "ability": [],
         "morden": false
-      }
-    },
-    "驱逐": {
+      },
       "泽西": {
         "ability": [],
         "morden": false

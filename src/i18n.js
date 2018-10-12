@@ -16,9 +16,20 @@ function loadLocaleMessages() {
   return messages
 }
 
+const languages = navigator.languages
+const languageList = ['zh-CN', 'en-US']
+for (let index = 0; index < languages.length; index++) {
+  const language = languages[index]
+  if (languageList.indexOf(language) >= 0) {
+    var locale = languages[index].replace('zh-', '').replace('-US', '')
+    break
+  } else {
+    locale = 'en'
+  }
+}
+
 export default new VueI18n({
-  locale: process.env.VUE_APP_I18N_LOCALE || 'en',
-  fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'en',
-  silentTranslationWarn: true,
+  locale,
+  fallbackLocale: 'CN',
   messages: loadLocaleMessages()
 })

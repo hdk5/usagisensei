@@ -20,7 +20,7 @@ router.afterEach(function() {
 // dynamic title
 Vue.directive('title', {
   inserted: function(el, binding) {
-    document.title = '【兎老师】碧蓝航线舰娘强度榜' + binding.value
+    document.title = binding.value
   }
 })
 

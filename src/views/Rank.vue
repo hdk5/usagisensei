@@ -10,7 +10,10 @@
         <p class="tier-text">{{tierDesc(tier)}}</p>
       </div>
       <div class="tier-container">
-        <span class="type-card" v-for="type in Object.keys(rankData[tier])" :key="type">
+        <div class="type-card" v-for="type in Object.keys(rankData[tier])" :key="type">
+          <p class="type-text">
+            {{type}}艦隊
+          </p>
           <Card class="ship-item" v-for="ship in Object.keys(rankData[tier][type])" :key="ship" :padding="0" :bordered="false">
             <div class="ability-container">
               <div class="ability-placeholder" v-if="!rankData[tier][type][ship].ability[0]"/>
@@ -218,13 +221,30 @@ export default {
     .tier-title {
       @include tier-text(left, false);
     }
+    .type-text {
+      background: linear-gradient(to right, rgba(87, 163, 243, 0) 0%, rgba(98, 170, 240, 1) 30%, rgba(113, 179, 235, 1) 70%, rgba(125, 185, 232, 0) 100%);
+      color: #fff;
+      text-align: center;
+    }
     .tier-container {
       margin: 10px 30px;
       text-align: center;
+      .type-card {
+        display: inline-block;
+        text-align: left;
+        width: 100%;
+        border-bottom: 1px dashed #287bd3e8;
+        &:last-child {
+          border-bottom: 0;
+        }
+      }
     }
     .tier-desc {
       @include tier-text(right, true);
     }
+  }
+  .tier-card-Tn {
+    margin-bottom: 35px;
   }
   $tier-list: '0', '1', '2', '3', '4', '5', 'n';
   @each $tier in $tier-list {
@@ -259,12 +279,14 @@ export default {
       top: -2px;
       z-index: 100;
       transition: height ease 0.5s;
+      border-right: 1px solid rgba(255, 255, 255, 0.6);
       border-bottom: 1px solid rgba(255, 255, 255, 0.6);
       &:first-child {
         border-top-left-radius: 4px;
       }
       &:last-child {
         border-top-right-radius: 4px;
+        border-right: 0;
       }
       &:hover {
         height: 20px;
@@ -342,5 +364,7 @@ export default {
   .ivu-col {
     margin-top: 4px;
   }
+  z-index: 999;
+  border-top: 1px solid #57a3f3;
 }
 </style>

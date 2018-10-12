@@ -1,5 +1,5 @@
 <template>
-  <div v-title="' - 关于本站'" class="about">
+  <div v-title="$t('title.main')+$t('title.about')" class="about">
     <Github fill="#fff" color="#287bd3" top="0"/>
     <Card style="margin-top:60px;" :bordered="false">
       <p slot="title">本站说明</p>

@@ -1,5 +1,5 @@
 <template>
-  <div v-title="''" class="home">
+  <div v-title="$t('title.main')" class="home">
     <Github fill="#fff" color="#063261" top="0"/>
     <div class="hero-container">
       <Card class="hero" :padding="5">
@@ -8,7 +8,7 @@
           <p>
             <Icon type="chevron-right"/>
             <Icon type="chevron-right"/>
-            <a href="https://space.bilibili.com/24889090/#/article" style="color:#0a498c;">兔老师哔哩哔哩专栏传送门</a>
+            <a href="https://space.bilibili.com/24889090/#/article" target="_blank" style="color:#0a498c;">兔老师哔哩哔哩专栏传送门</a>
             <Icon type="chevron-left"/>
             <Icon type="chevron-left"/>
           </p>

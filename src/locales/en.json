@@ -1,4 +1,10 @@
 {
+  "title": {
+    "main": "【Usagisensei】Azur Lane Ship Rank",
+    "about": " - About",
+    "rank": " - Rank",
+    "editor": " - Editor"
+  },
   "topNav": {
     "home": "Home",
     "about": "About",

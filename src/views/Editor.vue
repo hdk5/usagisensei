@@ -1,5 +1,5 @@
 <template>
-  <div v-title="'editor'" class="editor">
+  <div v-title="$t('title.main')+$t('title.editor')" class="editor">
     <Builder/>
     <Card class="tier-card" v-for="tier in Object.keys(rankData)" :key="tier">
       <p slot="title">{{tier}}</p>

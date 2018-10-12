@@ -4,25 +4,23 @@
       <router-link to="/">
         <menu-item name="home">
           <Icon type="home"/>
-          主页
+          {{$t('topNav.home')}}
         </menu-item>
       </router-link>
       <router-link to="/about">
         <menu-item name="about">
           <Icon type="information"/>
-          关于本站
+          {{$t('topNav.about')}}
         </menu-item>
       </router-link>
       <Submenu name="rank">
         <template slot="title">
           <Icon type="star"/>
-          排行榜
+          {{$t('topNav.rank')}}
         </template>
-        <MenuGroup title="舰娘强度榜">
           <router-link v-for="rank in ranks" :key="rank" :to="'/rank/'+rank">
-            <menu-item :name="'ship'+rank">第{{rank}}期</menu-item>
+            <menu-item :name="'ship'+rank">{{ $t('topNav.no', { msg: rank }) }}</menu-item>
           </router-link>
-        </MenuGroup>
       </Submenu>
       <!-- <router-link to="/editor">
         <menu-item name="editor">
@@ -30,6 +28,10 @@
           编辑器
         </menu-item>
       </router-link> -->
+      <p style="float:right; margin-right:20px;">
+        <a href="javascript:void(0)" @click="changeLang('CN')">中</a>｜
+        <a href="javascript:void(0)" @click="changeLang('en')">EN</a>
+      </p>
     </i-menu>
   </div>
 </template>
@@ -42,6 +44,11 @@ export default {
   data() {
     return {
       activeName: this.$route.name
+    }
+  },
+  methods: {
+    changeLang(lang) {
+      this.$i18n.locale = lang
     }
   },
   computed: {

@@ -1,6 +1,6 @@
 {
   "T0": {
-    "主力": {
+    "main": {
       "华盛顿": {
         "ability": ["炮", "弹", "空", "爆"],
         "morden": false
@@ -42,7 +42,7 @@
         "morden": false
       }
     },
-    "先鋒": {
+    "vanguard": {
       "罗恩": {
         "ability": ["炮", "防"],
         "morden": false
@@ -70,7 +70,7 @@
     }
   },
   "T1": {
-    "主力": {
+    "main": {
       "提尔比茨": {
         "ability": ["炮", "爆"],
         "morden": false
@@ -132,7 +132,7 @@
         "morden": false
       }
     },
-    "先鋒": {
+    "vanguard": {
       "最上": {
         "ability": ["炮", "弹"],
         "morden": true
@@ -194,7 +194,7 @@
         "morden": false
       }
     },
-    "潜艇": {
+    "submarine": {
       "伊19": {
         "ability": [],
         "morden": false
@@ -206,7 +206,7 @@
     }
   },
   "T2": {
-    "主力": {
+    "main": {
       "南达科他": {
         "ability": ["炮", "空", "奶"],
         "morden": false
@@ -268,7 +268,7 @@
         "morden": false
       }
     },
-    "先鋒": {
+    "vanguard": {
       "欧根亲王": {
         "ability": ["防"],
         "morden": false
@@ -346,7 +346,7 @@
         "morden": false
       }
     },
-    "潜艇": {
+    "submarine": {
       "鲦鱼": {
         "ability": [],
         "morden": false
@@ -362,7 +362,7 @@
     }
   },
   "T3": {
-    "主力": {
+    "main": {
       "威尔士亲王": {
         "ability": ["爆", "炮"],
         "morden": false
@@ -408,7 +408,7 @@
         "morden": true
       }
     },
-    "先鋒": {
+    "vanguard": {
       "爱宕": {
         "ability": [],
         "morden": false
@@ -522,7 +522,7 @@
         "morden": false
       }
     },
-    "潜艇": {
+    "submarine": {
       "U-81": {
         "ability": [],
         "morden": false
@@ -534,7 +534,7 @@
     }
   },
   "T4": {
-    "主力": {
+    "main": {
       "厌战": {
         "ability": ["炮"],
         "morden": false
@@ -568,7 +568,7 @@
         "morden": false
       }
     },
-    "先鋒": {
+    "vanguard": {
       "希佩尔海军上将": {
         "ability": ["防"],
         "morden": false
@@ -708,7 +708,7 @@
     }
   },
   "T5": {
-    "主力": {
+    "main": {
       "加利福尼亚": {
         "ability": [],
         "morden": false
@@ -750,7 +750,7 @@
         "morden": true
       }
     },
-    "先鋒": {
+    "vanguard": {
       "22": {
         "ability": ["防辅", "零"],
         "morden": false
@@ -862,7 +862,7 @@
     }
   },
   "Tn": {
-    "主力": {
+    "main": {
       "声望": {
         "ability": [],
         "morden": false
@@ -888,7 +888,7 @@
         "morden": true
       }
     },
-    "先鋒": {
+    "vanguard": {
       "诺福克": {
         "ability": ["防"],
         "morden": false

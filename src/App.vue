@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <Layout class="ivu-layout-container">
-      <Header>
+      <Header :style="{position: 'fixed', width: '100%', zIndex: '9999'}">
         <topNav/>
       </Header>
-      <Layout>
+      <Layout :style="{marginTop: '60px'}">
         <Content>
           <router-view/>
         </Content>

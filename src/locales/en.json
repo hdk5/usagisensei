@@ -9,6 +9,40 @@
     "title": "【Usagisensei】Azur Lane Ship Rank (Web version)",
     "link": "Usagisensei's bilibili articles"
   },
+  "about": {
+    "site": {
+      "title": "About site",
+      "line1": "This site only re-implements Usagisensei's ship rank in the form of a web page, rank copyright belongs to Usagisensei.",
+      "line2": "Images in this site comes from wiki etc.",
+      "line3": "This site is build for personal practice, if someone want participate, feel free to contact me.",
+      "line4": "If you find any bug please create issues in github."
+    },
+    "rank": {
+      "title": "About rank",
+      "line1": "This rank is for reference only, it doesn't represent the absolute strength of ships. Choosing ships by level and formation is recommended.",
+      "line2": "Rank is only compare with same type of ship, destroyer doesn't compare with crusier for exsample, and not consider the cost of leveling and costs.",
+      "line3": "Ships strength dependence on equipments, skills and retorfited, rank is base on first clear level's perfomace.",
+      "line4": "Rank evaluation standards：Damage＞Survival＞team assistant, Each ship have different potential, evaluation standards doesn't only dependence on DPS.",
+      "line5": "Every tier changing and detials can visit Usagisensei's article to read.(Chinese)"
+    },
+    "tier": {
+      "title": "About tier",
+      "name0": "Core of Fleet",
+      "desc0": "Strongest ship in Azur Lane.",
+      "name1": "Main Force",
+      "desc1": "Compatible with T0, good for clear levels.",
+      "name2": "Secondary Force",
+      "desc2": "Also good for clear levels and have great attributes, but still have some disadvantage.",
+      "name3": "Alternate Force",
+      "desc3": "Great attributes, can choose if you don't have upper choose.",
+      "name4": "Recommended",
+      "desc4": "I'm a dividing line.",
+      "name5": "Optional",
+      "desc5": "Although have not great attribute but can choose due to some potential and high level.",
+      "namen": "Powered by Love",
+      "descn": "Slight presence. Because Usagisensei can't bear to let them not be familiar with the players and brought them to the rank, the weak ship maiden is waiting to discover their potential for the admiral who loved."
+    }
+  },
   "topNav": {
     "home": "Home",
     "about": "About",

@@ -7,7 +7,7 @@
         <p class="tier-text">{{tier}}</p>
       </div>
       <div class="tier-desc">
-        <p class="tier-text">{{tierDesc(tier)}}</p>
+        <p class="tier-text">{{$t("about.tier.name"+tier.substr(1,1))}}</p>
       </div>
       <div class="tier-container">
         <div class="type-card" v-for="type in Object.keys(rankData[tier])" :key="type">
@@ -105,43 +105,6 @@ export default {
           duration: 3
         })
       })
-    },
-    tierDesc: function(tier) {
-      if (this.$i18n.locale === 'en') {
-        switch (tier) {
-          case 'T0':
-            return 'Core of Fleet'
-          case 'T1':
-            return 'Main Force'
-          case 'T2':
-            return 'Secondary Force'
-          case 'T3':
-            return 'Alternate Force'
-          case 'T4':
-            return 'Recommended'
-          case 'T5':
-            return 'Optional'
-          case 'Tn':
-            return 'Powered by Love'
-        }
-      } else {
-        switch (tier) {
-          case 'T0':
-            return '舰队核心'
-          case 'T1':
-            return '推图主力'
-          case 'T2':
-            return '次选主力'
-          case 'T3':
-            return '候补主力'
-          case 'T4':
-            return '中等推荐'
-          case 'T5':
-            return '选择练船'
-          case 'Tn':
-            return '为爱发电'
-        }
-      }
     },
     abilityLength: function(ability) {
       if (ability.length !== 0) {

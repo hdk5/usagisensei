@@ -4,6 +4,7 @@ import App from './App.vue'
 import router from './router'
 import iView from 'iview'
 import 'iview/dist/styles/iview.css'
+import i18n from './i18n'
 Vue.use(iView)
 
 // page loading bar
@@ -28,5 +29,6 @@ Vue.config.productionTip = false
 new Vue({
   router,
   store,
+  i18n,
   render: h => h(App)
 }).$mount('#app')

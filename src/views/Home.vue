@@ -27,7 +27,7 @@ export default {
   name: 'home',
   computed: {
     backgroundImage: function() {
-      const max = 59
+      const max = 71
       let random = Math.floor(Math.random() * (max - 1 + 1)) + 1
       if (random < 10) {
         random = '0' + random
@@ -44,7 +44,7 @@ export default {
 @function multiple-text-shadow($n, $color) {
   $value: '0 0 5px #{$color}';
   @for $i from 2 through $n {
-    $value: '#{$value} , 0 0 5px ' + $color;
+    $value: '#{$value} , 0 0 5px '+$color;
   }
 
   @return unquote($value);

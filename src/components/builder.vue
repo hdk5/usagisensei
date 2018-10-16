@@ -10,7 +10,7 @@
             </Select>
           </FormItem>
         </i-col>
-        <i-col span="6">
+        <i-col span="8">
           <FormItem>
             <p class="item-label">階級</p>
             <RadioGroup v-model="formItem.rank">
@@ -23,8 +23,6 @@
               <Radio label="Tn">Tn</Radio>
             </RadioGroup>
           </FormItem>
-        </i-col>
-        <i-col span="8">
           <FormItem>
             <p class="item-label">能力</p>
             <CheckboxGroup v-model="formItem.ability">
@@ -61,18 +59,42 @@
             </CheckboxGroup>
           </FormItem>
         </i-col>
-        <i-col span="2">
-
+        <i-col span="6">
+          <FormItem>
+            <p class="item-label">評價</p>
+            <RadioGroup style="display: block;" v-model="formItem.evaluation[0]">
+            <p class="item-label" style="display: inline-block;">伤害：</p>
+              <Radio label="S"/>
+              <Radio label="A"/>
+              <Radio label="B"/>
+              <Radio label="C"/>
+              <Radio label="D"/>
+            </RadioGroup>
+            <RadioGroup style="display: block;" v-model="formItem.evaluation[1]">
+            <p class="item-label" style="display: inline-block;">生存：</p>
+              <Radio label="S"/>
+              <Radio label="A"/>
+              <Radio label="B"/>
+              <Radio label="C"/>
+              <Radio label="D"/>
+            </RadioGroup>
+            <RadioGroup style="display: block;" v-model="formItem.evaluation[2]">
+            <p class="item-label" style="display: inline-block;">辅助：</p>
+              <Radio label="S"/>
+              <Radio label="A"/>
+              <Radio label="B"/>
+              <Radio label="C"/>
+              <Radio label="D"/>
+            </RadioGroup>
+          </FormItem>
+        </i-col>
+        <i-col span="5">
           <p class="item-label">改造</p>
           <i-switch v-model="formItem.morden">
             <span slot="open"/>
             <span slot="close"/>
           </i-switch>
-
-        </i-col>
-        
-        <i-col span="3">
-          <ButtonGroup style="margin-top: 10px;">
+          <ButtonGroup style="margin-top: 10px; display: block;">
             <Button type="success" @click="addShip">添加</Button>
             <Button class="raw-button" type="primary" @click="rawData = true">检视原始码</Button>
           </ButtonGroup>
@@ -96,6 +118,7 @@ export default {
         rank: '',
         ship: '',
         ability: [],
+        evaluation:[],
         morden: false,
         type: ''
       }

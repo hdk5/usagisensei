@@ -22,18 +22,38 @@ export default new Vuex.Store({
     }
   },
   mutations: {
-    addShip(state, data) {
+    addShip (state, data) {
       let ability = data.ability
       let morden = data.morden
-      if (!state.rankData[data.rank][data.type]) {
-        state.rankData[data.rank][data.type] = {}
+      let evaluation = data.evaluation
+      let type = data.type
+      switch (type) {
+        case '战列':
+        case '战巡':
+        case '航母':
+        case '轻航':
+        case '维修':
+          type = 'main'
+          break
+        case '驱逐':
+        case '轻巡':
+        case '重巡':
+          type = 'vanguard'
+          break
+        case '潜艇':
+          type = 'submarine'
+          break
       }
-      state.rankData[data.rank][data.type][data.ship] = {
+      if (!state.rankData[data.rank][type]) {
+        state.rankData[data.rank][type] = {}
+      }
+      state.rankData[data.rank][type][data.ship] = {
+        evaluation,
         ability,
         morden
       }
     },
-    removeShip(state, data) {
+    removeShip (state, data) {
       Object.keys(state.rankData).map(tier => {
         Object.keys(state.rankData[tier]).map(type => {
           delete state.rankData[tier][type][data]
@@ -43,7 +63,7 @@ export default new Vuex.Store({
         })
       })
     },
-    loadRankData(state, data) {
+    loadRankData (state, data) {
       state.rankData = data
     }
   },

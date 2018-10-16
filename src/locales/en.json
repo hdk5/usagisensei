@@ -19,11 +19,11 @@
     },
     "rank": {
       "title": "About rank",
-      "line1": "This rank is for reference only, it doesn't represent the absolute strength of ships. Choosing ships by level and formation is recommended.",
-      "line2": "Rank is only compare with same type of ship, destroyer doesn't compare with crusier for exsample, and not consider the cost of leveling and costs.",
-      "line3": "Ships strength dependence on equipments, skills and retorfited, rank is base on first clear level's perfomace.",
-      "line4": "Rank evaluation standards：Damage＞Survival＞team assistant, Each ship have different potential, evaluation standards doesn't only dependence on DPS.",
-      "line5": "Every tier changing and detials can visit Usagisensei's article to read.(Chinese)"
+      "line1": "The ranking is for reference only, it doesn't represent the absolute strength of ships. Choosing ships by level and formation is recommended.",
+      "line2": "Ranks are only compared with the same type of ship. For example, destroyer doesn't compare with cruiser. The cost of leveling and costs aren't put into consideration.",
+      "line3": "Ships strength depends on equipments, skills, and retrofitting. Rank is based on first clear level's performance.",
+      "line4": "Rank evaluation standards：Damage＞Survival＞team assistant, Each ship has different potential, evaluation standards doesn't only depend on DPS.",
+      "line5": "For tier changes and details, read Usagisensei's article. (Chinese)"
     },
     "tier": {
       "title": "About tier",

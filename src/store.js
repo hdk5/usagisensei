@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import createPersistedState from 'vuex-persistedstate'
 
 Vue.use(Vuex)
 
@@ -21,6 +22,7 @@ export default new Vuex.Store({
       31: '853229'
     }
   },
+  plugins: [createPersistedState()],
   mutations: {
     addShip (state, data) {
       let ability = data.ability
@@ -68,7 +70,9 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    addShip: ({ commit }) => commit('addShip')
+    addShip: ({
+      commit
+    }) => commit('addShip')
   },
   getters: {
     rankData: state => {

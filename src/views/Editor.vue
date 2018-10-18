@@ -5,24 +5,16 @@
       <p class="tier-card-title" slot="title">{{tier}}</p>
       <Card class="type-card" v-for="type in Object.keys(rankData[tier])" :key="type">
         <p class="type-card-title" slot="title">{{$t('formation.'+type)}}</p>
-        <Card class="ship-item" v-for="ship in Object.keys(rankData[tier][type])" :key="ship" :padding="0">
-          <div class="ability-container">
-            <div class="ability-placeholder" v-if="!rankData[tier][type][ship].ability[0]"/>
-            <div class="ability-bar" v-for="ability in rankData[tier][type][ship].ability" :key="ability.key" :style="`width: ${abilityLength(rankData[tier][type][ship].ability)}; background-color: ${abilityColor(ability)};`">
-              <p class="ability-text">{{abilityName(ability)}}</p>
-            </div>
-          </div>
-          <img class="ship-image" width="100" height="100" :src="`img/shipicons/${shipData[ship].id}.png`">
-          <p class="ship-name">{{shipData[ship].name}}</p>
-        </Card>
+        <shipItem :shipData="shipData" :rankData="rankData" :tier="tier" :type="type"/>
       </Card>
     </Card>
   </div>
 </template>
 <script>
 import { mapGetters } from 'vuex'
-import shipData from '../assets/database.json'
-import Builder from '../components/builder.vue'
+import shipData from '@/assets/database.json'
+import Builder from '@/components/builder.vue'
+import shipItem from '@/components/shipItem.vue'
 
 export default {
   computed: {
@@ -80,7 +72,8 @@ export default {
     }
   },
   components: {
-    Builder
+    Builder,
+    shipItem
   }
 }
 </script>

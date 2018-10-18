@@ -98,6 +98,7 @@
         <Button type="success" @click="addShip">添加</Button>
         <Button class="raw-button" type="primary" @click="rawData = true">检视原始码</Button>
       </ButtonGroup>
+      <Button type="error" style="margin-top: 10px;" @click="clearRankData" long>清空榜单资料</Button>
     </div>
     <Modal v-model="rawData" :closable="false" footer-hide>
       <textarea v-model="rankDataString" style="width: 100%; height: 500px;"/>
@@ -144,14 +145,28 @@ export default {
         this.$store.commit('removeShip', this.formItem.ship)
         this.formItem.type = shipData[this.formItem.ship].type
         this.$store.commit('addShip', this.formItem)
-        this.$Message.success(`成功添加${this.formItem.ship}`)
         this.$router.push({
           path: '/empty'
         })
         this.$router.go(-1)
       } else {
-        this.$Message.warning('資料有誤請重新查驗！')
+        this.$Message.warning('资料有误请重新查验！')
       }
+    },
+    clearRankData: function() {
+      this.$Modal.confirm({
+        title: '警告',
+        content: '<p>确定清空榜单资料吗？此动作无法恢复。</p>',
+        okText: '清空',
+        cancelText: '取消',
+        onOk: () => {
+          this.$store.commit('clearRankData')
+          this.$router.push({
+            path: '/empty'
+          })
+          this.$router.go(-1)
+        }
+      })
     }
   }
 }

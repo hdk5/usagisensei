@@ -65,14 +65,23 @@ export default new Vuex.Store({
         })
       })
     },
+    clearRankData (state) {
+      state.rankData = {
+        T0: {},
+        T1: {},
+        T2: {},
+        T3: {},
+        T4: {},
+        T5: {},
+        Tn: {}
+      }
+    },
     loadRankData (state, data) {
       state.rankData = data
     }
   },
   actions: {
-    addShip: ({
-      commit
-    }) => commit('addShip')
+    addShip: ({ commit }) => commit('addShip')
   },
   getters: {
     rankData: state => {

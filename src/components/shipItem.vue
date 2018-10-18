@@ -12,9 +12,13 @@
       </div>
       <img class="ship-image" v-if="rankData[tier][type][ship].morden" :src="`img/shipicons/3${shipData[ship].id}.png`" :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity,1)">
       <img class="ship-image" v-else :src="`img/shipicons/${shipData[ship].id}.png`" :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity,0)">
+      <div class="retrofit" v-if="rankData[tier][type][ship].morden" :style="{backgroundColor:rarityColor(shipData[ship].rarity,rankData[tier][type][ship].morden)}">
+        <div class="retrofit-ribbon retrofit-ribbon-top" :style="{borderColor:`transparent transparent ${rarityColor(shipData[ship].rarity,rankData[tier][type][ship].morden)} transparent`}"/>
+        <img src="../assets/retrofited.png">
+        <div class="retrofit-ribbon retrofit-ribbon-left" :style="{borderColor:`transparent transparent ${rarityColor(shipData[ship].rarity,rankData[tier][type][ship].morden)} transparent`}"/>
+      </div>
       <div :class="'ship-type-icon-'+shipData[ship].type" :style="{ backgroundImage: 'url(img/shiptype.png)' }"/>
-      <p class="ship-name" v-if="rankData[tier][type][ship].morden">{{shipName(shipData[ship].name)}}{{$t("rank.retrofitted")}}</p>
-      <p class="ship-name" v-else>{{shipName(shipData[ship].name)}}</p>
+      <p class="ship-name">{{shipName(shipData[ship].name)}}</p>
       <div class="rarity-bar" :style="{borderBottomColor:rarityColor(shipData[ship].rarity,rankData[tier][type][ship].morden)}">
         <div class="evaluation" v-if="rankData[tier][type][ship].evaluation" v-for="(evaluation,index) in rankData[tier][type][ship].evaluation" :key="index" :style="{backgroundColor:rarityColor(shipData[ship].rarity,rankData[tier][type][ship].morden),color:evaluationColor(shipData[ship].rarity,rankData[tier][type][ship].morden)}">
           <p class="evaluation-title">{{$t('evaluation.'+index)}}</p>
@@ -145,9 +149,6 @@ export default {
         return '#444'
       }
     }
-  },
-  mounted: function() {
-    // console.log(this.data)
   }
 }
 </script>
@@ -207,6 +208,36 @@ export default {
         padding: 0 4px;
         transform: translate(-50%, 0);
       }
+    }
+  }
+  .retrofit {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 84px;
+    right: 1px;
+    .retrofit-ribbon {
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 0 20px 20px;
+    }
+    .retrofit-ribbon-top {
+      position: absolute;
+      bottom: 20px;
+      right: 1;
+    }
+    .retrofit-ribbon-left {
+      position: absolute;
+      bottom: 0;
+      right: 20px;
+    }
+    img {
+      position: absolute;
+      bottom: 2px;
+      right: 1px;
+      z-index: 999;
     }
   }
   .ship-image {

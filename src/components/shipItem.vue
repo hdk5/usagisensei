@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Card class="ship-item" v-for="ship in Object.keys(rankData[tier][type])" :key="ship" :padding="0" :bordered="false">
+    <Card class="ship-item" v-for="ship in Object.keys(rankData[tier][type])" :key="ship" :padding="0" :bordered="false" :style="{height:shipItemHeight(rankData[tier][type][ship].evaluation)}">
       <div class="ability-container">
         <div class="ability-placeholder" v-if="!rankData[tier][type][ship].ability[0]"/>
         <div class="ability-bar" v-for="ability in rankData[tier][type][ship].ability" :key="ability.key" :style="`width: ${abilityLength(rankData[tier][type][ship].ability)}; background-color: ${abilityColor(ability)};`">
@@ -15,8 +15,12 @@
       <div :class="'ship-type-icon-'+shipData[ship].type" :style="{ backgroundImage: 'url(img/shiptype.png)' }"/>
       <p class="ship-name" v-if="rankData[tier][type][ship].morden">{{shipName(shipData[ship].name)}}{{$t("rank.retrofitted")}}</p>
       <p class="ship-name" v-else>{{shipName(shipData[ship].name)}}</p>
-      <div class="rarity-bar" v-if="rankData[tier][type][ship].morden" :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity,1)"/>
-      <div class="rarity-bar" v-else :style="'border-bottom-color:'+rarityColor(shipData[ship].rarity,0)"/>
+      <div class="rarity-bar" :style="{borderBottomColor:rarityColor(shipData[ship].rarity,rankData[tier][type][ship].morden)}">
+        <div class="evaluation" v-if="rankData[tier][type][ship].evaluation" v-for="(evaluation,index) in rankData[tier][type][ship].evaluation" :key="index" :style="{backgroundColor:rarityColor(shipData[ship].rarity,rankData[tier][type][ship].morden),color:evaluationColor(shipData[ship].rarity,rankData[tier][type][ship].morden)}">
+          <p class="evaluation-title">{{$t('evaluation.'+index)}}</p>
+          <p class="evaluation-rank">{{evaluation}}</p>
+        </div>
+      </div>
     </Card>
   </div>
 </template>
@@ -36,6 +40,13 @@ export default {
     }
   },
   methods: {
+    shipItemHeight: function(evaluation) {
+      let height = 130
+      if (evaluation) {
+        height += 30
+      }
+      return height + 'px'
+    },
     abilityLength: function(ability) {
       if (ability.length !== 0) {
         return Math.round(100 / ability.length) + '%'
@@ -115,7 +126,25 @@ export default {
         rarity = 5
       }
       const rarityList = ['#c3c3c3', '#80c3e1', '#8b71d2', '#ecca7d']
-      return rarityList[rarity + morden - 2]
+      if (morden) {
+        return rarityList[rarity - 1]
+      } else {
+        return rarityList[rarity - 2]
+      }
+    },
+    evaluationColor: function(rarity, morden) {
+      if (rarity === 15) {
+        rarity = 5
+      }
+      const rarityList = ['#c3c3c3', '#80c3e1', '#8b71d2', '#ecca7d']
+      if (morden) {
+        rarity + 1
+      }
+      if (rarity === 4) {
+        return '#fff'
+      } else {
+        return '#444'
+      }
     }
   },
   mounted: function() {
@@ -126,7 +155,6 @@ export default {
 <style lang="scss" scoped>
 .ship-item {
   width: 102px;
-  height: 130px;
   margin: 5px;
   text-align: center;
   vertical-align: middle;
@@ -224,14 +252,34 @@ export default {
   }
   .rarity-bar {
     width: 100px;
-    height: 2px;
+    height: 32px;
     position: absolute;
     bottom: 1px;
     left: 1px;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
+    text-align: justify;
+    padding-top: 1px;
+    border-bottom: {
+      width: 2px;
+      style: solid;
+      left-radius: 4px;
+      right-radius: 4px;
+    }
+
+    .evaluation {
+      height: 100%;
+      width: 33%;
+      display: inline-block;
+      text-align: center;
+      .evaluation-title {
+        font-size: 12px;
+        line-height: 14px;
+      }
+      .evaluation-rank {
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: bold;
+      }
+    }
   }
 }
 </style>

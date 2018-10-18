@@ -61,6 +61,11 @@
     "vanguard": "Vanguard",
     "submarine": "Submarines"
   },
+  "evaluation": {
+    "0": "DMG",
+    "1": "SURV",
+    "2": "SUP"
+  },
   "ability": {
     "炮": "Main gun +1 / Great gun damage",
     "雷": "Great tropedo damage",

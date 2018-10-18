@@ -141,7 +141,11 @@ export default {
   },
   methods: {
     addShip: function() {
-      if (this.formItem.ship && this.formItem.rank) {
+      if (
+        this.formItem.ship &&
+        this.formItem.rank &&
+        this.formItem.evaluation.length === 3
+      ) {
         this.$store.commit('removeShip', this.formItem.ship)
         this.formItem.type = shipData[this.formItem.ship].type
         this.$store.commit('addShip', this.formItem)

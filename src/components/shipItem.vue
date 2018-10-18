@@ -136,7 +136,6 @@ export default {
       if (rarity === 15) {
         rarity = 5
       }
-      const rarityList = ['#c3c3c3', '#80c3e1', '#8b71d2', '#ecca7d']
       if (morden) {
         rarity + 1
       }

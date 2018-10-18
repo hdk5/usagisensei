@@ -1,0 +1,674 @@
+{
+  "T0": {
+    "main": {
+      "君主": {
+        "evaluation": ["S", "S", "C"],
+        "ability": ["炮", "弹", "奶"],
+        "morden": false
+      },
+      "华盛顿": {
+        "evaluation": ["S", "S", "D"],
+        "ability": ["炮", "弹", "空"],
+        "morden": false
+      },
+      "约克公爵": {
+        "evaluation": ["S", "S", "B"],
+        "ability": ["炮", "弹", "伤辅"],
+        "morden": false
+      },
+      "长门": {
+        "evaluation": ["S", "S", "A"],
+        "ability": ["炮", "弹", "伤辅"],
+        "morden": false
+      },
+      "让·巴尔": {
+        "evaluation": ["S", "A", "A"],
+        "ability": ["炮"],
+        "morden": false
+      },
+      "胡德": {
+        "evaluation": ["S", "B", "B"],
+        "ability": ["弹", "防辅", "零"],
+        "morden": false
+      },
+      "企业": {
+        "evaluation": ["S", "S", "D"],
+        "ability": [],
+        "morden": false
+      },
+      "埃塞克斯": {
+        "evaluation": ["S", "S", "B"],
+        "ability": ["防辅", "弹"],
+        "morden": false
+      },
+      "半人马": {
+        "evaluation": ["A", "A", "A"],
+        "ability": ["防辅", "弹"],
+        "morden": false
+      },
+      "明石": {
+        "evaluation": ["D", "B", "S"],
+        "ability": ["奶", "空", "伤辅", "零"],
+        "morden": false
+      }
+    },
+    "vanguard": {
+      "罗恩": {
+        "evaluation": ["S", "S", "B"],
+        "ability": ["防", "炮"],
+        "morden": false
+      },
+      "路易九世": {
+        "evaluation": ["S", "A", "D"],
+        "ability": ["炮"],
+        "morden": false
+      },
+      "最上": {
+        "evaluation": ["S", "A", "D"],
+        "ability": ["炮", "弹"],
+        "morden": true
+      },
+      "波特兰": {
+        "evaluation": ["S", "S", "C"],
+        "ability": ["炮", "防辅"],
+        "morden": true
+      },
+      "圣地亚哥": {
+        "evaluation": ["S", "A", "B"],
+        "ability": ["空"],
+        "morden": true
+      },
+      "平海": {
+        "evaluation": ["A", "S", "D"],
+        "ability": ["防", "零"],
+        "morden": true
+      },
+      "宁海": {
+        "evaluation": ["A", "S", "D"],
+        "ability": ["防", "零"],
+        "morden": true
+      },
+      "逸仙": {
+        "evaluation": ["A", "S", "D"],
+        "ability": ["防", "零"],
+        "morden": false
+      },
+      "绫波": {
+        "evaluation": ["S", "A", "D"],
+        "ability": ["雷", "弹"],
+        "morden": true
+      }
+    },
+    "submarine": {
+      "U-47": {
+        "evaluation": ["S", "D", "D"],
+        "ability": [],
+        "morden": false
+      }
+    }
+  },
+  "T1": {
+    "main": {
+      "出云": {
+        "evaluation": ["S", "S", "D"],
+        "ability": ["炮", "弹"],
+        "morden": false
+      },
+      "提尔比茨": {
+        "evaluation": ["A", "S", "D"],
+        "ability": ["炮"],
+        "morden": false
+      },
+      "北卡罗来纳": {
+        "evaluation": ["A", "A", "C"],
+        "ability": ["炮", "空", "防辅"],
+        "morden": false
+      },
+      "马萨诸塞": {
+        "evaluation": ["A", "A", "C"],
+        "ability": ["炮", "空"],
+        "morden": false
+      },
+      "日向": {
+        "evaluation": ["S", "B", "B"],
+        "ability": ["防辅", "弹"],
+        "morden": true
+      },
+      "光辉": {
+        "evaluation": ["B", "A", "S"],
+        "ability": ["防辅"],
+        "morden": false
+      },
+      "翔鹤": {
+        "evaluation": ["S", "S", "C"],
+        "ability": ["伤辅", "防辅"],
+        "morden": false
+      },
+      "瑞鹤": {
+        "evaluation": ["S", "S", "C"],
+        "ability": ["防辅", "伤辅"],
+        "morden": false
+      },
+      "赤城": {
+        "evaluation": ["S", "A", "D"],
+        "ability": [],
+        "morden": false
+      },
+      "加贺": {
+        "evaluation": ["S", "A", "D"],
+        "ability": [],
+        "morden": false
+      },
+      "萨拉托加": {
+        "evaluation": ["S", "A", "C"],
+        "ability": [],
+        "morden": true
+      },
+      "独角兽": {
+        "evaluation": ["C", "C", "S"],
+        "ability": ["奶", "伤辅", "零"],
+        "morden": false
+      },
+      "祥凤": {
+        "evaluation": ["C", "C", "S"],
+        "ability": ["奶", "伤辅", "零"],
+        "morden": false
+      },
+      "女灶神": {
+        "evaluation": ["D", "C", "A"],
+        "ability": ["奶", "空", "零"],
+        "morden": false
+      }
+    },
+    "vanguard": {
+      "伊吹": {
+        "evaluation": ["A", "A", "D"],
+        "ability": ["雷"],
+        "morden": false
+      },
+      "欧根亲王": {
+        "evaluation": ["B", "S", "B"],
+        "ability": ["防"],
+        "morden": false
+      },
+      "高雄": {
+        "evaluation": ["A", "A", "D"],
+        "ability": [],
+        "morden": false
+      },
+      "威奇塔": {
+        "evaluation": ["A", "C", "B"],
+        "ability": ["炮", "伤辅"],
+        "morden": false
+      },
+      "海王星": {
+        "evaluation": ["A", "S", "D"],
+        "ability": ["奶"],
+        "morden": false
+      },
+      "阿芙乐尔": {
+        "evaluation": ["A", "B", "S"],
+        "ability": ["炮", "伤辅"],
+        "morden": false
+      },
+      "神通": {
+        "evaluation": ["S", "B", "A"],
+        "ability": ["雷", "弹", "伤辅"],
+        "morden": true
+      },
+      "蒙彼利埃": {
+        "evaluation": ["A", "A", "C"],
+        "ability": ["炮", "空", "弹", "伤辅"],
+        "morden": false
+      },
+      "克利夫兰": {
+        "evaluation": ["A", "A", "C"],
+        "ability": ["炮", "空", "弹", "伤辅"],
+        "morden": false
+      },
+      "海伦娜": {
+        "evaluation": ["A", "B", "S"],
+        "ability": ["炮", "伤辅"],
+        "morden": false
+      },
+      "哥伦比亚": {
+        "evaluation": ["A", "A", "B"],
+        "ability": ["炮", "空", "弹", "防辅"],
+        "morden": false
+      },
+      "丹佛": {
+        "evaluation": ["A", "A", "D"],
+        "ability": ["炮", "空", "弹"],
+        "morden": false
+      },
+      "欧若拉": {
+        "evaluation": ["C", "B", "S"],
+        "ability": ["伤辅"],
+        "morden": false
+      },
+      "雪风": {
+        "evaluation": ["A", "S", "A"],
+        "ability": ["雷", "防", "奶", "防辅"],
+        "morden": false
+      },
+      "Z23": {
+        "evaluation": ["A", "A", "B"],
+        "ability": ["防", "弹"],
+        "morden": true
+      },
+      "标枪": {
+        "evaluation": ["A", "A", "D"],
+        "ability": ["防", "弹"],
+        "morden": true
+      },
+      "拉菲": {
+        "evaluation": ["S", "A", "D"],
+        "ability": ["弹"],
+        "morden": true
+      }
+    },
+    "submarine": {
+      "伊19": {
+        "evaluation": ["S", "B", "D"],
+        "ability": [],
+        "morden": false
+      },
+      "U-81": {
+        "evaluation": ["S", "C", "D"],
+        "ability": [],
+        "morden": false
+      }
+    }
+  },
+  "T2": {
+    "main": {
+      "南达科他": {
+        "evaluation": ["B", "A", "C"],
+        "ability": ["炮", "空", "奶"],
+        "morden": false
+      },
+      "三笠": {
+        "evaluation": ["A", "C", "S"],
+        "ability": ["伤辅"],
+        "morden": false
+      },
+      "伊丽莎白女王": {
+        "evaluation": ["B", "B", "S"],
+        "ability": ["伤辅", "防辅"],
+        "morden": false
+      },
+      "陆奥": {
+        "evaluation": ["A", "A", "D"],
+        "ability": ["弹"],
+        "morden": false
+      },
+      "罗德尼": {
+        "evaluation": ["A", "A", "D"],
+        "ability": ["零", "弹"],
+        "morden": false
+      },
+      "纳尔逊": {
+        "evaluation": ["A", "A", "D"],
+        "ability": ["零", "弹"],
+        "morden": false
+      },
+      "西弗吉尼亚": {
+        "evaluation": ["A", "A", "D"],
+        "ability": ["弹"],
+        "morden": false
+      },
+      "马里兰": {
+        "evaluation": ["A", "A", "D"],
+        "ability": ["弹"],
+        "morden": false
+      },
+      "科罗拉多": {
+        "evaluation": ["A", "A", "D"],
+        "ability": ["弹"],
+        "morden": false
+      },
+      "齐柏林伯爵": {
+        "evaluation": ["B", "S", "A"],
+        "ability": ["防辅"],
+        "morden": false
+      },
+      "胜利": {
+        "evaluation": ["B", "A", "D"],
+        "ability": [],
+        "morden": false
+      },
+      "大凤": {
+        "evaluation": ["B", "S", "C"],
+        "ability": ["防辅", "弹"],
+        "morden": false
+      },
+      "列克星敦": {
+        "evaluation": ["A", "A", "C"],
+        "ability": ["伤辅", "弹"],
+        "morden": false
+      },
+      "皇家方舟": {
+        "evaluation": ["A", "A", "C"],
+        "ability": [],
+        "morden": false
+      },
+      "突击者": {
+        "evaluation": ["S", "B", "D"],
+        "ability": ["零"],
+        "morden": true
+      }
+    },
+    "vanguard": {
+      "爱宕": {
+        "evaluation": ["B", "A", "D"],
+        "ability": [],
+        "morden": false
+      },
+      "摩耶": {
+        "evaluation": ["B", "A", "D"],
+        "ability": [],
+        "morden": false
+      },
+      "鸟海": {
+        "evaluation": ["B", "A", "C"],
+        "ability": ["伤辅"],
+        "morden": false
+      },
+      "印第安纳波利斯": {
+        "evaluation": ["B", "A", "C"],
+        "ability": ["防", "炮"],
+        "morden": false
+      },
+      "斯佩伯爵海军上将": {
+        "evaluation": ["A", "B", "D"],
+        "ability": ["弹"],
+        "morden": false
+      },
+      "德意志": {
+        "evaluation": ["A", "B", "D"],
+        "ability": ["弹"],
+        "morden": false
+      },
+      "贝尔法斯特": {
+        "evaluation": ["A", "A", "C"],
+        "ability": ["防辅"],
+        "morden": false
+      },
+      "小贝法": {
+        "evaluation": ["B", "A", "A"],
+        "ability": ["防", "奶"],
+        "morden": false
+      },
+      "菲尼克斯": {
+        "evaluation": ["B", "S", "D"],
+        "ability": ["炮", "奶", "零"],
+        "morden": false
+      },
+      "埃尔德里奇": {
+        "evaluation": ["C", "S", "S"],
+        "ability": ["奶", "防辅", "弹"],
+        "morden": false
+      },
+      "尼古拉斯": {
+        "evaluation": ["A", "A", "C"],
+        "ability": ["空", "防", "奶", "防辅"],
+        "morden": true
+      },
+      "Z46": {
+        "evaluation": ["A", "A", "D"],
+        "ability": ["弹", "空", "防"],
+        "morden": false
+      },
+      "江风": {
+        "evaluation": ["A", "B", "C"],
+        "ability": ["雷", "伤辅", "弹"],
+        "morden": false
+      },
+      "凯旋": {
+        "evaluation": ["A", "A", "D"],
+        "ability": ["弹"],
+        "morden": false
+      },
+      "滨风": {
+        "evaluation": ["A", "B", "C"],
+        "ability": ["奶", "雷"],
+        "morden": true
+      },
+      "谷风": {
+        "evaluation": ["A", "A", "D"],
+        "ability": ["雷", "伤辅"],
+        "morden": true
+      },
+      "鞍山": {
+        "evaluation": ["A", "A", "B"],
+        "ability": ["伤辅", "防辅"],
+        "morden": false
+      },
+      "长春": {
+        "evaluation": ["A", "A", "B"],
+        "ability": ["伤辅"],
+        "morden": false
+      },
+      "命运女神": {
+        "evaluation": ["B", "A", "A"],
+        "ability": ["防辅", "防"],
+        "morden": true
+      }
+    },
+    "submarine": {
+      "大青花鱼": {
+        "evaluation": ["A", "C", "D"],
+        "ability": [],
+        "morden": false
+      },
+      "絮库夫": {
+        "evaluation": ["A", "C", "C"],
+        "ability": [],
+        "morden": false
+      },
+      "鲦鱼": {
+        "evaluation": ["A", "C", "D"],
+        "ability": [],
+        "morden": false
+      }
+    }
+  },
+  "T3": {
+    "main": {
+      "威尔士亲王": {
+        "evaluation": ["B", "A", "D"],
+        "ability": ["炮"],
+        "morden": false
+      },
+      "厌战": {
+        "evaluation": ["B", "A", "D"],
+        "ability": ["炮"],
+        "morden": false
+      },
+      "沙恩霍斯特": {
+        "evaluation": ["B", "B", "D"],
+        "ability": [],
+        "morden": false
+      },
+      "格奈森瑙": {
+        "evaluation": ["B", "B", "D"],
+        "ability": [],
+        "morden": false
+      },
+      "亚利桑那": {
+        "evaluation": ["B", "B", "A"],
+        "ability": ["奶"],
+        "morden": false
+      },
+      "雾岛": {
+        "evaluation": ["B", "C", "D"],
+        "ability": ["弹"],
+        "morden": false
+      },
+      "敦刻尔克": {
+        "evaluation": ["B", "C", "D"],
+        "ability": ["弹"],
+        "morden": false
+      },
+      "伊势": {
+        "evaluation": ["A", "B", "D"],
+        "ability": ["弹"],
+        "morden": true
+      },
+      "飞龙": {
+        "evaluation": ["B", "B", "C"],
+        "ability": ["伤辅", "弹"],
+        "morden": false
+      },
+      "苍龙": {
+        "evaluation": ["B", "B", "C"],
+        "ability": ["弹", "伤辅"],
+        "morden": false
+      },
+      "大黄蜂": {
+        "evaluation": ["A", "B", "D"],
+        "ability": [],
+        "morden": false
+      },
+      "扶桑": {
+        "evaluation": ["A", "C", "D"],
+        "ability": ["炮", "弹"],
+        "morden": false
+      },
+      "山城": {
+        "evaluation": ["A", "C", "D"],
+        "ability": ["炮", "弹"],
+        "morden": false
+      },
+      "恐怖": {
+        "evaluation": ["B", "D", "D"],
+        "ability": ["弹", "零"],
+        "morden": false
+      },
+      "黑暗界": {
+        "evaluation": ["B", "D", "D"],
+        "ability": ["弹", "零"],
+        "morden": false
+      },
+      "阿贝克隆比": {
+        "evaluation": ["B", "D", "D"],
+        "ability": ["弹", "零"],
+        "morden": false
+      }
+    },
+    "vanguard": {
+      "圣黑之心": {
+        "evaluation": ["B", "B", "D"],
+        "ability": [],
+        "morden": false
+      },
+      "埃克塞特": {
+        "evaluation": ["B", "A", "C"],
+        "ability": ["防辅"],
+        "morden": true
+      },
+      "萨福克": {
+        "evaluation": ["A", "C", "D"],
+        "ability": [],
+        "morden": true
+      },
+      "芝加哥": {
+        "evaluation": ["A", "C", "D"],
+        "ability": ["炮"],
+        "morden": false
+      },
+      "爱丁堡": {
+        "evaluation": ["B", "A", "D"],
+        "ability": ["防"],
+        "morden": false
+      },
+      "圣路易斯": {
+        "evaluation": ["B", "B", "D"],
+        "ability": ["炮", "空"],
+        "morden": false
+      },
+      "谢菲尔德": {
+        "evaluation": ["B", "A", "C"],
+        "ability": ["防辅"],
+        "morden": false
+      },
+      "川内": {
+        "evaluation": ["A", "B", "D"],
+        "ability": ["伤辅"],
+        "morden": true
+      },
+      "阿贾克斯": {
+        "evaluation": ["A", "B", "D"],
+        "ability": [],
+        "morden": true
+      },
+      "阿基里斯": {
+        "evaluation": ["A", "B", "D"],
+        "ability": [],
+        "morden": true
+      },
+      "纽卡斯尔": {
+        "evaluation": ["B", "A", "B"],
+        "ability": ["伤辅"],
+        "morden": true
+      },
+      "利安得": {
+        "evaluation": ["B", "B", "B"],
+        "ability": ["防辅"],
+        "morden": true
+      },
+      "布鲁克林": {
+        "evaluation": ["B", "B", "B"],
+        "ability": ["炮", "伤辅"],
+        "morden": false
+      },
+      "火奴鲁鲁": {
+        "evaluation": ["B", "B", "D"],
+        "ability": ["炮"],
+        "morden": false
+      },
+      "莱比锡": {
+        "evaluation": ["C", "B", "A"],
+        "ability": ["伤辅", "零"],
+        "morden": false
+      },
+      "群白之心": {
+        "evaluation": ["B", "B", "C"],
+        "ability": ["雷"],
+        "morden": false
+      },
+      "夕立": {
+        "evaluation": ["A", "C", "D"],
+        "ability": ["雷", "弹"],
+        "morden": false
+      },
+      "春月": {
+        "evaluation": ["A", "B", "D"],
+        "ability": ["炮"],
+        "morden": false
+      },
+      "阳炎": {
+        "evaluation": ["A", "B", "C"],
+        "ability": ["雷", "伤辅"],
+        "morden": true
+      }
+    },
+    "submarine": {
+      "伊26": {
+        "evaluation": ["A", "B", "D"],
+        "ability": [],
+        "morden": false
+      },
+      "伊58": {
+        "evaluation": ["A", "B", "D"],
+        "ability": [],
+        "morden": false
+      },
+      "U-557": {
+        "evaluation": ["A", "C", "D"],
+        "ability": [],
+        "morden": false
+      }
+    }
+  }
+}

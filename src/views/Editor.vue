@@ -1,10 +1,10 @@
 <template>
   <div v-title="$t('title.main')+$t('title.editor')" class="editor">
     <Builder/>
-    <Card class="tier-card" v-for="tier in Object.keys(rankData)" :key="tier">
-      <p slot="title">{{tier}}</p>
+    <Card :class="`tier-card tier-card-${tier}`" v-for="tier in Object.keys(rankData)" :key="tier">
+      <p class="tier-card-title" slot="title">{{tier}}</p>
       <Card class="type-card" v-for="type in Object.keys(rankData[tier])" :key="type">
-        <p slot="title">{{type}}</p>
+        <p class="type-card-title" slot="title">{{$t('formation.'+type)}}</p>
         <Card class="ship-item" v-for="ship in Object.keys(rankData[tier][type])" :key="ship" :padding="0">
           <div class="ability-container">
             <div class="ability-placeholder" v-if="!rankData[tier][type][ship].ability[0]"/>
@@ -96,9 +96,26 @@ export default {
       margin-bottom: 110px;
     }
   }
+  $tier-list: '0', '1', '2', '3', '4', '5', 'n';
+  @each $tier in $tier-list {
+    .tier-card-T#{$tier} {
+      background: url('../assets/rank_mask.png'),
+        url('../assets/rank_bg#{$tier}.png');
+      background-position: center;
+      background-repeat: repeat, no-repeat;
+      background-size: auto, cover;
+    }
+  }
   .type-card {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
     display: inline-block;
     margin: 5px;
+  }
+  .tier-card-title,
+  .type-card-title {
+    font-size: 18px;
+    text-align: center;
   }
 }
 .ship-item {

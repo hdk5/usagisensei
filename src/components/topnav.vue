@@ -22,12 +22,12 @@
           <menu-item :name="'ship'+rank">{{ $t('topNav.no', { msg: rank }) }}</menu-item>
         </router-link>
       </Submenu>
-      <!-- <router-link to="/editor">
+      <router-link v-if="isProd" to="/editor">
         <menu-item name="editor">
           <Icon type="edit"/>
           编辑器
         </menu-item>
-      </router-link> -->
+      </router-link>
       <p style="float:right; margin-right:20px;">
         <a href="javascript:void(0)" @click="changeLang('CN')">中</a>｜
         <a href="javascript:void(0)" @click="changeLang('en')">EN</a>
@@ -43,7 +43,8 @@ export default {
   name: 'topnav',
   data() {
     return {
-      activeName: this.$route.name
+      activeName: this.$route.name,
+      isProd: process.env.NODE_ENV === 'development'
     }
   },
   methods: {

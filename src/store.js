@@ -19,7 +19,8 @@ export default new Vuex.Store({
     rawLink: {
       29: '575927',
       30: '654007',
-      31: '853229'
+      31: '853229',
+      32: '1298627'
     }
   },
   plugins: [createPersistedState()],
@@ -35,6 +36,7 @@ export default new Vuex.Store({
         case '航母':
         case '轻航':
         case '维修':
+        case '重炮':
           type = 'main'
           break
         case '驱逐':

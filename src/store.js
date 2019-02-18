@@ -31,20 +31,20 @@ export default new Vuex.Store({
       let evaluation = data.evaluation
       let type = data.type
       switch (type) {
-        case '战列':
-        case '战巡':
-        case '航母':
-        case '轻航':
-        case '维修':
-        case '重炮':
+        case 'BB':
+        case 'BC':
+        case 'CV':
+        case 'CVL':
+        case 'AR':
+        case 'BM':
           type = 'main'
           break
-        case '驱逐':
-        case '轻巡':
-        case '重巡':
+        case 'DD':
+        case 'CL':
+        case 'CA':
           type = 'vanguard'
           break
-        case '潜艇':
+        case 'SS':
           type = 'submarine'
           break
       }

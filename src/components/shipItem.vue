@@ -256,16 +256,16 @@ export default {
     width: 70px;
   }
   $shipTypeArray: (
-    '维修': -5px -5px,
-    '潜艇': -40px -5px,
-    '驱逐': -5px -31px,
-    '战列': -40px -31px,
-    '轻巡': -75px -5px,
-    '轻航': -75px -31px,
-    '重巡': -5px -57px,
-    '重炮': -40px -57px,
-    '航母': -75px -57px,
-    '战巡': -40px -31px,
+    'AR': -5px -5px,
+    'SS': -40px -5px,
+    'DD': -5px -31px,
+    'BB': -40px -31px,
+    'CL': -75px -5px,
+    'CVL': -75px -31px,
+    'CA': -5px -57px,
+    'BM': -40px -57px,
+    'CV': -75px -57px,
+    'BC': -40px -31px,
     '航巡': -5px -57px,
     '航战': -40px -31px,
     '雷巡': -75px -5px

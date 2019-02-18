@@ -1,1932 +1,2121 @@
 {
-  "泛用型布里": {
+  "001": {
     "id": "001",
-    "name": "泛用型布里",
+    "name": "Universal Bullin",
     "nationality": "UNIV",
     "type": "DD",
     "rarity": 4
   },
-  "试作型布里MKII": {
+  "002": {
     "id": "002",
-    "name": "试作型布里MKII",
+    "name": "Trial Bullin MKII",
     "nationality": "UNIV",
     "type": "DD",
     "rarity": 5
   },
-  "卡辛": {
-    "id": "003",
-    "name": "卡辛",
+  "005": {
+    "id": "005",
+    "name": "Cassin",
     "nationality": "USS",
     "type": "DD",
     "rarity": 2
   },
-  "唐斯": {
+  "006": {
     "id": "006",
-    "name": "唐斯",
+    "name": "Downes",
     "nationality": "USS",
     "type": "DD",
     "rarity": 2
   },
-  "格里德利": {
+  "007": {
     "id": "007",
-    "name": "格里德利",
+    "name": "Gridley",
     "nationality": "USS",
     "type": "DD",
     "rarity": 3
   },
-  "克雷文": {
+  "008": {
     "id": "008",
-    "name": "克雷文",
+    "name": "Craven",
     "nationality": "USS",
     "type": "DD",
     "rarity": 2
   },
-  "麦考尔": {
+  "009": {
     "id": "009",
-    "name": "麦考尔",
+    "name": "McCall",
     "nationality": "USS",
     "type": "DD",
     "rarity": 2
   },
-  "莫里": {
+  "010": {
     "id": "010",
-    "name": "莫里",
+    "name": "Maury",
     "nationality": "USS",
     "type": "DD",
     "rarity": 4
   },
-  "弗莱彻": {
+  "011": {
     "id": "011",
-    "name": "弗莱彻",
+    "name": "Fletcher",
     "nationality": "USS",
     "type": "DD",
     "rarity": 3
   },
-  "查尔斯·奥斯本": {
+  "013": {
     "id": "013",
-    "name": "查尔斯·奥斯本",
+    "name": "Charles Ausburne",
     "nationality": "USS",
     "type": "DD",
     "rarity": 4
   },
-  "撒切尔": {
+  "014": {
     "id": "014",
-    "name": "撒切尔",
+    "name": "Thatcher",
     "nationality": "USS",
     "type": "DD",
     "rarity": 3
   },
-  "奥利克": {
+  "015": {
     "id": "015",
-    "name": "奥利克",
+    "name": "Aulick",
     "nationality": "USS",
     "type": "DD",
     "rarity": 2
   },
-  "富特": {
+  "016": {
     "id": "016",
-    "name": "富特",
+    "name": "Foote",
     "nationality": "USS",
     "type": "DD",
     "rarity": 2
   },
-  "斯彭斯": {
+  "017": {
     "id": "017",
-    "name": "斯彭斯",
+    "name": "Spence",
     "nationality": "USS",
     "type": "DD",
     "rarity": 2
   },
-  "本森": {
+  "018": {
     "id": "018",
-    "name": "本森",
+    "name": "Benson",
     "nationality": "USS",
     "type": "DD",
     "rarity": 3
   },
-  "拉菲": {
+  "019": {
     "id": "019",
-    "name": "拉菲",
+    "name": "Laffey",
     "nationality": "USS",
     "type": "DD",
     "rarity": 4
   },
-  "西姆斯": {
+  "026": {
     "id": "026",
-    "name": "西姆斯",
+    "name": "Sims",
     "nationality": "USS",
     "type": "DD",
     "rarity": 3
   },
-  "哈曼": {
+  "027": {
     "id": "027",
-    "name": "哈曼",
+    "name": "Hammann",
     "nationality": "USS",
     "type": "DD",
     "rarity": 3
   },
-  "埃尔德里奇": {
+  "028": {
     "id": "028",
-    "name": "埃尔德里奇",
+    "name": "Eldridge",
     "nationality": "USS",
     "type": "DD",
     "rarity": 5
   },
-  "奥马哈": {
+  "029": {
     "id": "029",
-    "name": "奥马哈",
+    "name": "Omaha",
     "nationality": "USS",
     "type": "CL",
     "rarity": 2
   },
-  "罗利": {
+  "030": {
     "id": "030",
-    "name": "罗利",
+    "name": "Raleigh",
     "nationality": "USS",
     "type": "CL",
     "rarity": 2
   },
-  "布鲁克林": {
+  "031": {
     "id": "031",
-    "name": "布鲁克林",
+    "name": "Brooklyn",
     "nationality": "USS",
     "type": "CL",
     "rarity": 3
   },
-  "菲尼克斯": {
+  "032": {
     "id": "032",
-    "name": "菲尼克斯",
+    "name": "Phoenix",
     "nationality": "USS",
     "type": "CL",
     "rarity": 3
   },
-  "海伦娜": {
+  "033": {
     "id": "033",
-    "name": "海伦娜",
+    "name": "Helena",
     "nationality": "USS",
     "type": "CL",
     "rarity": 4
   },
-  "亚特兰大": {
+  "034": {
     "id": "034",
-    "name": "亚特兰大",
+    "name": "Atlanta",
     "nationality": "USS",
     "type": "CL",
     "rarity": 3
   },
-  "朱诺": {
+  "035": {
     "id": "035",
-    "name": "朱诺",
+    "name": "Juneau",
     "nationality": "USS",
     "type": "CL",
     "rarity": 3
   },
-  "圣地亚哥": {
+  "036": {
     "id": "036",
-    "name": "圣地亚哥",
+    "name": "San Diego",
     "nationality": "USS",
     "type": "CL",
     "rarity": 5
   },
-  "克利夫兰": {
+  "037": {
     "id": "037",
-    "name": "克利夫兰",
+    "name": "Cleveland",
     "nationality": "USS",
     "type": "CL",
     "rarity": 4
   },
-  "哥伦比亚": {
+  "038": {
     "id": "038",
-    "name": "哥伦比亚",
+    "name": "Columbia",
     "nationality": "USS",
     "type": "CL",
     "rarity": 4
   },
-  "彭萨科拉": {
+  "039": {
     "id": "039",
-    "name": "彭萨科拉",
+    "name": "Pensacola",
     "nationality": "USS",
     "type": "CA",
     "rarity": 2
   },
-  "盐湖城": {
+  "040": {
     "id": "040",
-    "name": "盐湖城",
+    "name": "Salt Lake City",
     "nationality": "USS",
     "type": "CA",
     "rarity": 2
   },
-  "北安普敦": {
+  "041": {
     "id": "041",
-    "name": "北安普敦",
+    "name": "Northampton",
     "nationality": "USS",
     "type": "CA",
     "rarity": 3
   },
-  "芝加哥": {
+  "042": {
     "id": "042",
-    "name": "芝加哥",
+    "name": "Chicago",
     "nationality": "USS",
     "type": "CA",
     "rarity": 3
   },
-  "休斯敦": {
+  "043": {
     "id": "043",
-    "name": "休斯敦",
+    "name": "Houston",
     "nationality": "USS",
     "type": "CA",
     "rarity": 4
   },
-  "波特兰": {
+  "044": {
     "id": "044",
-    "name": "波特兰",
+    "name": "Portland",
     "nationality": "USS",
     "type": "CA",
     "rarity": 3
   },
-  "印第安纳波利斯": {
+  "045": {
     "id": "045",
-    "name": "印第安纳波利斯",
+    "name": "Indianapolis",
     "nationality": "USS",
     "type": "CA",
     "rarity": 4
   },
-  "阿斯托利亚": {
+  "046": {
     "id": "046",
-    "name": "阿斯托利亚",
+    "name": "Astoria",
     "nationality": "USS",
     "type": "CA",
-    "rarity": 3
+    "rarity": 4
   },
-  "昆西": {
+  "047": {
     "id": "047",
-    "name": "昆西",
+    "name": "Quincy",
     "nationality": "USS",
     "type": "CA",
-    "rarity": 3
+    "rarity": 4
   },
-  "文森斯": {
+  "048": {
     "id": "048",
-    "name": "文森斯",
+    "name": "Vincennes",
     "nationality": "USS",
     "type": "CA",
-    "rarity": 3
+    "rarity": 4
   },
-  "威奇塔": {
+  "049": {
     "id": "049",
-    "name": "威奇塔",
+    "name": "Wichita",
     "nationality": "USS",
     "type": "CA",
     "rarity": 4
   },
-  "内华达": {
+  "052": {
     "id": "052",
-    "name": "内华达",
+    "name": "Nevada",
     "nationality": "USS",
     "type": "BB",
     "rarity": 2
   },
-  "俄克拉荷马": {
+  "053": {
     "id": "053",
-    "name": "俄克拉荷马",
+    "name": "Oklahoma",
     "nationality": "USS",
     "type": "BB",
     "rarity": 2
   },
-  "宾夕法尼亚": {
+  "054": {
     "id": "054",
-    "name": "宾夕法尼亚",
+    "name": "Pennsylvania",
     "nationality": "USS",
     "type": "BB",
     "rarity": 3
   },
-  "亚利桑那": {
+  "055": {
     "id": "055",
-    "name": "亚利桑那",
+    "name": "Arizona",
     "nationality": "USS",
     "type": "BB",
     "rarity": 4
   },
-  "田纳西": {
+  "058": {
     "id": "058",
-    "name": "田纳西",
+    "name": "Tennessee",
     "nationality": "USS",
     "type": "BB",
     "rarity": 3
   },
-  "加利福尼亚": {
+  "059": {
     "id": "059",
-    "name": "加利福尼亚",
+    "name": "California",
     "nationality": "USS",
     "type": "BB",
     "rarity": 3
   },
-  "科罗拉多": {
+  "060": {
     "id": "060",
-    "name": "科罗拉多",
+    "name": "Colorado",
     "nationality": "USS",
     "type": "BB",
     "rarity": 4
   },
-  "马里兰": {
+  "061": {
     "id": "061",
-    "name": "马里兰",
+    "name": "Maryland",
     "nationality": "USS",
     "type": "BB",
     "rarity": 4
   },
-  "西弗吉尼亚": {
+  "062": {
     "id": "062",
-    "name": "西弗吉尼亚",
+    "name": "West Virginia",
     "nationality": "USS",
     "type": "BB",
     "rarity": 4
   },
-  "北卡罗来纳": {
+  "063": {
     "id": "063",
-    "name": "北卡罗来纳",
+    "name": "North Carolina",
     "nationality": "USS",
     "type": "BB",
     "rarity": 5
   },
-  "华盛顿": {
+  "064": {
     "id": "064",
-    "name": "华盛顿",
+    "name": "Washington",
     "nationality": "USS",
     "type": "BB",
     "rarity": 5
   },
-  "南达科他": {
+  "065": {
     "id": "065",
-    "name": "南达科他",
+    "name": "South Dakota",
     "nationality": "USS",
     "type": "BB",
     "rarity": 5
   },
-  "长岛": {
+  "070": {
     "id": "070",
-    "name": "长岛",
+    "name": "Long Island",
     "nationality": "USS",
     "type": "CVL",
     "rarity": 3
   },
-  "博格": {
+  "071": {
     "id": "071",
-    "name": "博格",
+    "name": "Bogue",
     "nationality": "USS",
     "type": "CVL",
     "rarity": 2
   },
-  "兰利": {
+  "072": {
     "id": "072",
-    "name": "兰利",
+    "name": "Langley",
     "nationality": "USS",
     "type": "CVL",
     "rarity": 2
   },
-  "列克星敦": {
+  "073": {
     "id": "073",
-    "name": "列克星敦",
+    "name": "Lexington",
     "nationality": "USS",
     "type": "CV",
     "rarity": 4
   },
-  "萨拉托加": {
+  "074": {
     "id": "074",
-    "name": "萨拉托加",
+    "name": "Saratoga",
     "nationality": "USS",
     "type": "CV",
     "rarity": 4
   },
-  "突击者": {
+  "075": {
     "id": "075",
-    "name": "突击者",
+    "name": "Ranger",
     "nationality": "USS",
     "type": "CVL",
     "rarity": 2
   },
-  "约克城": {
+  "076": {
     "id": "076",
-    "name": "约克城",
+    "name": "Yorktown",
     "nationality": "USS",
     "type": "CV",
     "rarity": 4
   },
-  "企业": {
+  "077": {
     "id": "077",
-    "name": "企业",
+    "name": "Enterprise",
     "nationality": "USS",
     "type": "CV",
     "rarity": 5
   },
-  "大黄蜂": {
+  "078": {
     "id": "078",
-    "name": "大黄蜂",
+    "name": "Hornet",
     "nationality": "USS",
     "type": "CV",
     "rarity": 4
   },
-  "胡蜂": {
+  "079": {
     "id": "079",
-    "name": "胡蜂",
+    "name": "Wasp",
     "nationality": "USS",
     "type": "CV",
     "rarity": 3
   },
-  "女灶神": {
+  "080": {
     "id": "080",
-    "name": "女灶神",
+    "name": "Vestal",
     "nationality": "USS",
     "type": "AR",
     "rarity": 4
   },
-  "女将": {
+  "081": {
     "id": "081",
-    "name": "女将",
+    "name": "Amazon",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 3
   },
-  "阿卡司塔": {
+  "082": {
     "id": "082",
-    "name": "阿卡司塔",
+    "name": "Acasta",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 3
   },
-  "热心": {
+  "083": {
     "id": "083",
-    "name": "热心",
+    "name": "Ardent",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 3
   },
-  "小猎兔犬": {
+  "086": {
     "id": "086",
-    "name": "小猎兔犬",
+    "name": "Beagle",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 2
   },
-  "大斗犬": {
+  "087": {
     "id": "087",
-    "name": "大斗犬",
+    "name": "Bulldog",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 2
   },
-  "彗星": {
+  "088": {
     "id": "088",
-    "name": "彗星",
+    "name": "Comet",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 2
   },
-  "新月": {
+  "089": {
     "id": "089",
-    "name": "新月",
+    "name": "Crescent",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 2
   },
-  "小天鹅": {
+  "090": {
     "id": "090",
-    "name": "小天鹅",
+    "name": "Cygnet",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 2
   },
-  "狐提": {
+  "091": {
     "id": "091",
-    "name": "狐提",
+    "name": "Foxhound",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 2
   },
-  "命运女神": {
+  "092": {
     "id": "092",
-    "name": "命运女神",
+    "name": "Fortune",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 3
   },
-  "萤火虫": {
+  "093": {
+    "id": "093",
+    "name": "Grenville",
+    "nationality": "HMS",
+    "type": "DD",
+    "rarity": 4
+  },
+  "094": {
     "id": "094",
-    "name": "萤火虫",
+    "name": "Glowworm",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 4
   },
-  "标枪": {
+  "101": {
     "id": "101",
-    "name": "标枪",
+    "name": "Javelin",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 4
   },
-  "天后": {
+  "102": {
     "id": "102",
-    "name": "天后",
+    "name": "Juno",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 3
   },
-  "吸血鬼": {
+  "103": {
     "id": "103",
-    "name": "吸血鬼",
+    "name": "Vampire",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 4
   },
-  "利安得": {
+  "104": {
     "id": "104",
-    "name": "利安得",
+    "name": "Leander",
     "nationality": "HMS",
     "type": "CL",
     "rarity": 2
   },
-  "阿基里斯": {
+  "105": {
     "id": "105",
-    "name": "阿基里斯",
+    "name": "Achilles",
     "nationality": "HMS",
     "type": "CL",
     "rarity": 3
   },
-  "阿贾克斯": {
+  "106": {
     "id": "106",
-    "name": "阿贾克斯",
+    "name": "Ajax",
     "nationality": "HMS",
     "type": "CL",
     "rarity": 3
   },
-  "谢菲尔德": {
+  "111": {
     "id": "111",
-    "name": "谢菲尔德",
+    "name": "Sheffield",
     "nationality": "HMS",
     "type": "CL",
     "rarity": 4
   },
-  "爱丁堡": {
+  "114": {
     "id": "114",
-    "name": "爱丁堡",
+    "name": "Edinburgh",
     "nationality": "HMS",
     "type": "CL",
     "rarity": 4
   },
-  "贝尔法斯特": {
+  "115": {
     "id": "115",
-    "name": "贝尔法斯特",
+    "name": "Belfast",
     "nationality": "HMS",
     "type": "CL",
     "rarity": 5
   },
-  "阿瑞托莎": {
+  "116": {
     "id": "116",
-    "name": "阿瑞托莎",
+    "name": "Arethusa",
     "nationality": "HMS",
     "type": "CL",
     "rarity": 3
   },
-  "加拉蒂亚": {
+  "117": {
     "id": "117",
-    "name": "加拉蒂亚",
+    "name": "Galatea",
     "nationality": "HMS",
     "type": "CL",
     "rarity": 3
   },
-  "欧若拉": {
+  "118": {
     "id": "118",
-    "name": "欧若拉",
+    "name": "Aurora",
     "nationality": "HMS",
     "type": "CL",
     "rarity": 4
   },
-  "伦敦": {
+  "119": {
     "id": "119",
-    "name": "伦敦",
+    "name": "London",
     "nationality": "HMS",
     "type": "CA",
     "rarity": 4
   },
-  "什罗普郡": {
+  "120": {
     "id": "120",
-    "name": "什罗普郡",
+    "name": "Shropshire",
     "nationality": "HMS",
     "type": "CA",
     "rarity": 3
   },
-  "肯特": {
+  "121": {
     "id": "121",
-    "name": "肯特",
+    "name": "Kent",
     "nationality": "HMS",
     "type": "CA",
     "rarity": 3
   },
-  "萨福克": {
+  "122": {
     "id": "122",
-    "name": "萨福克",
+    "name": "Suffolk",
     "nationality": "HMS",
     "type": "CA",
     "rarity": 3
   },
-  "诺福克": {
+  "123": {
     "id": "123",
-    "name": "诺福克",
+    "name": "Norfolk",
     "nationality": "HMS",
     "type": "CA",
     "rarity": 3
   },
-  "多塞特郡": {
+  "124": {
     "id": "124",
-    "name": "多塞特郡",
+    "name": "Dorsetshire",
     "nationality": "HMS",
     "type": "CA",
     "rarity": 4
   },
-  "约克": {
+  "125": {
     "id": "125",
-    "name": "约克",
+    "name": "York",
     "nationality": "HMS",
     "type": "CA",
     "rarity": 4
   },
-  "埃克塞特": {
+  "126": {
     "id": "126",
-    "name": "埃克塞特",
+    "name": "Exeter",
     "nationality": "HMS",
     "type": "CA",
     "rarity": 4
   },
-  "声望": {
+  "127": {
     "id": "127",
-    "name": "声望",
+    "name": "Renown",
     "nationality": "HMS",
     "type": "BC",
     "rarity": 4
   },
-  "反击": {
+  "128": {
     "id": "128",
-    "name": "反击",
+    "name": "Repulse",
     "nationality": "HMS",
     "type": "BC",
     "rarity": 3
   },
-  "胡德": {
+  "129": {
     "id": "129",
-    "name": "胡德",
+    "name": "Hood",
     "nationality": "HMS",
     "type": "BC",
     "rarity": 5
   },
-  "伊丽莎白女王": {
+  "130": {
     "id": "130",
-    "name": "伊丽莎白女王",
+    "name": "Queen Elizabeth",
     "nationality": "HMS",
     "type": "BB",
     "rarity": 4
   },
-  "厌战": {
+  "131": {
     "id": "131",
-    "name": "厌战",
+    "name": "Warspite",
     "nationality": "HMS",
     "type": "BB",
     "rarity": 5
   },
-  "纳尔逊": {
+  "132": {
     "id": "132",
-    "name": "纳尔逊",
+    "name": "Nelson",
     "nationality": "HMS",
     "type": "BB",
     "rarity": 4
   },
-  "罗德尼": {
+  "133": {
     "id": "133",
-    "name": "罗德尼",
+    "name": "Rodney",
     "nationality": "HMS",
     "type": "BB",
     "rarity": 4
   },
-  "威尔士亲王": {
+  "135": {
     "id": "135",
-    "name": "威尔士亲王",
+    "name": "Prince of Wales",
     "nationality": "HMS",
     "type": "BB",
     "rarity": 5
   },
-  "约克公爵": {
+  "136": {
     "id": "136",
-    "name": "约克公爵",
+    "name": "Duke of York",
     "nationality": "HMS",
     "type": "BB",
     "rarity": 5
   },
-  "竞技神": {
+  "140": {
     "id": "140",
-    "name": "竞技神",
+    "name": "Hermes",
     "nationality": "HMS",
     "type": "CVL",
     "rarity": 2
   },
-  "独角兽": {
+  "142": {
     "id": "142",
-    "name": "独角兽",
+    "name": "Unicorn",
     "nationality": "HMS",
     "type": "CVL",
     "rarity": 4
   },
-  "HMS方舟": {
+  "144": {
     "id": "144",
-    "name": "HMS方舟",
+    "name": "Ark Royal",
     "nationality": "HMS",
     "type": "CV",
     "rarity": 4
   },
-  "光辉": {
+  "145": {
     "id": "145",
-    "name": "光辉",
+    "name": "Illustrious",
     "nationality": "HMS",
     "type": "CV",
     "rarity": 5
   },
-  "胜利": {
+  "146": {
     "id": "146",
-    "name": "胜利",
+    "name": "Victorious",
     "nationality": "HMS",
     "type": "CV",
     "rarity": 5
   },
-  "光荣": {
+  "148": {
     "id": "148",
-    "name": "光荣",
+    "name": "Glorious",
     "nationality": "HMS",
     "type": "CV",
     "rarity": 4
   },
-  "黑暗界": {
+  "149": {
     "id": "149",
-    "name": "黑暗界",
+    "name": "Erebus",
     "nationality": "HMS",
     "type": "BM",
     "rarity": 4
   },
-  "恐怖": {
+  "150": {
     "id": "150",
-    "name": "恐怖",
+    "name": "Terror",
     "nationality": "HMS",
     "type": "BM",
     "rarity": 4
   },
-  "吹雪": {
+  "151": {
     "id": "151",
-    "name": "吹雪",
+    "name": "Fubuki",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 4
   },
-  "绫波": {
+  "155": {
     "id": "155",
-    "name": "绫波",
+    "name": "Ayanami",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 4
   },
-  "晓": {
+  "159": {
     "id": "159",
-    "name": "晓",
+    "name": "Akatsuki",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "雷": {
+  "161": {
     "id": "161",
-    "name": "雷",
+    "name": "Ikazuchi",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "电": {
+  "162": {
     "id": "162",
-    "name": "电",
+    "name": "Inazuma",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "白露": {
+  "163": {
     "id": "163",
-    "name": "白露",
+    "name": "Shiratsuyu",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "夕立": {
+  "164": {
     "id": "164",
-    "name": "夕立",
+    "name": "Yuudachi",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 5
   },
-  "时雨": {
+  "165": {
     "id": "165",
-    "name": "时雨",
+    "name": "Shigure",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 4
   },
-  "雪风": {
+  "166": {
     "id": "166",
-    "name": "雪风",
+    "name": "Yukikaze",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 5
   },
-  "阳炎": {
+  "167": {
     "id": "167",
-    "name": "阳炎",
+    "name": "Kagerou",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "不知火": {
+  "168": {
     "id": "168",
-    "name": "不知火",
+    "name": "Shiranui",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 2
   },
-  "野分": {
+  "170": {
     "id": "170",
-    "name": "野分",
+    "name": "Nowaki",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 4
   },
-  "初春": {
+  "171": {
     "id": "171",
-    "name": "初春",
+    "name": "Hatsuharu",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "若叶": {
+  "173": {
     "id": "173",
-    "name": "若叶",
+    "name": "Wakaba",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "初霜": {
+  "174": {
     "id": "174",
-    "name": "初霜",
+    "name": "Hatsushimo",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "有明": {
+  "175": {
     "id": "175",
-    "name": "有明",
+    "name": "Ariake",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "夕暮": {
+  "176": {
     "id": "176",
-    "name": "夕暮",
+    "name": "Yuugure",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "黑潮": {
+  "177": {
     "id": "177",
-    "name": "黑潮",
+    "name": "Kuroshio",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "亲潮": {
+  "178": {
     "id": "178",
-    "name": "亲潮",
+    "name": "Oyashio",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "夕张": {
+  "179": {
     "id": "179",
-    "name": "夕张",
+    "name": "Yuubari",
     "nationality": "IJN",
     "type": "CL",
     "rarity": 4
   },
-  "长良": {
+  "182": {
     "id": "182",
-    "name": "长良",
+    "name": "Nagara",
     "nationality": "IJN",
     "type": "CL",
     "rarity": 2
   },
-  "五十铃": {
+  "183": {
     "id": "183",
-    "name": "五十铃",
+    "name": "Isuzu",
     "nationality": "IJN",
     "type": "CL",
     "rarity": 3
   },
-  "阿武隈": {
+  "187": {
     "id": "187",
-    "name": "阿武隈",
+    "name": "Abukuma",
     "nationality": "IJN",
     "type": "CL",
     "rarity": 2
   },
-  "最上": {
+  "188": {
     "id": "188",
-    "name": "最上",
+    "name": "Mogami",
     "nationality": "IJN",
     "type": "CL",
     "rarity": 4
   },
-  "三隈": {
+  "189": {
     "id": "189",
-    "name": "三隈",
+    "name": "Mikuma",
     "nationality": "IJN",
     "type": "CL",
     "rarity": 4
   },
-  "古鹰": {
+  "190": {
     "id": "190",
-    "name": "古鹰",
+    "name": "Furutaka",
     "nationality": "IJN",
     "type": "CA",
     "rarity": 2
   },
-  "加古": {
+  "191": {
     "id": "191",
-    "name": "加古",
+    "name": "Kako",
     "nationality": "IJN",
     "type": "CA",
     "rarity": 2
   },
-  "青叶": {
+  "192": {
     "id": "192",
-    "name": "青叶",
+    "name": "Aoba",
     "nationality": "IJN",
     "type": "CA",
     "rarity": 2
   },
-  "衣笠": {
+  "193": {
     "id": "193",
-    "name": "衣笠",
+    "name": "Kinugasa",
     "nationality": "IJN",
     "type": "CA",
     "rarity": 2
   },
-  "妙高": {
+  "196": {
     "id": "196",
-    "name": "妙高",
+    "name": "Myoukou",
     "nationality": "IJN",
     "type": "CA",
     "rarity": 3
   },
-  "那智": {
+  "197": {
     "id": "197",
-    "name": "那智",
+    "name": "Nachi",
     "nationality": "IJN",
     "type": "CA",
     "rarity": 3
   },
-  "高雄": {
+  "198": {
+    "id": "198",
+    "name": "Ashigara",
+    "nationality": "IJN",
+    "type": "CA",
+    "rarity": 4
+  },
+  "200": {
     "id": "200",
-    "name": "高雄",
+    "name": "Takao",
     "nationality": "IJN",
     "type": "CA",
     "rarity": 5
   },
-  "爱宕": {
+  "201": {
     "id": "201",
-    "name": "爱宕",
+    "name": "Atago",
     "nationality": "IJN",
     "type": "CA",
     "rarity": 5
   },
-  "摩耶": {
+  "202": {
     "id": "202",
-    "name": "摩耶",
+    "name": "Maya",
     "nationality": "IJN",
     "type": "CA",
     "rarity": 5
   },
-  "鸟海": {
+  "203": {
     "id": "203",
-    "name": "鸟海",
+    "name": "Choukai",
     "nationality": "IJN",
     "type": "CA",
     "rarity": 5
   },
-  "金刚": {
+  "204": {
     "id": "204",
-    "name": "金刚",
+    "name": "Kongou",
     "nationality": "IJN",
     "type": "BC",
     "rarity": 4
   },
-  "比叡": {
+  "205": {
     "id": "205",
-    "name": "比叡",
+    "name": "Hiei",
     "nationality": "IJN",
     "type": "BC",
     "rarity": 4
   },
-  "榛名": {
+  "206": {
     "id": "206",
-    "name": "榛名",
+    "name": "Haruna",
     "nationality": "IJN",
     "type": "BC",
     "rarity": 4
   },
-  "雾岛": {
+  "207": {
     "id": "207",
-    "name": "雾岛",
+    "name": "Kirishima",
     "nationality": "IJN",
     "type": "BC",
     "rarity": 4
   },
-  "扶桑": {
+  "208": {
     "id": "208",
-    "name": "扶桑",
+    "name": "Fusou",
     "nationality": "IJN",
     "type": "BB",
     "rarity": 3
   },
-  "山城": {
+  "209": {
     "id": "209",
-    "name": "山城",
+    "name": "Yamashiro",
     "nationality": "IJN",
     "type": "BB",
     "rarity": 3
   },
-  "伊势": {
+  "210": {
     "id": "210",
-    "name": "伊势",
+    "name": "Ise",
     "nationality": "IJN",
     "type": "BB",
     "rarity": 3
   },
-  "日向": {
+  "211": {
     "id": "211",
-    "name": "日向",
+    "name": "Hyuuga",
     "nationality": "IJN",
     "type": "BB",
     "rarity": 3
   },
-  "长门": {
+  "212": {
     "id": "212",
-    "name": "长门",
+    "name": "Nagato",
     "nationality": "IJN",
     "type": "BB",
     "rarity": 5
   },
-  "陆奥": {
+  "213": {
     "id": "213",
-    "name": "陆奥",
+    "name": "Mutsu",
     "nationality": "IJN",
     "type": "BB",
     "rarity": 4
   },
-  "飞鹰": {
+  "218": {
     "id": "218",
-    "name": "飞鹰",
+    "name": "Hiyou",
     "nationality": "IJN",
     "type": "CVL",
     "rarity": 3
   },
-  "隼鹰": {
+  "219": {
     "id": "219",
-    "name": "隼鹰",
+    "name": "Junyou",
     "nationality": "IJN",
     "type": "CVL",
     "rarity": 3
   },
-  "凤翔": {
+  "220": {
     "id": "220",
-    "name": "凤翔",
+    "name": "Houshou",
     "nationality": "IJN",
     "type": "CVL",
     "rarity": 4
   },
-  "祥凤": {
+  "222": {
     "id": "222",
-    "name": "祥凤",
+    "name": "Shouhou",
     "nationality": "IJN",
     "type": "CVL",
     "rarity": 3
   },
-  "赤城": {
+  "223": {
+    "id": "223",
+    "name": "Ryuujou",
+    "nationality": "IJN",
+    "type": "CVL",
+    "rarity": 4
+  },
+  "224": {
     "id": "224",
-    "name": "赤城",
+    "name": "Akagi",
     "nationality": "IJN",
     "type": "CV",
     "rarity": 5
   },
-  "加贺": {
+  "225": {
     "id": "225",
-    "name": "加贺",
+    "name": "Kaga",
     "nationality": "IJN",
     "type": "CV",
     "rarity": 5
   },
-  "苍龙": {
+  "226": {
     "id": "226",
-    "name": "苍龙",
+    "name": "Souryuu",
     "nationality": "IJN",
     "type": "CV",
     "rarity": 4
   },
-  "飞龙": {
+  "227": {
     "id": "227",
-    "name": "飞龙",
+    "name": "Hiryuu",
     "nationality": "IJN",
     "type": "CV",
     "rarity": 4
   },
-  "翔鹤": {
+  "228": {
     "id": "228",
-    "name": "翔鹤",
+    "name": "Shoukaku",
     "nationality": "IJN",
     "type": "CV",
     "rarity": 5
   },
-  "瑞鹤": {
+  "229": {
     "id": "229",
-    "name": "瑞鹤",
+    "name": "Zuikaku",
     "nationality": "IJN",
     "type": "CV",
     "rarity": 5
   },
-  "大凤": {
+  "230": {
     "id": "230",
-    "name": "大凤",
+    "name": "Taihou",
     "nationality": "IJN",
     "type": "CV",
     "rarity": 5
   },
-  "明石": {
+  "232": {
     "id": "232",
-    "name": "明石",
+    "name": "Akashi",
     "nationality": "IJN",
     "type": "AR",
     "rarity": 5
   },
-  "Z1": {
+  "233": {
     "id": "233",
     "name": "Z1",
     "nationality": "KMS",
     "type": "DD",
     "rarity": 4
   },
-  "Z23": {
+  "236": {
     "id": "236",
     "name": "Z23",
     "nationality": "KMS",
     "type": "DD",
     "rarity": 4
   },
-  "Z25": {
+  "237": {
     "id": "237",
     "name": "Z25",
     "nationality": "KMS",
     "type": "DD",
     "rarity": 4
   },
-  "柯尼斯堡": {
+  "238": {
     "id": "238",
-    "name": "柯尼斯堡",
+    "name": "Königsberg",
     "nationality": "KMS",
     "type": "CL",
     "rarity": 2
   },
-  "卡尔斯鲁厄": {
+  "239": {
     "id": "239",
-    "name": "卡尔斯鲁厄",
+    "name": "Karlsruhe",
     "nationality": "KMS",
     "type": "CL",
     "rarity": 2
   },
-  "科隆": {
+  "240": {
     "id": "240",
-    "name": "科隆",
+    "name": "Köln",
     "nationality": "KMS",
     "type": "CL",
     "rarity": 2
   },
-  "莱比锡": {
+  "241": {
     "id": "241",
-    "name": "莱比锡",
+    "name": "Leipzig",
     "nationality": "KMS",
     "type": "CL",
     "rarity": 3
   },
-  "希佩尔海军上将": {
+  "242": {
     "id": "242",
-    "name": "希佩尔海军上将",
+    "name": "Admiral Hipper",
     "nationality": "KMS",
     "type": "CA",
     "rarity": 4
   },
-  "欧根亲王": {
+  "244": {
     "id": "244",
-    "name": "欧根亲王",
+    "name": "Prinz Eugen",
     "nationality": "KMS",
     "type": "CA",
     "rarity": 5
   },
-  "德意志": {
+  "245": {
     "id": "245",
-    "name": "德意志",
+    "name": "Deutschland",
     "nationality": "KMS",
     "type": "CA",
     "rarity": 4
   },
-  "斯佩伯爵海军上将": {
+  "246": {
     "id": "246",
-    "name": "斯佩伯爵海军上将",
+    "name": "Admiral Graf Spee",
     "nationality": "KMS",
     "type": "CA",
     "rarity": 4
   },
-  "沙恩霍斯特": {
+  "248": {
     "id": "248",
-    "name": "沙恩霍斯特",
+    "name": "Scharnhorst",
     "nationality": "KMS",
     "type": "BC",
     "rarity": 4
   },
-  "格奈森瑙": {
+  "249": {
     "id": "249",
-    "name": "格奈森瑙",
+    "name": "Gneisenau",
     "nationality": "KMS",
     "type": "BC",
     "rarity": 4
   },
-  "提尔比茨": {
+  "251": {
     "id": "251",
-    "name": "提尔比茨",
+    "name": "Tirpitz",
     "nationality": "KMS",
     "type": "BB",
     "rarity": 5
   },
-  "齐柏林伯爵": {
+  "252": {
     "id": "252",
-    "name": "齐柏林伯爵",
+    "name": "Graf Zeppelin",
     "nationality": "KMS",
     "type": "CV",
     "rarity": 5
   },
-  "鞍山": {
+  "253": {
     "id": "253",
-    "name": "鞍山",
+    "name": "An Shan",
     "nationality": "ROC",
     "type": "DD",
     "rarity": 4
   },
-  "抚顺": {
+  "254": {
     "id": "254",
-    "name": "抚顺",
+    "name": "Fu Shun",
     "nationality": "ROC",
     "type": "DD",
     "rarity": 4
   },
-  "长春": {
+  "255": {
     "id": "255",
-    "name": "长春",
+    "name": "Chang Chun",
     "nationality": "ROC",
     "type": "DD",
     "rarity": 4
   },
-  "太原": {
+  "256": {
     "id": "256",
-    "name": "太原",
+    "name": "Tai Yuan",
     "nationality": "ROC",
     "type": "DD",
     "rarity": 4
   },
-  "逸仙": {
+  "257": {
     "id": "257",
-    "name": "逸仙",
+    "name": "Yat Sen",
     "nationality": "ROC",
     "type": "CL",
     "rarity": 4
   },
-  "宁海": {
+  "258": {
     "id": "258",
-    "name": "宁海",
+    "name": "Ning Hai",
     "nationality": "ROC",
     "type": "CL",
     "rarity": 4
   },
-  "平海": {
+  "259": {
     "id": "259",
-    "name": "平海",
+    "name": "Ping Hai",
     "nationality": "ROC",
     "type": "CL",
     "rarity": 4
   },
-  "阿芙乐尔": {
+  "262": {
     "id": "262",
-    "name": "阿芙乐尔",
+    "name": "Avrora",
     "nationality": "SN",
     "type": "CL",
     "rarity": 5
   },
-  "贝利": {
+  "263": {
     "id": "263",
-    "name": "贝利",
+    "name": "Bailey",
     "nationality": "USS",
     "type": "DD",
     "rarity": 3
   },
-  "Z19": {
+  "264": {
     "id": "264",
     "name": "Z19",
     "nationality": "KMS",
     "type": "DD",
     "rarity": 3
   },
-  "Z20": {
+  "265": {
     "id": "265",
     "name": "Z20",
     "nationality": "KMS",
     "type": "DD",
     "rarity": 2
   },
-  "Z21": {
+  "266": {
     "id": "266",
     "name": "Z21",
     "nationality": "KMS",
     "type": "DD",
     "rarity": 2
   },
-  "Z46": {
+  "267": {
     "id": "267",
     "name": "Z46",
     "nationality": "KMS",
     "type": "DD",
     "rarity": 5
   },
-  "神风": {
+  "269": {
     "id": "269",
-    "name": "神风",
+    "name": "Kamikaze",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "松风": {
+  "270": {
     "id": "270",
-    "name": "松风",
+    "name": "Matsukaze",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "睦月": {
+  "271": {
     "id": "271",
-    "name": "睦月",
+    "name": "Mutsuki",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 2
   },
-  "如月": {
+  "272": {
     "id": "272",
-    "name": "如月",
+    "name": "Kisaragi",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 2
   },
-  "卯月": {
+  "274": {
     "id": "274",
-    "name": "卯月",
+    "name": "Uzuki",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 2
   },
-  "水无月": {
+  "276": {
     "id": "276",
-    "name": "水无月",
+    "name": "Minazuki",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 2
   },
-  "文月": {
+  "277": {
     "id": "277",
-    "name": "文月",
+    "name": "Fumizuki",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "三日月": {
+  "278": {
+    "id": "278",
+    "name": "Nagatsuki",
+    "nationality": "IJN",
+    "type": "DD",
+    "rarity": 3
+  },
+  "280": {
     "id": "280",
-    "name": "三日月",
+    "name": "Mikazuki",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 2
   },
-  "江风": {
+  "288": {
     "id": "288",
-    "name": "江风",
+    "name": "Kawakaze",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 5
   },
-  "新月JP": {
+  "295": {
     "id": "295",
-    "name": "新月JP",
+    "name": "Niizuki",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 4
   },
-  "春月": {
+  "296": {
     "id": "296",
-    "name": "春月",
+    "name": "Harutsuki",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 4
   },
-  "宵月": {
+  "297": {
     "id": "297",
-    "name": "宵月",
+    "name": "Yoizuki",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 4
   },
-  "拉德福特": {
+  "299": {
     "id": "299",
-    "name": "拉德福特",
+    "name": "Radford",
     "nationality": "USS",
     "type": "DD",
     "rarity": 3
   },
-  "杰金斯": {
+  "300": {
     "id": "300",
-    "name": "杰金斯",
+    "name": "Jenkins",
     "nationality": "USS",
     "type": "DD",
     "rarity": 3
   },
-  "尼古拉斯": {
+  "301": {
     "id": "301",
-    "name": "尼古拉斯",
+    "name": "Nicholas",
     "nationality": "USS",
     "type": "DD",
     "rarity": 4
   },
-  "里士满": {
+  "303": {
     "id": "303",
-    "name": "里士满",
+    "name": "Richmond",
     "nationality": "USS",
     "type": "CL",
     "rarity": 2
   },
-  "火奴鲁鲁": {
+  "304": {
     "id": "304",
-    "name": "火奴鲁鲁",
+    "name": "Honolulu",
     "nationality": "USS",
     "type": "CL",
     "rarity": 3
   },
-  "圣路易斯": {
+  "305": {
     "id": "305",
-    "name": "圣路易斯",
+    "name": "St. Louis",
     "nationality": "USS",
     "type": "CL",
     "rarity": 4
   },
-  "丘比特": {
+  "306": {
     "id": "306",
-    "name": "丘比特",
+    "name": "Jupiter",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 3
   },
-  "泽西": {
+  "307": {
     "id": "307",
-    "name": "泽西",
+    "name": "Jersey",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 3
   },
-  "川内": {
+  "308": {
     "id": "308",
-    "name": "川内",
+    "name": "Sendai",
     "nationality": "IJN",
     "type": "CL",
     "rarity": 3
   },
-  "神通": {
+  "309": {
     "id": "309",
-    "name": "神通",
+    "name": "Jintsuu",
     "nationality": "IJN",
     "type": "CL",
     "rarity": 4
   },
-  "浦风": {
+  "310": {
+    "id": "310",
+    "name": "Naka",
+    "nationality": "IJN",
+    "type": "CL",
+    "rarity": 3
+  },
+  "316": {
     "id": "316",
-    "name": "浦风",
+    "name": "Urakaze",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "矶风": {
+  "317": {
     "id": "317",
-    "name": "矶风",
+    "name": "Isokaze",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "滨风": {
+  "318": {
     "id": "318",
-    "name": "滨风",
+    "name": "Hamakaze",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "谷风": {
+  "319": {
     "id": "319",
-    "name": "谷风",
+    "name": "Tanikaze",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "三笠": {
+  "320": {
     "id": "320",
-    "name": "三笠",
+    "name": "Mikasa",
     "nationality": "IJN",
     "type": "BB",
     "rarity": 5
   },
-  "阿贺野": {
+  "321": {
     "id": "321",
-    "name": "阿贺野",
+    "name": "Agano",
     "nationality": "IJN",
     "type": "CL",
     "rarity": 4
   },
-  "无敌": {
+  "325": {
     "id": "325",
-    "name": "无敌",
+    "name": "Matchless",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 4
   },
-  "火枪手": {
+  "326": {
     "id": "326",
-    "name": "火枪手",
+    "name": "Musketeer",
     "nationality": "HMS",
     "type": "DD",
     "rarity": 4
   },
-  "斐济": {
+  "327": {
     "id": "327",
-    "name": "斐济",
+    "name": "Fiji",
     "nationality": "HMS",
     "type": "CL",
     "rarity": 3
   },
-  "牙买加": {
+  "328": {
     "id": "328",
-    "name": "牙买加",
+    "name": "Jamaica",
     "nationality": "HMS",
     "type": "CL",
     "rarity": 3
   },
-  "蒙彼利埃": {
+  "329": {
     "id": "329",
-    "name": "蒙彼利埃",
+    "name": "Montpelier",
     "nationality": "USS",
     "type": "CL",
     "rarity": 5
   },
-  "丹佛": {
+  "330": {
     "id": "330",
-    "name": "丹佛",
+    "name": "Denver",
     "nationality": "USS",
     "type": "CL",
     "rarity": 4
   },
-  "朝潮": {
+  "331": {
     "id": "331",
-    "name": "朝潮",
+    "name": "Asashio",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "大潮": {
+  "332": {
     "id": "332",
-    "name": "大潮",
+    "name": "Ooshio",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "满潮": {
+  "333": {
     "id": "333",
-    "name": "满潮",
+    "name": "Michishio",
     "nationality": "IJN",
     "type": "DD",
     "rarity": 3
   },
-  "小贝法": {
+  "334": {
+    "id": "334",
+    "name": "Arashio",
+    "nationality": "IJN",
+    "type": "DD",
+    "rarity": 3
+  },
+  "335": {
     "id": "335",
-    "name": "小贝法",
+    "name": "Belchan",
     "nationality": "HMS",
     "type": "CL",
     "rarity": 4
   },
-  "阿贝克隆比": {
+  "336": {
     "id": "336",
-    "name": "阿贝克隆比",
+    "name": "Abercrombie",
     "nationality": "HMS",
     "type": "BM",
     "rarity": 4
   },
-  "苏塞克斯": {
+  "337": {
     "id": "337",
-    "name": "苏塞克斯",
+    "name": "Sussex",
     "nationality": "HMS",
     "type": "CA",
     "rarity": 3
   },
-  "伊19": {
+  "338": {
     "id": "338",
-    "name": "伊19",
+    "name": "I-19",
     "nationality": "IJN",
     "type": "SS",
     "rarity": 5
   },
-  "伊26": {
+  "339": {
     "id": "339",
-    "name": "伊26",
+    "name": "I-26",
     "nationality": "IJN",
     "type": "SS",
     "rarity": 4
   },
-  "伊58": {
+  "340": {
     "id": "340",
-    "name": "伊58",
+    "name": "I-58",
     "nationality": "IJN",
     "type": "SS",
     "rarity": 4
   },
-  "U-81": {
+  "341": {
     "id": "341",
     "name": "U-81",
     "nationality": "KMS",
     "type": "SS",
     "rarity": 5
   },
-  "鲦鱼": {
+  "342": {
     "id": "342",
-    "name": "鲦鱼",
+    "name": "Dace",
     "nationality": "USS",
     "type": "SS",
     "rarity": 4
   },
-  "U-47": {
+  "343": {
     "id": "343",
     "name": "U-47",
     "nationality": "KMS",
     "type": "SS",
     "rarity": 5
   },
-  "U-557": {
+  "344": {
     "id": "344",
     "name": "U-557",
     "nationality": "KMS",
     "type": "SS",
     "rarity": 4
   },
-  "Z35": {
+  "345": {
     "id": "345",
     "name": "Z35",
     "nationality": "KMS",
     "type": "DD",
     "rarity": 4
   },
-  "Z18": {
+  "346": {
     "id": "346",
     "name": "Z18",
     "nationality": "KMS",
     "type": "DD",
-    "rarity": 2
+    "rarity": 3
   },
-  "凯旋": {
+  "347": {
     "id": "347",
-    "name": "凯旋",
+    "name": "Le Triomphant",
     "nationality": "FFNF",
     "type": "DD",
-    "rarity": 4
+    "rarity": 5
   },
-  "福尔班": {
+  "348": {
     "id": "348",
-    "name": "福尔班",
+    "name": "Forbin",
     "nationality": "FFNF",
     "type": "DD",
-    "rarity": 2
+    "rarity": 3
   },
-  "埃米尔·贝尔汀": {
+  "349": {
     "id": "349",
-    "name": "埃米尔·贝尔汀",
+    "name": "Emile Bertin",
     "nationality": "FFNF",
     "type": "CL",
-    "rarity": 3
+    "rarity": 4
   },
-  "絮库夫": {
+  "350": {
     "id": "350",
-    "name": "絮库夫",
+    "name": "Surcouf",
     "nationality": "FFNF",
     "type": "SS",
-    "rarity": 3
+    "rarity": 4
   },
-  "勒马尔": {
+  "351": {
     "id": "351",
-    "name": "勒马尔",
+    "name": "Le Mars",
     "nationality": "MNF",
     "type": "DD",
-    "rarity": 2
+    "rarity": 3
   },
-  "敦刻尔克": {
+  "352": {
     "id": "352",
-    "name": "敦刻尔克",
+    "name": "Dunkerque",
     "nationality": "MNF",
     "type": "BC",
-    "rarity": 3
+    "rarity": 4
   },
-  "让·巴尔": {
+  "353": {
     "id": "353",
-    "name": "让·巴尔",
+    "name": "Jean Bart",
     "nationality": "MNF",
     "type": "BB",
-    "rarity": 4
+    "rarity": 5
   },
-  "马萨诸塞": {
+  "354": {
     "id": "354",
-    "name": "马萨诸塞",
+    "name": "Massachusetts",
     "nationality": "USS",
     "type": "BB",
-    "rarity": 4
+    "rarity": 5
   },
-  "布什": {
+  "355": {
     "id": "355",
-    "name": "布什",
+    "name": "Bush",
     "nationality": "USS",
     "type": "DD",
     "rarity": 3
   },
-  "半人马": {
+  "356": {
     "id": "356",
-    "name": "半人马",
+    "name": "Centaur",
     "nationality": "HMS",
     "type": "CVL",
     "rarity": 5
   },
-  "埃塞克斯": {
+  "357": {
     "id": "357",
-    "name": "埃塞克斯",
+    "name": "Essex",
     "nationality": "USS",
     "type": "CV",
     "rarity": 5
   },
-  "大青花鱼": {
+  "358": {
     "id": "358",
-    "name": "大青花鱼",
+    "name": "Albacore",
     "nationality": "USS",
     "type": "SS",
     "rarity": 5
   },
-  "鲁莽": {
+  "359": {
     "id": "359",
-    "name": "鲁莽",
+    "name": "Le Temeraire",
     "nationality": "FFNF",
     "type": "DD",
     "rarity": 4
   },
-  "孟菲斯": {
+  "360": {
     "id": "360",
-    "name": "孟菲斯",
+    "name": "Memphis",
     "nationality": "USS",
     "type": "CL",
     "rarity": 3
   },
-  "纽卡斯尔": {
+  "361": {
     "id": "361",
-    "name": "纽卡斯尔",
+    "name": "Newcastle",
     "nationality": "HMS",
     "type": "CL",
     "rarity": 3
   },
-  "涅普顿": {
+  "362": {
+    "id": "362",
+    "name": "Hobby",
+    "nationality": "USS",
+    "type": "DD",
+    "rarity": 3
+  },
+  "363": {
+    "id": "363",
+    "name": "Kalk",
+    "nationality": "USS",
+    "type": "DD",
+    "rarity": 3
+  },
+  "364": {
+    "id": "364",
+    "name": "Minneapolis",
+    "nationality": "USS",
+    "type": "CA",
+    "rarity": 5
+  },
+  "365": {
+    "id": "365",
+    "name": "Hazelwood",
+    "nationality": "USS",
+    "type": "DD",
+    "rarity": 3
+  },
+  "366": {
+    "id": "366",
+    "name": "Concord",
+    "nationality": "USS",
+    "type": "CL",
+    "rarity": 3
+  },
+  "367": {
+    "id": "367",
+    "name": "Amagi",
+    "nationality": "IJN",
+    "type": "BC",
+    "rarity": 5
+  },
+  "368": {
+    "id": "368",
+    "name": "Kaga (Battleship)",
+    "nationality": "IJN",
+    "type": "BB",
+    "rarity": 5
+  },
+  "369": {
+    "id": "369",
+    "name": "Hatakaze",
+    "nationality": "IJN",
+    "type": "DD",
+    "rarity": 3
+  },
+  "370": {
+    "id": "370",
+    "name": "Makinami",
+    "nationality": "IJN",
+    "type": "DD",
+    "rarity": 4
+  },
+  "371": {
+    "id": "371",
+    "name": "Sirius",
+    "nationality": "HMS",
+    "type": "CL",
+    "rarity": 5
+  },
+  "372": {
+    "id": "372",
+    "name": "Curacoa",
+    "nationality": "HMS",
+    "type": "CL",
+    "rarity": 3
+  },
+  "373": {
+    "id": "373",
+    "name": "Curlew",
+    "nationality": "HMS",
+    "type": "CL",
+    "rarity": 3
+  },
+  "374": {
+    "id": "374",
+    "name": "Kimberly",
+    "nationality": "USS",
+    "type": "DD",
+    "rarity": 3
+  },
+  "375": {
+    "id": "375",
+    "name": "Mullany",
+    "nationality": "USS",
+    "type": "DD",
+    "rarity": 4
+  },
+  "376": {
+    "id": "376",
+    "name": "Chaser",
+    "nationality": "HMS",
+    "type": "CVL",
+    "rarity": 4
+  },
+  "Collab001": {
     "id": "Collab001",
-    "name": "涅普顿",
+    "name": "HDN Neptune",
     "nationality": "HDN",
     "type": "CL",
     "rarity": 4
   },
-  "诺瓦露": {
+  "Collab002": {
     "id": "Collab002",
-    "name": "诺瓦露",
+    "name": "Noire",
     "nationality": "HDN",
     "type": "CA",
     "rarity": 4
   },
-  "布兰": {
+  "Collab003": {
     "id": "Collab003",
-    "name": "布兰",
+    "name": "Blanc",
     "nationality": "HDN",
     "type": "DD",
     "rarity": 4
   },
-  "贝露": {
+  "Collab004": {
     "id": "Collab004",
-    "name": "贝露",
+    "name": "Vert",
     "nationality": "HDN",
     "type": "CV",
     "rarity": 4
   },
-  "绀紫之心": {
+  "Collab005": {
     "id": "Collab005",
-    "name": "绀紫之心",
+    "name": "Purple Heart",
     "nationality": "HDN",
     "type": "CL",
     "rarity": 5
   },
-  "圣黑之心": {
+  "Collab006": {
     "id": "Collab006",
-    "name": "圣黑之心",
+    "name": "Black Heart",
     "nationality": "HDN",
     "type": "CA",
     "rarity": 5
   },
-  "群白之心": {
+  "Collab007": {
     "id": "Collab007",
-    "name": "群白之心",
+    "name": "White Heart",
     "nationality": "HDN",
     "type": "DD",
     "rarity": 5
   },
-  "翡绿之心": {
+  "Collab008": {
     "id": "Collab008",
-    "name": "翡绿之心",
+    "name": "Green Heart",
     "nationality": "HDN",
     "type": "CV",
     "rarity": 5
   },
-  "22": {
+  "Collab031": {
+    "id": "Collab031",
+    "name": "Kuon",
+    "nationality": "传颂之物",
+    "type": "CA",
+    "rarity": 5
+  },
+  "Collab032": {
+    "id": "Collab032",
+    "name": "Nekone",
+    "nationality": "传颂之物",
+    "type": "DD",
+    "rarity": 5
+  },
+  "Collab033": {
+    "id": "Collab033",
+    "name": "Rurutie",
+    "nationality": "传颂之物",
+    "type": "CL",
+    "rarity": 5
+  },
+  "Collab034": {
+    "id": "Collab034",
+    "name": "Uruuru",
+    "nationality": "传颂之物",
+    "type": "CVL",
+    "rarity": 4
+  },
+  "Collab035": {
+    "id": "Collab035",
+    "name": "Saraana",
+    "nationality": "传颂之物",
+    "type": "CVL",
+    "rarity": 4
+  },
+  "Collab036": {
+    "id": "Collab036",
+    "name": "Fumiruiru",
+    "nationality": "传颂之物",
+    "type": "CV",
+    "rarity": 4
+  },
+  "Collab021": {
     "id": "Collab021",
     "name": "22",
     "nationality": "联动-哔哩哔哩",
     "type": "DD",
     "rarity": 4
   },
-  "33": {
+  "Collab022": {
     "id": "Collab022",
     "name": "33",
     "nationality": "联动-哔哩哔哩",
     "type": "DD",
     "rarity": 4
   },
-  "海王星": {
+  "Plan001": {
     "id": "Plan001",
-    "name": "海王星",
+    "name": "HMS Neptune",
     "nationality": "HMS",
     "type": "CL",
     "rarity": 15
   },
-  "君主": {
+  "Plan002": {
     "id": "Plan002",
-    "name": "君主",
+    "name": "Monarch",
     "nationality": "HMS",
     "type": "BB",
     "rarity": 15
   },
-  "伊吹": {
+  "Plan003": {
     "id": "Plan003",
-    "name": "伊吹",
+    "name": "Ibuki",
     "nationality": "IJN",
     "type": "CA",
     "rarity": 15
   },
-  "出云": {
+  "Plan004": {
     "id": "Plan004",
-    "name": "出云",
+    "name": "Izumo",
     "nationality": "IJN",
     "type": "BB",
     "rarity": 15
   },
-  "罗恩": {
+  "Plan005": {
     "id": "Plan005",
-    "name": "罗恩",
+    "name": "Roon",
     "nationality": "KMS",
     "type": "CA",
     "rarity": 15
   },
-  "路易九世": {
+  "Plan006": {
     "id": "Plan006",
-    "name": "路易九世",
+    "name": "Saint Louis",
     "nationality": "FFNF",
     "type": "CA",
     "rarity": 15
